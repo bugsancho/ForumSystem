@@ -6,6 +6,10 @@ using System.Web.Routing;
 
 namespace ForumSystem.Web
 {
+    using System;
+
+    using ForumSystem.Web.App_Start;
+
     public class MvcApplication : HttpApplication
     {
         protected void Application_Start()
@@ -15,6 +19,8 @@ namespace ForumSystem.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            AutofacConfig.RegisterDependencies();
         }
     }
 }
