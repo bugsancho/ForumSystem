@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Core", "src\ForumSystem.Core\ForumSystem.Core.csproj", "{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Web", "ForumSystem.Web\ForumSystem.Web.csproj", "{C88D6364-F90D-40DD-BB54-DAD12B22CD4B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88D6364-F90D-40DD-BB54-DAD12B22CD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88D6364-F90D-40DD-BB54-DAD12B22CD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88D6364-F90D-40DD-BB54-DAD12B22CD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88D6364-F90D-40DD-BB54-DAD12B22CD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
