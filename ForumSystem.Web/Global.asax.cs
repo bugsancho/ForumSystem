@@ -6,10 +6,6 @@ using System.Web.Routing;
 
 namespace ForumSystem.Web
 {
-    using System;
-
-    using ForumSystem.Web.App_Start;
-
     public class MvcApplication : HttpApplication
     {
         protected void Application_Start()

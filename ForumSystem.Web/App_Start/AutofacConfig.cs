@@ -1,9 +1,7 @@
-﻿namespace ForumSystem.Web.App_Start
+﻿namespace ForumSystem.Web
 {
     using System.Reflection;
     using System.Web;
-    using System.Web.Http;
-    using System.Web.Http.Dispatcher;
     using System.Web.Mvc;
 
     using Autofac;
