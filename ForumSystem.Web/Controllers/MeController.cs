@@ -14,6 +14,8 @@ using ForumSystem.Web.Models;
 
 namespace ForumSystem.Web.Controllers
 {
+    using ForumSystem.Identity.Managers;
+
     [Authorize]
     public class MeController : ApiController
     {

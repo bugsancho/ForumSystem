@@ -8,11 +8,13 @@ using Owin;
 
 namespace ForumSystem.Web
 {
-    public partial class Startup
+    using ForumSystem.Identity;
+
+    public class Startup
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            IdentityStartup.ConfigureAuth(app);
         }
     }
 }

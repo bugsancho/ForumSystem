@@ -10,6 +10,9 @@ using ForumSystem.Web.Models;
 
 namespace ForumSystem.Web.Controllers
 {
+    using ForumSystem.Identity.Managers;
+    using ForumSystem.Identity.Models;
+
     [Authorize]
     public class AccountController : Controller
     {
@@ -94,7 +97,7 @@ namespace ForumSystem.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Hometown = model.Hometown };
+                var user = new ApplicationIdentityUser { UserName = model.Email, Email = model.Email, Hometown = model.Hometown };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

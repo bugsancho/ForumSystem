@@ -1,9 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.Owin.Security.OAuth;
-
-namespace ForumSystem.Web.Providers
+﻿namespace ForumSystem.Identity.Providers
 {
+    using System;
+    using System.Threading.Tasks;
+
+    using Microsoft.Owin.Security.OAuth;
+
     public class ApplicationOAuthProvider : OAuthAuthorizationServerProvider
     {
         private readonly string _publicClientId;

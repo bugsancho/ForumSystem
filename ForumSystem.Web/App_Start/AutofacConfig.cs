@@ -9,6 +9,8 @@
     using Autofac;
     using Autofac.Integration.Mvc;
 
+    using ForumSystem.Identity.Managers;
+
     using Microsoft.AspNet.Identity.Owin;
 
     public class AutofacConfig
