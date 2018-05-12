@@ -1,5 +1,6 @@
 ﻿namespace ForumSystem.Infrastructure.Data
 {
+    using System;
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Linq;
@@ -27,13 +28,24 @@
             return await Set.ToListAsync();
         }
 
-        public async Task<IReadOnlyCollection<T>> All(PagingInfo pagingInfo)
+        public async Task<PagedResult<T>> All(PagingInfo pagingInfo)
         {
             int itemsToSkip = pagingInfo.Page - 1 * pagingInfo.PageSize;
-            return await Set
-                .Skip(itemsToSkip)
-                .Take(pagingInfo.PageSize)
-                .ToListAsync();
+
+            List<T> results = await Set.Skip(itemsToSkip).Take(pagingInfo.PageSize).ToListAsync();
+            int totalCount = await Set.CountAsync();
+            int availablePages = (int)Math.Ceiling(totalCount / (decimal)pagingInfo.PageSize);
+
+            PagedResult<T> result = new PagedResult<T>
+                             {
+                                 PageSize = pagingInfo.PageSize,
+                                 Page = pagingInfo.Page,
+                                 Results = results,
+                                 TotalCount = totalCount,
+                                 AvailablePages = availablePages
+            };
+
+            return result;
         }
 
         public async Task Delete(int id)

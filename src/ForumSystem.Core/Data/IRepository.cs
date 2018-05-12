@@ -10,7 +10,7 @@
     {
         Task<IReadOnlyCollection<T>> All();
 
-        Task<IReadOnlyCollection<T>> All(PagingInfo pagingInfo);
+        Task<PagedResult<T>> All(PagingInfo pagingInfo);
 
         Task<T> GetById(int id);
 
