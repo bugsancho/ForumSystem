@@ -59,6 +59,7 @@
             });
 
             // Enable the application to use bearer tokens to authenticate users
+            app.UseOAuthAuthorizationServer(OAuthOptions);
             app.UseOAuthBearerTokens(OAuthOptions);
         }
     }

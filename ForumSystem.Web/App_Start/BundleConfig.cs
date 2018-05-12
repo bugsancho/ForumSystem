@@ -11,6 +11,7 @@ namespace ForumSystem.Web
 
             // In order to guarantee that angular will be loaded before any angular modules, we add the explicit file order rule 
             var filesOrder = new BundleFileSetOrdering("angular");
+            filesOrder.Files.Add("moment.min.js");
             filesOrder.Files.Add("angular.min.js");
             filesOrder.Files.Add("angular-*.js");
             filesOrder.Files.Add("ui-bootstrap.js");
@@ -23,7 +24,7 @@ namespace ForumSystem.Web
             bundles.Add(new Bundle("~/css/libs")
                 .IncludeDirectory("~/dist/css/libs", "*.css"));
 
-            bundles.Add(new Bundle("~/js/app").IncludeDirectory("~/dist/js", "*.js", searchSubdirectories: false));
+            bundles.Add(new Bundle("~/js/app").IncludeDirectory("~/dist/js/app", "*.js", searchSubdirectories: true));
 
         }
     }

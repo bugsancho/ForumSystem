@@ -19,6 +19,7 @@
             _publicClientId = publicClientId;
         }
 
+
         public override Task ValidateClientRedirectUri(OAuthValidateClientRedirectUriContext context)
         {
             if (context.ClientId == _publicClientId)
