@@ -11,6 +11,6 @@ namespace ForumSystem.Core.Services
 
         Task<ForumThread> GetById(int id);
 
-        void Create(string title, ForumPost initialPost, User user = null);
+        Task<ForumThread> Create(string title, ForumPost initialPost, User user = null);
     }
 }

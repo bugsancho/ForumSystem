@@ -25,7 +25,7 @@
             return await _unitOfWork.ForumThreads.GetById(id);
         }
 
-        public void Create(string title, ForumPost initialPost, User user = null)
+        public async Task<ForumThread> Create(string title, ForumPost initialPost, User user = null)
         {
             ForumThread thread = new ForumThread
             {
@@ -37,7 +37,9 @@
             thread.ForumPosts.Add(initialPost);
 
             _unitOfWork.ForumThreads.Add(thread);
-            _unitOfWork.SaveChanges();
+            await _unitOfWork.SaveChanges();
+
+            return thread;
         }
     }
 }
