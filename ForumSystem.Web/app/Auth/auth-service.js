@@ -8,7 +8,7 @@
         .factory('authService', authService);
 
 
-    function authService($http, $window, $location, urlHelper) {
+    function authService($window, $location, urlHelper) {
         const service = {
             ensureAuthenticated: ensureAuthenticated,
             getAccessToken: getAccessToken
