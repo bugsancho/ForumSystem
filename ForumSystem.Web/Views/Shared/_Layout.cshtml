@@ -40,7 +40,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#getting_started">Getting started</a>
+                        <a ui-sref="threads" ui-sref-active="active">Forum Threads</a>
                     </li>
                     <li class="nav-item dropdown" uib-dropdown="">
                         <a class="nav-link dropdown-toggle" uib-dropdown-toggle="" id="previousDocsMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -69,7 +69,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                       
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
@@ -83,7 +83,7 @@
     </nav>
     <!-- Page Content -->
     <div class="container">
-
+        <ui-view></ui-view>
         @RenderBody()
         @RenderSection("SPAViews", required: false)
 
