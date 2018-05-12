@@ -11,26 +11,26 @@
 
     public class EfRepository<T> : IRepository<T> where T : class, IEntity
     {
-        private readonly ForumSystemDbContext _dbContext;
+        protected readonly ForumSystemDbContext DbContext;
 
-        private readonly IDbSet<T> _set;
+        protected readonly IDbSet<T> Set;
 
         public EfRepository(ForumSystemDbContext dbContext)
         {
-            _dbContext = dbContext;
-            _set = _dbContext.Set<T>();
+            DbContext = dbContext;
+            Set = DbContext.Set<T>();
         }
 
 
         public async Task<IReadOnlyCollection<T>> All()
         {
-            return await _set.ToListAsync();
+            return await Set.ToListAsync();
         }
 
         public async Task<IReadOnlyCollection<T>> All(PagingInfo pagingInfo)
         {
             int itemsToSkip = pagingInfo.Page - 1 * pagingInfo.PageSize;
-            return await _set
+            return await Set
                 .Skip(itemsToSkip)
                 .Take(pagingInfo.PageSize)
                 .ToListAsync();
@@ -39,22 +39,22 @@
         public async Task Delete(int id)
         {
             T entity = await GetById(id);
-            _set.Remove(entity);
+            Set.Remove(entity);
         }
 
         public async Task<T> GetById(int id)
         {
-            return await _set.FirstOrDefaultAsync(x => x.Id == id);
+            return await Set.FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public void Add(T entity)
         {
-            _set.Add(entity);
+            Set.Add(entity);
         }
 
         public void Update(T entity)
         {
-            _dbContext.Entry(entity).State = EntityState.Modified;
+            DbContext.Entry(entity).State = EntityState.Modified;
         }
     }
 }

@@ -50,6 +50,7 @@
     <Compile Include="Data\EfRepository.cs" />
     <Compile Include="Data\ForumSystemDbContext.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
+    <Compile Include="Data\UserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
