@@ -25,9 +25,10 @@ namespace ForumSystem.Web.Api
         }
 
         // GET api/<controller>/5
-        public string Get(int id)
+        public async Task<ForumThread> Get(int id)
         {
-            return "value";
+            return await _threadsService.GetById(id);
+
         }
 
         // POST api/<controller>

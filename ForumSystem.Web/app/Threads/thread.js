@@ -8,15 +8,15 @@
                 controller: controller,
                 templateUrl: '/thread.html',
                 bindings: {
-                    threadId: '@'
+                    thread: '<'
                 }
             });
 
 
     function controller($stateParams) {
         const ctrl = this;
-        console.log($stateParams.threadId);
-        console.log(ctrl.threadId);
+        console.log('stateparams',$stateParams.threadId);
+        console.log(ctrl.thread);
     }
 
 })();
