@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "forum_system",
+  "private": true,
+    "devDependencies": {
+        "angular": "1.6.5",
+        "angular-animate": "1.6.5",
+        "angular-touch": "1.6.5",
+        "bootstrap": "4.1.1",
+        "ui-bootstrap4": "3.0.3",
+        "del": "3.0.0", 
+        "gulp": "4.0.0",
+        "gulp-angular-filesort": "1.2.1",
+        "gulp-angular-templatecache": "1.7.0",
+        "gulp-concat": "2.6.1",
+        "gulp-if": "2.0.2",
+        "gulp-minify-css": "1.2.4",
+        "gulp-minify-html": "1.0.6",
+        "gulp-uglify": "3.0.0",
+        "yargs": "11.1.0"
+    }
+}

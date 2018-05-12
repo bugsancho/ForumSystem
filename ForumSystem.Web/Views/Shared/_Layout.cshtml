@@ -1,43 +1,96 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="forum-system">
 <head>
-    <meta charset="utf-8" />
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Bare - Start Bootstrap Template</title>
+    <!-- Bootstrap core CSS -->
+    @Styles.Render("~/css/libs")
+
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        padding-top: 54px;
+      }
+      @@media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }
+      }
+
+    </style>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <header class="navbar navbar-light sticky-top navbar-expand-md bg-light">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+            <a class="navbar-brand visible-xs" href="#">UI Bootstrap 4</a>
+            <button type="button" class="navbar-toggler" ng-click="isCollapsed = !isCollapsed">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" uib-collapse="isCollapsed" aria-expanded="false" aria-hidden="true" style="height: 0px;">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown" uib-dropdown="">
+                        <a class="nav-link dropdown-toggle" uib-dropdown-toggle="" id="directivesMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Directives
+                        </a>
+                        <div class="dropdown-menu" uib-dropdown-menu="" aria-labelledby="directivesMenuLink">
+                            <a class="dropdown-item" href="#accordion">Accordion</a><a class="dropdown-item" href="#alert">Alert</a><a class="dropdown-item" href="#buttons">Buttons</a><a class="dropdown-item" href="#carousel">Carousel</a><a class="dropdown-item" href="#collapse">Collapse</a><a class="dropdown-item" href="#dateparser">Dateparser</a><a class="dropdown-item" href="#datepicker">Datepicker</a><a class="dropdown-item" href="#datepickerPopup">Datepicker Popup</a><a class="dropdown-item" href="#dropdown">Dropdown</a><a class="dropdown-item" href="#modal">Modal</a><a class="dropdown-item" href="#pager">Pager</a><a class="dropdown-item" href="#pagination">Pagination</a><a class="dropdown-item" href="#popover">Popover</a><a class="dropdown-item" href="#position">Position</a><a class="dropdown-item" href="#progressbar">Progressbar</a><a class="dropdown-item" href="#rating">Rating</a><a class="dropdown-item" href="#tabs">Tabs</a><a class="dropdown-item" href="#timepicker">Timepicker</a><a class="dropdown-item" href="#tooltip">Tooltip</a><a class="dropdown-item" href="#typeahead">Typeahead</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#getting_started">Getting started</a>
+                    </li>
+                    <li class="nav-item dropdown" uib-dropdown="">
+                        <a class="nav-link dropdown-toggle" uib-dropdown-toggle="" id="previousDocsMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Previous docs
+                        </a>
+
+                    </li>
                 </ul>
-                @Html.Partial("_LoginPartial")
             </div>
         </div>
-    </div>
-    <div class="container body-content">
+    </header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
         @RenderBody()
         @RenderSection("SPAViews", required: false)
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    </div>
+    @Scripts.Render("~/js/libs")
     @RenderSection("Scripts", required: false)
+    @Scripts.Render("~/js/app")
+
 </body>
 </html>
+
