@@ -8,6 +8,9 @@
 
         private int _pageSize;
 
+        /// <summary>
+        /// Number of the requested page, where first page = 1
+        /// </summary>
         public int Page
         {
             get => _page;

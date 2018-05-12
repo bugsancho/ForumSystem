@@ -1,25 +1,23 @@
 ﻿namespace ForumSystem.Core.Data
 {
     using System.Collections.Generic;
+    using System.Threading.Tasks;
 
     using ForumSystem.Core.Entities;
     using ForumSystem.Core.Entities.Base;
 
-    public interface IRepository<T> where T : IEntity
+    public interface IRepository<T> where T : class, IEntity
     {
-        IReadOnlyCollection<T> All();
+        Task<IReadOnlyCollection<T>> All();
 
-        IReadOnlyCollection<T> All(PagingInfo pagingInfo);
+        Task<IReadOnlyCollection<T>> All(PagingInfo pagingInfo);
 
-        T GetById(int id);
+        Task<T> GetById(int id);
 
         void Add(T entity);
 
         void Update(T entity);
 
-        void Delete(int id);
-
-        void Dispose();
-
+        Task Delete(int id);
     }
 }

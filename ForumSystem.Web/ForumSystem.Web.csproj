@@ -232,9 +232,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\src\ForumSystem.Core\ForumSystem.Core.csproj">
+      <Project>{11637700-e8a1-4b4d-b2c0-8c3c067aaf25}</Project>
+      <Name>ForumSystem.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\src\ForumSystem.Identity\ForumSystem.Identity.csproj">
       <Project>{3d21f937-7fe3-4b9c-a6ed-930079c1fc50}</Project>
       <Name>ForumSystem.Identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\ForumSystem.Infrastructure\ForumSystem.Infrastructure.csproj">
+      <Project>{ee2387a2-9fa6-4827-8f60-838a0f56c7d6}</Project>
+      <Name>ForumSystem.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

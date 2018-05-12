@@ -1,6 +1,8 @@
 ﻿
 namespace ForumSystem.Core.Data
 {
+    using System.Threading.Tasks;
+
     using ForumSystem.Core.Entities;
 
     public interface IUnitOfWork
@@ -11,7 +13,7 @@ namespace ForumSystem.Core.Data
 
         IUserRepository Users { get; }
 
-        void SaveChanges();
+        Task SaveChanges();
 
     }
 }

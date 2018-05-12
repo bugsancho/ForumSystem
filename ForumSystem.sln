@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Core", "src\ForumSystem.Core\ForumSystem.Core.csproj", "{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumSystem.Core", "src\ForumSystem.Core\ForumSystem.Core.csproj", "{11637700-E8A1-4B4D-B2C0-8C3C067AAF25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Web", "ForumSystem.Web\ForumSystem.Web.csproj", "{C88D6364-F90D-40DD-BB54-DAD12B22CD4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Identity", "src\ForumSystem.Identity\ForumSystem.Identity.csproj", "{3D21F937-7FE3-4B9C-A6ED-930079C1FC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Infrastructure", "src\ForumSystem.Infrastructure\ForumSystem.Infrastructure.csproj", "{EE2387A2-9FA6-4827-8F60-838A0F56C7D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3D21F937-7FE3-4B9C-A6ED-930079C1FC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D21F937-7FE3-4B9C-A6ED-930079C1FC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D21F937-7FE3-4B9C-A6ED-930079C1FC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2387A2-9FA6-4827-8F60-838A0F56C7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2387A2-9FA6-4827-8F60-838A0F56C7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2387A2-9FA6-4827-8F60-838A0F56C7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2387A2-9FA6-4827-8F60-838A0F56C7D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

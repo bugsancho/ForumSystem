@@ -3,11 +3,13 @@ using ForumSystem.Core.Entities;
 
 namespace ForumSystem.Core.Services
 {
+    using System.Threading.Tasks;
+
     public interface IForumThreadsService
     {
-        IReadOnlyCollection<ForumThread> GetAll();
+        Task<IReadOnlyCollection<ForumThread>> GetAll();
 
-        ForumThread GetById(int id);
+        Task<ForumThread> GetById(int id);
 
         void Create(string title, ForumPost initialPost, User user = null);
     }

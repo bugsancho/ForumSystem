@@ -1,6 +1,7 @@
 ﻿namespace ForumSystem.Core.Services
 {
     using System.Collections.Generic;
+    using System.Threading.Tasks;
 
     using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
@@ -14,14 +15,14 @@
             _unitOfWork = unitOfWork;
         }
 
-        public IReadOnlyCollection<ForumThread> GetAll()
+        public async Task<IReadOnlyCollection<ForumThread>> GetAll()
         {
-            return _unitOfWork.ForumThreads.All();
+            return await _unitOfWork.ForumThreads.All();
         }
 
-        public ForumThread GetById(int id)
+        public async Task<ForumThread> GetById(int id)
         {
-            return _unitOfWork.ForumThreads.GetById(id);
+            return await _unitOfWork.ForumThreads.GetById(id);
         }
 
         public void Create(string title, ForumPost initialPost, User user = null)
