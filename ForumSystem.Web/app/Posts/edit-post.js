@@ -31,7 +31,6 @@
 
         ctrl.submit = function (form) {
             if (form.$valid) {
-
                 ctrl.loading = true;
 
                 if (ctrl.isNewPost) {

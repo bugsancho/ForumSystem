@@ -14,5 +14,7 @@ namespace ForumSystem.Core.Posts
         Task<PostDetailsModel> GetById(int id);
 
         Task<PostDetailsModel> UpdatePost(EditPostModel editModel);
+
+        Task DeletePost(int postId);
     }
 }

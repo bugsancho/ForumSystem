@@ -60,8 +60,9 @@ namespace ForumSystem.Web.Api
         }
 
         // DELETE: api/Posts/5
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
+            await _postsService.DeletePost(id);
         }
     }
 }

@@ -9,7 +9,8 @@
         var service = {
             addPost: addPost,
             getPost: getPost,
-            editPost: editPost
+            editPost: editPost,
+            deletePost: deletePost
         };
 
         return service;
@@ -55,6 +56,11 @@
                 });
 
             return $q.when(deferred.promise);
+        }
+
+
+        function deletePost(postId) {
+            return $http.delete(urls.posts + postId);
         }
     }
 })();

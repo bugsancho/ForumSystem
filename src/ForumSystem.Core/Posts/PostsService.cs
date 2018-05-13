@@ -70,5 +70,11 @@
 
             return postDetails;
         }
+
+        public async Task DeletePost(int postId)
+        {
+            await _unitOfWork.ForumPosts.Delete(postId);
+            await _unitOfWork.SaveChanges();
+        }
     }
 }
