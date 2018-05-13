@@ -1,5 +1,7 @@
 ﻿namespace ForumSystem.Core.Posts
 {
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Data;
@@ -32,9 +34,17 @@
                 post.UserId = user.Id;
             }
 
+            _unitOfWork.ForumPosts.Add(post);
             await _unitOfWork.SaveChanges();
 
             return post;
+        }
+
+        public async Task<IReadOnlyCollection<PostDetailsModel>> GetPosts(int threadId)
+        {
+            IReadOnlyCollection<ForumPost> posts = await _unitOfWork.ForumPosts.GetByThread(threadId);
+            List<PostDetailsModel> postDetails = posts.Select(x => new PostDetailsModel(x)).ToList();
+            return postDetails;
         }
     }
 }
