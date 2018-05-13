@@ -5,6 +5,7 @@
 
     using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Users;
 
     public class UserRepository : EfRepository<User>, IUserRepository
     {

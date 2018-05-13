@@ -3,9 +3,11 @@ using System.Web.Http;
 
 namespace ForumSystem.Web.Api
 {
+    using System.Net;
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Shared;
     using ForumSystem.Core.Threads;
 
     [Authorize]
@@ -19,21 +21,33 @@ namespace ForumSystem.Web.Api
         }
 
         // GET api/<controller>
-        public  async Task<PagedResult<ForumThread>> Get()
+        public async Task<PagedResult<ThreadDetailsModel>> Get()
         {
             return await _threadsService.GetAll();
         }
 
         // GET api/<controller>/5
-        public async Task<ForumThread> Get(int id)
+        public async Task<ThreadDetailsModel> Get(int id)
         {
             return await _threadsService.GetById(id);
 
         }
 
         // POST api/<controller>
-        public void Post([FromBody]string value)
+        public async Task<EntityCreatedResult> Post([FromBody]CreateThreadModel createModel)
         {
+            if (ModelState.IsValid)
+            {
+                if (User.Identity.IsAuthenticated)
+                {
+                    createModel.Username = User.Identity.Name;
+                }
+
+                return await _threadsService.Create(createModel);
+            }
+
+            throw new HttpResponseException(HttpStatusCode.BadRequest);
+
         }
 
         // PUT api/<controller>/5

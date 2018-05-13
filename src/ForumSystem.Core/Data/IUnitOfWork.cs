@@ -4,12 +4,14 @@ namespace ForumSystem.Core.Data
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Posts;
+    using ForumSystem.Core.Users;
 
     public interface IUnitOfWork
     {
         IRepository<ForumThread> ForumThreads { get; }
 
-        IRepository<ForumPost> ForumPosts { get; }
+        IPostsRepository ForumPosts { get; }
 
         IUserRepository Users { get; }
 

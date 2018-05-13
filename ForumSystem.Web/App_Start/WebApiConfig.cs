@@ -16,6 +16,9 @@ namespace ForumSystem.Web
             // Use camel case for JSON data.
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
 
+            config.Formatters.JsonFormatter
+                  .SerializerSettings
+                  .ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             // Web API routes
             config.MapHttpAttributeRoutes();
 

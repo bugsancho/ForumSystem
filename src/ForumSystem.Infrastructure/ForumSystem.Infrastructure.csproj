@@ -50,6 +50,7 @@
     <Compile Include="Data\EfTransaction.cs" />
     <Compile Include="Data\EfRepository.cs" />
     <Compile Include="Data\ForumSystemDbContext.cs" />
+    <Compile Include="Data\PostsRepository.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="Data\UserRepository.cs" />
     <Compile Include="Migrations\201805130832420_InitialMigration.cs" />

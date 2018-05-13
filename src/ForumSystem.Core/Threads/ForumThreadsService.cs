@@ -1,10 +1,13 @@
 ﻿namespace ForumSystem.Core.Threads
 {
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
     using ForumSystem.Core.Posts;
+    using ForumSystem.Core.Shared;
     using ForumSystem.Core.Users;
 
     public class ForumThreadsService : IForumThreadsService
@@ -22,7 +25,7 @@
             _postsService = postsService;
         }
 
-        public async Task<PagedResult<ForumThread>> GetAll(PagingInfo pagingInfo = null)
+        public async Task<PagedResult<ThreadDetailsModel>> GetAll(PagingInfo pagingInfo = null)
         {
             if (pagingInfo == null)
             {
@@ -33,15 +36,37 @@
                 };
             }
 
-            return await _unitOfWork.ForumThreads.All(pagingInfo);
+            PagedResult<ForumThread> threads = await _unitOfWork.ForumThreads.All(pagingInfo, thread => thread.User);
+            IReadOnlyCollection<ThreadDetailsModel> threadDetails = threads.Results.Select(x => new ThreadDetailsModel(x, new List<PostDetailsModel>())).ToList();
+            PagedResult<ThreadDetailsModel> pagedResult = new PagedResult<ThreadDetailsModel>
+            {
+                Results = threadDetails,
+                Page = threads.Page,
+                PageSize = threads.PageSize,
+                AvailablePages = threads.AvailablePages,
+                TotalCount = threads.TotalCount
+            };
+
+            return pagedResult;
         }
 
-        public async Task<ForumThread> GetById(int id)
+        public async Task<ThreadDetailsModel> GetById(int id)
         {
-            return await _unitOfWork.ForumThreads.GetById(id);
-        }
+            // Get the thread and then retrieve the posts associated with it
+            ForumThread thread = await _unitOfWork.ForumThreads.GetById(id);
+            IReadOnlyCollection<PostDetailsModel> posts = await _postsService.GetPosts(id);
 
-        public async Task<ForumThread> Create(CreateThreadModel createModel)
+            // Combine the retrieved thread and the posts
+            ThreadDetailsModel threadDetails = new ThreadDetailsModel(thread, posts);
+            return threadDetails;
+        }
+         
+        /// <summary>
+        /// Creates a new thread along with the initial post.
+        /// </summary>
+        /// <param name="createModel">The model of the new thread</param>
+        /// <returns>The id of the newly created thread</returns>
+        public async Task<EntityCreatedResult> Create(CreateThreadModel createModel)
         {
             ForumThread thread = new ForumThread
             {
@@ -65,12 +90,14 @@
 
                 CreatePostModel createPostModel = createModel.InitialPost;
                 createPostModel.ThreadId = thread.Id;
-                createPostModel.Username = createPostModel.Username;
+                createPostModel.Username = createModel.Username;
 
                 await _postsService.CreatePost(createPostModel);
 
+
                 transaction.Commit();
-                return thread;
+
+                return new EntityCreatedResult { Id = thread.Id };
             }
         }
     }

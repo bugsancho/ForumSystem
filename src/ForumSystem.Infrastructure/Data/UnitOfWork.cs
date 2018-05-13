@@ -5,12 +5,14 @@
 
     using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Posts;
+    using ForumSystem.Core.Users;
 
     public class UnitOfWork : IUnitOfWork
     {
         private readonly ForumSystemDbContext _dbContext;
 
-        public UnitOfWork(ForumSystemDbContext dbContext, IRepository<ForumThread> forumThreads, IRepository<ForumPost> forumPosts, IUserRepository users)
+        public UnitOfWork(ForumSystemDbContext dbContext, IRepository<ForumThread> forumThreads, IPostsRepository forumPosts, IUserRepository users)
         {
             _dbContext = dbContext;
             ForumThreads = forumThreads;
@@ -20,7 +22,7 @@
 
         public IRepository<ForumThread> ForumThreads { get; }
 
-        public IRepository<ForumPost> ForumPosts { get; }
+        public IPostsRepository ForumPosts { get; }
 
         public IUserRepository Users { get; }
 
