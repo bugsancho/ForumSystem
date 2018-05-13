@@ -6,7 +6,7 @@
                 <p>{{post.createdOn}}</p>
                 <footer class="blockquote-footer">{{post.publisherUsername || 'anonymous'}} <cite title="Source Title" am-time-ago="post.publishedDate | amUtc"></cite></footer>
             </blockquote>
-            <button ng-if="$ctrl.canEdit" ng-click="$ctrl.editPost(post)" class="btn btn-primary">Edit</button>
+            <button  ng-click="$ctrl.editPost(post)" class="btn btn-primary">Edit</button>
             <button ng-disabled="!$ctrl.canDeletePost()" title="{{$ctrl.canDeletePost() ? 'Delete' : 'Cannot delete the last post for the thread'}}" ng-click="$ctrl.deletePost(post.id)" class="btn btn-warning">Delete</button>
         </p>
     </div>
