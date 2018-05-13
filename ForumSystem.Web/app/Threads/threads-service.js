@@ -9,10 +9,25 @@
     function threadsService($http, $q, urls) {
         const service = {
             getThreads: getThreads,
-            getThread: getThread
+            getThread: getThread,
+            createThread: createThread
         };
 
         return service;
+
+        function createThread(thread) {
+            const deferred = $q.defer();
+            $http.post(urls.createThread, thread).then(function (result) {
+                    const posts = result.data;
+                    console.log('created post', posts);
+                    deferred.resolve(posts);
+                },
+                function (error) {
+                    deferred.reject(error);
+                });
+
+            return $q.when(deferred.promise);
+        }
 
         function getThreads() {
             const deferred = $q.defer();
@@ -21,9 +36,9 @@
                 console.log('received postsss', posts);
                 deferred.resolve(posts);
             },
-            function (error) {
-                deferred.reject(error);
-            });
+                function (error) {
+                    deferred.reject(error);
+                });
 
             return $q.when(deferred.promise);
         }
@@ -35,9 +50,9 @@
                 console.log('received thread', thread);
                 deferred.resolve(thread);
             },
-            function (error) {
-                deferred.reject(error);
-            });
+                function (error) {
+                    deferred.reject(error);
+                });
 
             return $q.when(deferred.promise);
         }

@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <header class="navbar navbar-light sticky-top navbar-expand-md bg-light">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
         <div class="container">
             <a class="navbar-brand visible-xs" href="#">UI Bootstrap 4</a>
             <button type="button" class="navbar-toggler" ng-click="isCollapsed = !isCollapsed">
@@ -42,19 +42,17 @@
                     <li class="nav-item">
                         <a ui-sref="threads" ui-sref-active="active">Forum Threads</a>
                     </li>
-                    <li class="nav-item dropdown" uib-dropdown="">
-                        <a class="nav-link dropdown-toggle" uib-dropdown-toggle="" id="previousDocsMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Previous docs
-                        </a>
+                    <li class="nav-item" >
+                        <a ui-sref="threadCreate" ui-sref-active="active">Create new thread</a>
 
                     </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
-    </header>
+    </nav>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    @*<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +78,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>*@
     <!-- Page Content -->
     <div class="container">
         <ui-view></ui-view>

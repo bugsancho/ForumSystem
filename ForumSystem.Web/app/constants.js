@@ -2,5 +2,6 @@
     .constant('urls',
     {
         getThreads: 'api/forumthreads/',
-        getThread: 'api/forumthreads/'
+        getThread: 'api/forumthreads/',
+        createThread: 'api/forumthreads/'
     })
