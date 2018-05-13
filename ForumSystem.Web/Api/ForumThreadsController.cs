@@ -6,7 +6,7 @@ namespace ForumSystem.Web.Api
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Entities;
-    using ForumSystem.Core.Services;
+    using ForumSystem.Core.Threads;
 
     [Authorize]
     public class ForumThreadsController : ApiController

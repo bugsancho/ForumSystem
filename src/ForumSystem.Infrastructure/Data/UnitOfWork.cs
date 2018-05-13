@@ -1,5 +1,6 @@
 ﻿namespace ForumSystem.Infrastructure.Data
 {
+    using System.Data.Entity;
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Data;
@@ -22,6 +23,12 @@
         public IRepository<ForumPost> ForumPosts { get; }
 
         public IUserRepository Users { get; }
+
+        public ITransaction BeginTransaction()
+        {
+            DbContextTransaction dbContextTransaction = _dbContext.Database.BeginTransaction();
+            return new EfTransaction(dbContextTransaction);
+        }
 
         public async Task SaveChanges()
         {

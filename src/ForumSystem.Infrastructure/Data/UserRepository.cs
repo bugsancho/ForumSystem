@@ -13,9 +13,9 @@
         {
         }
 
-        public async Task<User> GetByEmail(string email)
+        public async Task<User> GetByUsername(string email)
         {
-            return await Set.FirstOrDefaultAsync(x => x.Email == email);
+            return await Set.FirstOrDefaultAsync(x => x.Username == email);
         }
     }
 }

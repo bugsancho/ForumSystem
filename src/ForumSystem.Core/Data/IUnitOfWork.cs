@@ -15,5 +15,6 @@ namespace ForumSystem.Core.Data
 
         Task SaveChanges();
 
+        ITransaction BeginTransaction();
     }
 }

@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using ForumSystem.Core.Entities;
-
-namespace ForumSystem.Core.Services
+﻿namespace ForumSystem.Core.Threads
 {
     using System.Threading.Tasks;
+
+    using ForumSystem.Core.Entities;
 
     public interface IForumThreadsService
     {
@@ -11,6 +10,6 @@ namespace ForumSystem.Core.Services
 
         Task<ForumThread> GetById(int id);
 
-        Task<ForumThread> Create(string title, ForumPost initialPost, User user = null);
+        Task<ForumThread> Create(CreateThreadModel createModel);
     }
 }
