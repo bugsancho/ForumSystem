@@ -1,47 +1,54 @@
 ﻿(function () {
     'use strict';
 
-    const tokenCacheKey = 'access_token';
-
     angular
         .module('forumSystem.auth')
         .factory('authService', authService);
 
 
-    function authService($window, $location, urlHelper) {
+    function authService($window, $location, $http, $state, urlHelper, tokenService, urls) {
         const service = {
             ensureAuthenticated: ensureAuthenticated,
-            getAccessToken: getAccessToken
+            processRedirectInfo: processRedirectInfo,
+            logout: logout
         };
 
         return service;
 
-        function ensureAuthenticated() {
+        function logout() {
+            tokenService.clearAccessToken();
+            $http.post(urls.logout).then(function () {
+                $state.go('threads');
+            });
+        }
+
+        function ensureAuthenticated(targetUrl) {
             // Check if we're currently redirected from the auth server and the auth token is in the URL
+            processRedirectInfo();
+
+            const accessToken = tokenService.getAccessToken();
+            if (!accessToken) {
+                $window.location.href = '/Account/Authorize?client_id=web&response_type=token&state=' + encodeURIComponent(targetUrl);
+            }
+
+            //Indicate success of the operation
+            return true;
+        }
+
+        function processRedirectInfo() {
             const hash = $location.hash();
             if (hash) {
                 const accessTokenData = urlHelper.parseQueryString(hash);
                 if (accessTokenData['access_token']) {
-                    setAccessToken(accessTokenData['access_token']);
-                    $location.hash('');
+                    tokenService.setAccessToken(accessTokenData['access_token']);
+                    const state = accessTokenData['state'];
+                    if (state) {
+                        const decodedState = decodeURIComponent(state);
+                        $window.location.href = decodedState;
+
+                    }
                 }
             }
-
-            const accessToken = getAccessToken();
-            if (!accessToken) {
-                $window.location.href = '/Account/Authorize?client_id=web&response_type=token&state=';
-            }
-        }
-
-        function getAccessToken() {
-            const sessionStorage = $window.sessionStorage;
-            const accessToken = sessionStorage.getItem(tokenCacheKey);
-            return accessToken;
-        }
-
-        function setAccessToken(accessToken) {
-            const sessionStorage = $window.sessionStorage;
-            sessionStorage.setItem(tokenCacheKey, accessToken);
         }
     }
 })();

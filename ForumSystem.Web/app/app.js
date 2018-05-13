@@ -10,7 +10,7 @@
         //TODO move to route guard only for required components
         .run(['authService', function (authService) {
 
-            //authService.ensureAuthenticated();
+            authService.processRedirectInfo();
         }]);
 
 

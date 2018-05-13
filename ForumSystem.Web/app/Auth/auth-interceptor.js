@@ -6,10 +6,10 @@
         .factory('authInterceptor', authInterceptor);
 
 
-    function authInterceptor(authService) {
+    function authInterceptor(tokenService) {
         return {
             request: function ($config) {
-                let token = authService.getAccessToken();
+                let token = tokenService.getAccessToken();
                 if (token) {
                     $config.headers['Authorization'] = 'Bearer ' + token;
                 }
