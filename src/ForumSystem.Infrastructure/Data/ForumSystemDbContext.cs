@@ -46,11 +46,11 @@
 
                 if (entry.State == EntityState.Added)
                 {
-                    entity.CreatedOn = DateTime.Now;
+                    entity.CreatedOn = DateTime.UtcNow;
                 }
                 else
                 {
-                    entity.ModifiedOn = DateTime.Now;
+                    entity.ModifiedOn = DateTime.UtcNow;
                 }
             }
         }
@@ -65,7 +65,7 @@
             {
                 ISoftDeletableEntity entity = (ISoftDeletableEntity)entry.Entity;
 
-                entity.DeletedOn = DateTime.Now;
+                entity.DeletedOn = DateTime.UtcNow;
                 entity.IsDeleted = true;
                 entry.State = EntityState.Modified;
             }
