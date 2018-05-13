@@ -1,7 +1,8 @@
-﻿namespace ForumSystem.Core.Data
+﻿namespace ForumSystem.Core.Users
 {
     using System.Threading.Tasks;
 
+    using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
 
     public interface IUserRepository : IRepository<User>
