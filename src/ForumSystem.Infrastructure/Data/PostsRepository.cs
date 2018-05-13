@@ -19,7 +19,7 @@
         {
             return await Set
                 .Where(x => x.ThreadId == threadId)
-                .OrderByDescending(x => x.CreatedOn)
+                .OrderBy(x => x.CreatedOn)
                 .Include(x => x.User)
                 .ToListAsync();
         }

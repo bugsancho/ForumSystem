@@ -1,0 +1,15 @@
+﻿<form name="editPost">
+    <div class="form-group">
+        <label for="initialPost">Reply: </label>
+        <textarea class="form-control" id="post" name="post" ng-model="$ctrl.post.content" rows="3"></textarea>
+        <!--<small ng-show="editPost.title.$error.required && editPost.title.$touched" id="titleRequired" class="form-text text-danger">Please enter the </small>-->
+
+    </div>
+    <button type="submit" class="btn btn-primary" ng-disabled="editPost.$invalid" ng-click="$ctrl.submit(editPost)">{{$ctrl.submitButtonText}}</button>
+</form>
+
+<style>
+    input.ng-invalid.ng-touched {
+        border-color: #dc3545;
+    }
+</style>

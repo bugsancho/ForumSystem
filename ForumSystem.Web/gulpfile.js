@@ -44,7 +44,7 @@ var sources = {
     libsCss: [
         'node_modules/bootstrap/dist/css/bootstrap.min.css'
     ],
-    sectionFolders: ['threads', 'auth', 'shared']
+    sectionFolders: ['threads', 'auth', 'shared', 'posts']
 
 
 };

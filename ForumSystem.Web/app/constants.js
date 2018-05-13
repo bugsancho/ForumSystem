@@ -4,5 +4,6 @@
             getThreads: 'api/forumthreads/',
             getThread: 'api/forumthreads/',
             createThread: 'api/forumthreads/',
+            posts: 'api/posts/',
             logout: 'account/logoff'
         })

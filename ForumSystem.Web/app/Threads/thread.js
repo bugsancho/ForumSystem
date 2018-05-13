@@ -13,10 +13,12 @@
             });
 
 
-    function controller($stateParams) {
+    function controller() {
         const ctrl = this;
-        console.log('stateparams',$stateParams.threadId);
-        console.log(ctrl.thread);
+
+        ctrl.newPost = function (newPost) {
+            ctrl.thread.posts.push(newPost);
+        }
     }
 
 })();

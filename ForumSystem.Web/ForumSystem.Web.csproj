@@ -199,6 +199,9 @@
     <Content Include="app\Auth\permissions-service.js" />
     <Content Include="app\Auth\token-service.js" />
     <Content Include="app\constants.js" />
+    <Content Include="app\Posts\edit-post.html" />
+    <Content Include="app\Posts\edit-post.js" />
+    <Content Include="app\Posts\posts-service.js" />
     <Content Include="app\routes.js" />
     <Content Include="app\Shared\url-helper.js" />
     <Content Include="app\Threads\edit-thread.html" />
