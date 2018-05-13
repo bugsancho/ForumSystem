@@ -17,11 +17,8 @@
 
         public async Task<IReadOnlyCollection<ForumPost>> GetByThread(int threadId)
         {
-            return await Set
-                .Where(x => x.ThreadId == threadId)
-                .OrderBy(x => x.CreatedOn)
-                .Include(x => x.User)
-                .ToListAsync();
+            return await Set.Where(x => x.IsDeleted == false).Where(x => x.ThreadId == threadId)
+                            .OrderBy(x => x.CreatedOn).Include(x => x.User).ToListAsync();
         }
     }
 }

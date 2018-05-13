@@ -11,7 +11,7 @@
     using ForumSystem.Core.Entities;
     using ForumSystem.Core.Entities.Base;
 
-    public class EfRepository<T> : IRepository<T> where T : class, IEntity
+    public class EfRepository<T> : IRepository<T> where T : class, IEntity, ISoftDeletableEntity
     {
         protected readonly ForumSystemDbContext DbContext;
 
@@ -26,7 +26,7 @@
 
         public async Task<IReadOnlyCollection<T>> All()
         {
-            return await Set.ToListAsync();
+            return await Set.Where(x => x.IsDeleted == false).ToListAsync();
         }
 
         public async Task<PagedResult<T>> All<TProp>(PagingInfo pagingInfo, params Expression<Func<T, TProp>>[] propertiesToInclude)
@@ -37,7 +37,7 @@
 
             List<T> results = await queryWithIncludes.OrderBy(x => x.Id).Skip(itemsToSkip).Take(pagingInfo.PageSize).ToListAsync();
 
-            int totalCount = await Set.CountAsync();
+            int totalCount = await Set.Where(x => x.IsDeleted == false).CountAsync();
             int availablePages = (int)Math.Ceiling(totalCount / (decimal)pagingInfo.PageSize);
 
             PagedResult<T> result = new PagedResult<T>
@@ -55,7 +55,7 @@
         private IQueryable<T> IncludeAllProperties<TProp>(Expression<Func<T, TProp>>[] propertiesToInclude)
         {
             // In order to avoid a N+1 problem, we need to proactively include all the necessary related properties
-            IQueryable<T> query = Set.AsQueryable();
+            IQueryable<T> query = Set.Where(x => x.IsDeleted == false);
             foreach (Expression<Func<T, TProp>> propertyExpression in propertiesToInclude)
             {
                 query = query.Include(propertyExpression);
@@ -79,7 +79,7 @@
 
         public async Task<T> GetById(int id)
         {
-            return await Set.FirstOrDefaultAsync(x => x.Id == id);
+            return await Set.FirstOrDefaultAsync(x => x.Id == id && x.IsDeleted == false);
         }
 
         public void Add(T entity)
