@@ -4,6 +4,7 @@
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     using System.Linq;
+    using System.Threading.Tasks;
 
     using ForumSystem.Core.Entities;
     using ForumSystem.Core.Entities.Base;
@@ -25,12 +26,12 @@
 
         public IDbSet<ForumPost> Posts { get; set; }
 
-        public override int SaveChanges()
+        public override Task<int> SaveChangesAsync()
         {
             ApplyAuditInfoRules();
             ApplyDeletableEntityRules();
 
-            return base.SaveChanges();
+            return base.SaveChangesAsync();
         }
 
         private void ApplyAuditInfoRules()
