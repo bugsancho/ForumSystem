@@ -10,6 +10,8 @@ using ForumSystem.Web.Models;
 
 namespace ForumSystem.Web.Controllers
 {
+    using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Users;
     using ForumSystem.Identity.Managers;
     using ForumSystem.Identity.Models;
 
@@ -18,13 +20,15 @@ namespace ForumSystem.Web.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private IUserService _userService;
 
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager, IAuthenticationManager authenticationManager)
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager, IAuthenticationManager authenticationManager, IUserService userService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             AuthenticationManager = authenticationManager;
+            _userService = userService;
         }
 
 
@@ -97,6 +101,7 @@ namespace ForumSystem.Web.Controllers
             {
                 var user = new ApplicationIdentityUser { UserName = model.Email, Email = model.Email, Hometown = model.Hometown };
                 var result = await _userManager.CreateAsync(user, model.Password);
+                await _userService.Create(new User { Username = model.Email });
                 if (result.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);

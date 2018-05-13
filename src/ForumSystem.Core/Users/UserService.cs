@@ -4,6 +4,7 @@
 
     using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Shared;
 
     public class UserService : IUserService
     {
@@ -24,6 +25,15 @@
             }
 
             return user;
+        }
+
+        public async Task<EntityCreatedResult> Create(User user)
+        {
+            _unitOfWork.Users.Add(user);
+            await _unitOfWork.SaveChanges();
+
+            return new EntityCreatedResult { Id = user.Id };
+
         }
     }
 }
