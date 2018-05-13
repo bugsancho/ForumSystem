@@ -7,7 +7,7 @@ namespace ForumSystem.Core.Posts
 
     public interface IPostsService
     {
-        Task<ForumPost> CreatePost(CreatePostModel createModel);
+        Task<PostDetailsModel> CreatePost(CreatePostModel createModel);
 
         Task<IReadOnlyCollection<PostDetailsModel>> GetPosts(int threadId);
     }

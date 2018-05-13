@@ -19,7 +19,7 @@
             _userService = userService;
         }
 
-        public async Task<ForumPost> CreatePost(CreatePostModel createModel)
+        public async Task<PostDetailsModel> CreatePost(CreatePostModel createModel)
         {
             ForumPost post = new ForumPost
             {
@@ -37,7 +37,8 @@
             _unitOfWork.ForumPosts.Add(post);
             await _unitOfWork.SaveChanges();
 
-            return post;
+            PostDetailsModel postDetails = new PostDetailsModel(post);
+            return postDetails;
         }
 
         public async Task<IReadOnlyCollection<PostDetailsModel>> GetPosts(int threadId)

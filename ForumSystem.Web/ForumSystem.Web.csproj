@@ -176,6 +176,7 @@
   <ItemGroup>
     <Compile Include="Api\ForumThreadsController.cs" />
     <Compile Include="Api\PermissionsController.cs" />
+    <Compile Include="Api\PostsController.cs" />
     <Compile Include="App_Start\AutofacConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />

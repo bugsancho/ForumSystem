@@ -47,7 +47,6 @@ namespace ForumSystem.Web.Api
             }
 
             throw new HttpResponseException(HttpStatusCode.BadRequest);
-
         }
 
         // PUT api/<controller>/5
