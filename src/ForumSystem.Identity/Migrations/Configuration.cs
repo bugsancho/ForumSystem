@@ -20,24 +20,31 @@ namespace ForumSystem.Identity.Migrations
 
         protected override void Seed(ForumSystem.Identity.Models.IdentityDbContext context)
         {
+            if (!context.Roles.Any(x => x.Name=="ThreadsAdmin"))
+            {
+                var roleStore = new RoleStore<IdentityRole>(context);
+                var roleManager = new RoleManager<IdentityRole>(roleStore);
+                var role = new IdentityRole { Name = "ThreadsAdmin" };
 
-            var roleStore = new RoleStore<IdentityRole>(context);
-            var roleManager = new RoleManager<IdentityRole>(roleStore);
-            var role = new IdentityRole { Name = "ThreadsAdmin" };
+                roleManager.Create(role);
 
-            roleManager.Create(role);
+                context.SaveChanges();
 
-            context.SaveChanges();
 
-            var userStore = new UserStore<ApplicationIdentityUser>(context);
-            var userManager = new UserManager<ApplicationIdentityUser>(userStore);
-            var user = new ApplicationIdentityUser { UserName = "admin@admin.com" };
+            }
+            if (!context.Users.Any(x => x.UserName == "admin@admin.com"))
+            {
+                var userStore = new UserStore<ApplicationIdentityUser>(context);
+                var userManager = new UserManager<ApplicationIdentityUser>(userStore);
+                var user = new ApplicationIdentityUser { UserName = "admin@admin.com" };
 
-            userManager.Create(user, "admin123");
-            userManager.AddToRole(user.Id, "ThreadsAdmin");
+                userManager.Create(user, "admin123");
+                userManager.AddToRole(user.Id, "ThreadsAdmin");
 
-            context.SaveChanges();
+                context.SaveChanges();
 
+
+            }
         }
     }
 }

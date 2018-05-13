@@ -1,5 +1,6 @@
 namespace ForumSystem.Infrastructure.Migrations
 {
+    using System;
     using System.Data.Entity.Migrations;
 
     using ForumSystem.Core.Entities;
@@ -13,7 +14,7 @@ namespace ForumSystem.Infrastructure.Migrations
 
         protected override void Seed(ForumSystem.Infrastructure.Data.ForumSystemDbContext context)
         {
-            context.Users.Add(new User { Username = "admin@admin.com" });
+            context.Users.Add(new User { Username = "admin@admin.com", CreatedOn = DateTime.UtcNow});
         }
     }
 }
