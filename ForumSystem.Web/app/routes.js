@@ -19,23 +19,35 @@
                     thread: function (threadsService, $transition$) {
                         "ngInject";
                         return threadsService.getThread($transition$.params().threadId);
-                    },
-                    authenticate: authenticate
+                    }
+
                 }
             },
             createThread = {
                 name: 'threadCreate',
                 url: '/thread/create',
-                resolve: {
-                    authenticate: authenticate
-                },
+
                 component: 'editThreadComponent'
+
+            }, editPost = {
+                name: 'editPost',
+                url: '/post/{postId}/edit',
+                resolve: {
+                    post: function (postsService, $transition$) {
+                        "ngInject";
+                        return postsService.getPost($transition$.params().postId);
+                    }
+                    //authenticate: authenticate
+                   
+                },
+                component: 'editPost'
 
             };
 
         $stateProvider.state(createThread);
         $stateProvider.state(thread);
         $stateProvider.state(threads);
+        $stateProvider.state(editPost);
 
         function authenticate(authService, $transition$) {
             "ngInject";

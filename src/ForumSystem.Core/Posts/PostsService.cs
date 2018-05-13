@@ -47,5 +47,28 @@
             List<PostDetailsModel> postDetails = posts.Select(x => new PostDetailsModel(x)).ToList();
             return postDetails;
         }
+
+        public async Task<PostDetailsModel> GetById(int id)
+        {
+            ForumPost post = await _unitOfWork.ForumPosts.GetById(id);
+            PostDetailsModel postDetails = new PostDetailsModel(post);
+
+            return postDetails;
+
+        }
+
+        public async Task<PostDetailsModel> UpdatePost(EditPostModel editModel)
+        {
+            ForumPost post = await _unitOfWork.ForumPosts.GetById(editModel.PostId);
+            post.Content = editModel.Content;
+
+            _unitOfWork.ForumPosts.Update(post);
+
+            await _unitOfWork.SaveChanges();
+
+            PostDetailsModel postDetails = new PostDetailsModel(post);
+
+            return postDetails;
+        }
     }
 }

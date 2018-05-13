@@ -196,7 +196,7 @@
     <Content Include="app\app.js" />
     <Content Include="app\Auth\auth-interceptor.js" />
     <Content Include="app\Auth\auth-service.js" />
-    <Content Include="app\Auth\permissions-service.js" />
+    <Content Include="app\Auth\users-service.js" />
     <Content Include="app\Auth\token-service.js" />
     <Content Include="app\constants.js" />
     <Content Include="app\Posts\edit-post.html" />

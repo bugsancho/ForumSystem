@@ -10,6 +10,7 @@
         const service = {
             ensureAuthenticated: ensureAuthenticated,
             processRedirectInfo: processRedirectInfo,
+            isAuthenticated: isAuthenticated,
             logout: logout
         };
 
@@ -33,6 +34,11 @@
 
             //Indicate success of the operation
             return true;
+        }
+
+        function isAuthenticated() {
+            const accessToken = tokenService.getAccessToken();
+            return !!accessToken;
         }
 
         function processRedirectInfo() {

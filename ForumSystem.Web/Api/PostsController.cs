@@ -24,9 +24,9 @@ namespace ForumSystem.Web.Api
         }
 
         // GET: api/Posts/5
-        public string Get(int id)
+        public async Task<PostDetailsModel> Get(int id)
         {
-            return "value";
+            return await _postsService.GetById(id);
         }
 
         // POST: api/Posts
@@ -46,8 +46,17 @@ namespace ForumSystem.Web.Api
         }
 
         // PUT: api/Posts/5
-        public void Put(int id, [FromBody]string value)
+        public async Task<PostDetailsModel> Put(int id, [FromBody]EditPostModel editModel)
         {
+
+            if (ModelState.IsValid)
+            {
+                editModel.PostId = id;
+                return await _postsService.UpdatePost(editModel);
+            }
+
+            throw new HttpResponseException(HttpStatusCode.BadRequest);
+
         }
 
         // DELETE: api/Posts/5
