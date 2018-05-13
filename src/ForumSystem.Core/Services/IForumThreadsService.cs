@@ -7,7 +7,7 @@ namespace ForumSystem.Core.Services
 
     public interface IForumThreadsService
     {
-        Task<IReadOnlyCollection<ForumThread>> GetAll();
+        Task<PagedResult<ForumThread>> GetAll(PagingInfo pagingInfo = null);
 
         Task<ForumThread> GetById(int id);
 

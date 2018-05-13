@@ -19,7 +19,7 @@ namespace ForumSystem.Web.Api
         }
 
         // GET api/<controller>
-        public  async Task<IReadOnlyCollection<ForumThread>> Get()
+        public  async Task<PagedResult<ForumThread>> Get()
         {
             return await _threadsService.GetAll();
         }

@@ -10,14 +10,25 @@
     {
         private readonly IUnitOfWork _unitOfWork;
 
+        private const int DefaultPageSize = 10;
+
         public ForumThreadsService(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IReadOnlyCollection<ForumThread>> GetAll()
+        public async Task<PagedResult<ForumThread>> GetAll(PagingInfo pagingInfo = null)
         {
-            return await _unitOfWork.ForumThreads.All();
+            if (pagingInfo == null)
+            {
+                pagingInfo = new PagingInfo
+                {
+                    PageSize = DefaultPageSize,
+                    Page = 1
+                };
+            }
+
+            return await _unitOfWork.ForumThreads.All(pagingInfo);
         }
 
         public async Task<ForumThread> GetById(int id)

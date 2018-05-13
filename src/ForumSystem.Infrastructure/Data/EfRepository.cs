@@ -30,9 +30,10 @@
 
         public async Task<PagedResult<T>> All(PagingInfo pagingInfo)
         {
-            int itemsToSkip = pagingInfo.Page - 1 * pagingInfo.PageSize;
+            int itemsToSkip = (pagingInfo.Page - 1) * pagingInfo.PageSize;
 
-            List<T> results = await Set.Skip(itemsToSkip).Take(pagingInfo.PageSize).ToListAsync();
+            List<T> results = await Set.OrderBy(x => x.Id).Skip(itemsToSkip).Take(pagingInfo.PageSize).ToListAsync();
+
             int totalCount = await Set.CountAsync();
             int availablePages = (int)Math.Ceiling(totalCount / (decimal)pagingInfo.PageSize);
 

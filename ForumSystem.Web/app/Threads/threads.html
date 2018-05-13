@@ -1,4 +1,4 @@
-﻿<div class="card" ng-repeat="thread in $ctrl.threads track by thread.id">
+﻿<div class="card" ng-repeat="thread in $ctrl.threads.results track by thread.id">
     <div class="card-header"  ui-sref="thread({ threadId: thread.id })">
         {{thread.title}}
     </div>
