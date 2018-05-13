@@ -10,6 +10,11 @@
 
     public class ForumSystemDbContext : DbContext
     {
+        // Empty contstructor to enable migrations
+        public ForumSystemDbContext() :this("ForumSystemDbConnection")
+        {
+        }
+
         public ForumSystemDbContext(string nameOrConnectionString) : base(nameOrConnectionString)
         {
         }
