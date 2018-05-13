@@ -2,6 +2,8 @@ namespace ForumSystem.Infrastructure.Migrations
 {
     using System.Data.Entity.Migrations;
 
+    using ForumSystem.Core.Entities;
+
     internal sealed class Configuration : DbMigrationsConfiguration<ForumSystem.Infrastructure.Data.ForumSystemDbContext>
     {
         public Configuration()
@@ -11,10 +13,7 @@ namespace ForumSystem.Infrastructure.Migrations
 
         protected override void Seed(ForumSystem.Infrastructure.Data.ForumSystemDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            context.Users.Add(new User { Username = "admin@admin.com" });
         }
     }
 }

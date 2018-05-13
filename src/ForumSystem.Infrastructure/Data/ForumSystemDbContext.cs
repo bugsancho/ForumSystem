@@ -8,6 +8,7 @@
 
     using ForumSystem.Core.Entities;
     using ForumSystem.Core.Entities.Base;
+    using ForumSystem.Infrastructure.Migrations;
 
     public class ForumSystemDbContext : DbContext
     {
@@ -18,6 +19,8 @@
 
         public ForumSystemDbContext(string nameOrConnectionString) : base(nameOrConnectionString)
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ForumSystemDbContext, Configuration>());
+
         }
 
         public IDbSet<User> Users { get; set; }
