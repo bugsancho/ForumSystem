@@ -10,7 +10,6 @@ namespace ForumSystem.Web.Api
     using ForumSystem.Core.Shared;
     using ForumSystem.Core.Threads;
 
-    [Authorize]
     public class ForumThreadsController : ApiController
     {
         private readonly IForumThreadsService _threadsService;

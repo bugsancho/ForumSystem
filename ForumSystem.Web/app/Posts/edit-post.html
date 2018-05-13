@@ -2,7 +2,7 @@
 
 <form name="editPost">
     <div class="form-group">
-        <label for="initialPost">Reply: </label>
+        <label ng-if="$ctrl.isNewPost" for="initialPost">Reply: </label>
         <textarea class="form-control" id="content" name="content" ng-model="$ctrl.post.content" rows="3"></textarea>
         <small ng-show="editPost.content.$error.required && editPost.content.$touched" id="titleRequired" class="form-text text-danger">Please enter your corrected message </small>
 

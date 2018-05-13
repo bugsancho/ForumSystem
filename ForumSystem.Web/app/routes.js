@@ -36,8 +36,8 @@
                     post: function (postsService, $transition$) {
                         "ngInject";
                         return postsService.getPost($transition$.params().postId);
-                    }
-                    //authenticate: authenticate
+                    },
+                    authenticate: authenticate
                    
                 },
                 component: 'editPost'
