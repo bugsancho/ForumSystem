@@ -5,5 +5,6 @@
             getThread: 'api/forumthreads/',
             createThread: 'api/forumthreads/',
             posts: 'api/posts/',
-            logout: 'account/logoff'
-        })
+            logout: 'account/logoff',
+            threadStatistics: 'api/threadstatistics'
+    });
