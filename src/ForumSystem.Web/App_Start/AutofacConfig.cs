@@ -9,6 +9,7 @@
     using Autofac.Integration.Mvc;
     using Autofac.Integration.WebApi;
 
+    using ForumSystem.Core.Analytics;
     using ForumSystem.Core.Data;
     using ForumSystem.Identity.Managers;
     using ForumSystem.Infrastructure.Data;
@@ -33,6 +34,11 @@
 
             builder.RegisterGeneric(typeof(EfRepository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
             builder.RegisterType<ForumSystemDbContext>().WithParameter(new TypedParameter(typeof(string), "ForumSystemDbConnection")).InstancePerLifetimeScope();
+
+            builder.RegisterType<FileThreadStatisticsRepository>().As<IThreadStatisticsRepository>().WithParameter(
+                "filePath",
+                "C:\\Code\\chart-data\\chart-data.json");
+
 
             IContainer container = builder.Build();
 
