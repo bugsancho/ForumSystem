@@ -29,9 +29,18 @@
             return $q.when(deferred.promise);
         }
 
-        function getThreads() {
+        function getThreads(page) {
             const deferred = $q.defer();
-            $http.get(urls.getThreads).then(function (result) {
+            let params = {
+                page: '',
+                pageSize: ''
+            };
+
+            if (page) {
+                params['page'] = page;
+            }
+
+            $http.get(urls.getThreads, { params: params }).then(function (result) {
                 const posts = result.data;
                 console.log('received postsss', posts);
                 deferred.resolve(posts);

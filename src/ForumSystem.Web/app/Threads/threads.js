@@ -6,8 +6,25 @@
         .component('threadsComponent',
             {
                 bindings: {
-                    threads: '<'
+                    threads: '<',
+                    page: '@'
                 },
+                controller: controller,
                 templateUrl: '/threads.html'
-            });
+        });
+
+
+    function controller($state) {
+        const ctrl = this;
+
+        ctrl.pageChanged = function () {
+            console.log('page changesss', ctrl.currentPage);
+            $state.go('threads', { page: ctrl.currentPage });
+        }
+
+        ctrl.$onInit = function() {
+            ctrl.currentPage = ctrl.threads.page;
+        }
+
+    }
 })();

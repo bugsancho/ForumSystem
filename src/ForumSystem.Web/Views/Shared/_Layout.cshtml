@@ -35,7 +35,7 @@
             <button type="button" class="navbar-toggler" ng-click="isCollapsed = !isCollapsed">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" uib-collapse="isCollapsed" aria-expanded="false" aria-hidden="true" style="height: 0px;">
+            <div class="navbar-collapse collapse" ng-init="isCollapsed = true" uib-collapse="isCollapsed" aria-expanded="false" aria-hidden="true" style="height: 0px;">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" ui-sref="threads" ui-sref-active="active">Forum Threads</a>

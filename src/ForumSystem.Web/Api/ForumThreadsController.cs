@@ -12,6 +12,8 @@ namespace ForumSystem.Web.Api
 
     public class ForumThreadsController : ApiController
     {
+        private const int DefaultPageSize = 10;
+
         private readonly IForumThreadsService _threadsService;
 
         public ForumThreadsController(IForumThreadsService threadsService)
@@ -20,9 +22,17 @@ namespace ForumSystem.Web.Api
         }
 
         // GET api/<controller>
-        public async Task<PagedResult<ThreadDetailsModel>> Get()
+
+        public async Task<PagedResult<ThreadDetailsModel>> Get([FromUri]int? page, [FromUri]int? pageSize)
         {
-            return await _threadsService.GetAll();
+            PagingInfo pagingInfo = new PagingInfo
+            {
+                PageSize = pageSize ?? DefaultPageSize,
+                Page = page ?? 1
+            };
+
+
+            return await _threadsService.GetAll(pagingInfo);
         }
 
         // GET api/<controller>/5
