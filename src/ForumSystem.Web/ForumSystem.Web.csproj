@@ -205,6 +205,10 @@
     <Content Include="app\Posts\posts-service.js" />
     <Content Include="app\routes.js" />
     <Content Include="app\Shared\url-helper.js" />
+    <Content Include="app\Statistics\aggregation-intervals.js" />
+    <Content Include="app\Statistics\thread-statistics-service.js" />
+    <Content Include="app\Statistics\thread-statistics.html" />
+    <Content Include="app\Statistics\thread-statistics.js" />
     <Content Include="app\Threads\edit-thread.html" />
     <Content Include="app\Threads\edit-thread.js" />
     <Content Include="app\Threads\thread.html" />

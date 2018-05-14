@@ -34,17 +34,19 @@ var sources = {
     libsJs: [
         'node_modules/angular/angular.js',
         'node_modules/moment/min/moment.min.js',
+        'node_modules/chart.js/dist/Chart.bundle.min.js',
         'node_modules/angular-animate/angular-animate.min.js',
         'node_modules/@uirouter/angularjs/release/angular-ui-router.min.js',
         'node_modules/angular-touch/angular-touch.min.js',
         'node_modules/angular-moment/angular-moment.min.js',
+        'node_modules/angular-chart.js/dist/angular-chart.min.js',
         'node_modules/ui-bootstrap4/dist/ui-bootstrap.js',
         'node_modules/ui-bootstrap4/dist/ui-bootstrap-tpls.js'
     ],
     libsCss: [
         'node_modules/bootstrap/dist/css/bootstrap.min.css'
     ],
-    sectionFolders: ['threads', 'auth', 'shared', 'posts']
+    sectionFolders: ['threads', 'auth', 'shared', 'posts', 'statistics']
 
 
 };
