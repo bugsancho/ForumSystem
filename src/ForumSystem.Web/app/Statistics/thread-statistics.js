@@ -21,22 +21,23 @@
         }).value();
 
         ctrl.selectedIntervalIndex = _.indexOf(ctrl.intervalsArray, defaultAggregationInterval);
+        ctrl.selectedInterval = _.indexOf(ctrl.intervalsArray, defaultAggregationInterval);
         ctrl.noDataAvailable = false;
 
         ctrl.$postLink = function () {
 
             let throttled;
+            // Bind the zoom functionality to the scroll event
             angular.element(document.querySelector('#threadStatisticsContainer')).on('wheel',
                 function (event) {
                     console.log('wheeled!!', event.wheelDelta);
-                    // Prevent the default of the event
+                    // Prevent the default action of the scroll event, so the user doesn't scroll down the page while zooming
                     event.preventDefault();
                     event.stopPropagation();
                     event.stopImmediatePropagation();
 
                     // Depending on the mouse, the wheel event is sometimes fired 50+ times for a single scroll, so we need to throttle the event.
                     if (!throttled) {
-                        console.log('throttled!!');
                         // event.wheelData indicates the direction of the scroll with positive number meaning one direction and negative, the opposite
                         if (event.wheelDelta < 0 && ctrl.selectedIntervalIndex < ctrl.intervalsCount - 1) {
                             ctrl.selectedIntervalIndex++;
@@ -64,6 +65,7 @@
 
         function updateStatistics() {
             const selectedInterval = ctrl.intervalsArray[ctrl.selectedIntervalIndex];
+            ctrl.selectedInterval = selectedInterval;
             getStatistics(selectedInterval);
         }
 
@@ -95,8 +97,6 @@
                     });
         }
 
-        ctrl.$onInit = function () {
-            getStatistics(defaultAggregationInterval);
-        }
+        ctrl.$onInit = updateStatistics;
     }
 })();

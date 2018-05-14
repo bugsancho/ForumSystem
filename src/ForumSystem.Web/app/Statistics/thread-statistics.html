@@ -10,4 +10,9 @@
     <p ng-if="$ctrl.noDataAvailable">No data is available for this aggregation period. Please switch to a broader period</p>
 </div>
 
-<input id="threadStatisticsSlider" type="range" min="0" max="{{$ctrl.intervalsCount - 1}}" ng-model="$ctrl.selectedIntervalIndex" ng-change="$ctrl.sliderChanged($event)"/>
+<div class="form-group">
+    <label for="threadStatisticsSlider">Select aggregation level: </label>
+    <input id="threadStatisticsSlider" type="range" min="0" max="{{$ctrl.intervalsCount - 1}}" ng-model="$ctrl.selectedIntervalIndex" ng-change="$ctrl.sliderChanged($event)"/>
+    <span>{{$ctrl.selectedInterval.name}}</span>
+</div>
+<p class="text-info">*You can also use the scroll to switch between aggregation levels</p>
