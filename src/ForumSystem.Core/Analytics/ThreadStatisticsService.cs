@@ -23,7 +23,10 @@
             DateTime startDate = GetStartDate(statisticsRequest.AggregationInterval);
             DateTime endDate = DateTime.UtcNow;
             IReadOnlyCollection<ThreadStatistics> statistics = await _statisticsRepository.Get(statisticsRequest.ThreadId, startDate, endDate);
-            IEnumerable<IGrouping<DateTime, ThreadStatistics>> grouppedByPeriod = statistics.GroupBy(x => GetStartOfPeriod(x.Timestamp, statisticsRequest.AggregationInterval));
+            IEnumerable<IGrouping<DateTime, ThreadStatistics>> grouppedByPeriod = statistics
+                .GroupBy(x => GetStartOfPeriod(x.Timestamp, statisticsRequest.AggregationInterval))
+                .OrderBy(x => x.Key.Date);
+
             List<ThreadStatisticsResult> results = new List<ThreadStatisticsResult>();
 
             foreach (IGrouping<DateTime, ThreadStatistics> periodGroup in grouppedByPeriod)
