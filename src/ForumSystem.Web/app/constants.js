@@ -7,4 +7,6 @@
             posts: 'api/posts/',
             logout: 'account/logoff',
             threadStatistics: 'api/threadstatistics'
-    });
+    })
+    // Provide Underscore for angular components
+    .constant('_', _);

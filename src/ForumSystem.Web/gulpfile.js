@@ -36,6 +36,7 @@ var sources = {
         'node_modules/moment/min/moment.min.js',
         'node_modules/chart.js/dist/Chart.bundle.min.js',
         'node_modules/angular-animate/angular-animate.min.js',
+        'node_modules/underscore/underscore-min.js',
         'node_modules/@uirouter/angularjs/release/angular-ui-router.min.js',
         'node_modules/angular-touch/angular-touch.min.js',
         'node_modules/angular-moment/angular-moment.min.js',

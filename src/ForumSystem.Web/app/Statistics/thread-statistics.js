@@ -11,57 +11,65 @@
                 templateUrl: '/thread-statistics.html'
             });
 
-    function controller(aggregationIntervals, threadStatisticsService,$timeout) {
+    function controller(aggregationIntervals, threadStatisticsService, $timeout, _) {
         const ctrl = this;
         const defaultAggregationInterval = aggregationIntervals.month;
 
-        //ctrl.datasetOverride = [
-        //    {
-        //        label: "Line chart 1",
-        //        borderWidth: 1,
-        //        type: 'bar'
-        //    },
-        //    {
-        //        label: "Line chart",
-        //        borderWidth: 3,
-        //        hoverBackgroundColor: "rgba(255,99,132,0.4)",
-        //        hoverBorderColor: "rgba(255,99,132,1)",
-        //        type: 'line'
-        //    }
-        //];
+        ctrl.intervalsCount = _.size(aggregationIntervals);
+        ctrl.intervalsArray = _.chain(aggregationIntervals).values().sortBy(function (interval) {
+            return interval.id;
+        }).value();
 
-        ctrl.data= [
-      [65, -59, 80, 81, -56, 55, -40],
-      [28, 48, -40, 19, 86, 27, 90]
-        ];
+        ctrl.selectedIntervalIndex = _.indexOf(ctrl.intervalsArray, defaultAggregationInterval);
+        ctrl.noDataAvailable = false;
 
-
-        ctrl.$postLink = function() {
-            angular.element(document.querySelector('#threadStatistics')).on('click',
-                function() {
-                    console.log('clicked!!');
-                });
+        ctrl.$postLink = function () {
 
             let throttled;
-            angular.element(document.querySelector('#threadStatistics')).on('wheel',
-                function () {
-                    console.log('wheeled!!');
+            angular.element(document.querySelector('#threadStatisticsContainer')).on('wheel',
+                function (event) {
+                    console.log('wheeled!!', event.wheelDelta);
+                    // Prevent the default of the event
+                    event.preventDefault();
+                    event.stopPropagation();
+                    event.stopImmediatePropagation();
 
                     // Depending on the mouse, the wheel event is sometimes fired 50+ times for a single scroll, so we need to throttle the event.
                     if (!throttled) {
                         console.log('throttled!!');
+                        // event.wheelData indicates the direction of the scroll with positive number meaning one direction and negative, the opposite
+                        if (event.wheelDelta < 0 && ctrl.selectedIntervalIndex < ctrl.intervalsCount - 1) {
+                            ctrl.selectedIntervalIndex++;
+                            updateStatistics();
+
+                        }
+                        else if (event.wheelDelta > 0 && ctrl.selectedIntervalIndex > 0) {
+                            ctrl.selectedIntervalIndex--;
+                            updateStatistics();
+                        }
+
                         throttled = true;
-                        $timeout(function() {
-                                throttled = false;
-                            },
-                            1500);
+                        $timeout(function () {
+                            throttled = false;
+                        }, 500);
                     }
                 });
+
+            ctrl.sliderChanged = updateStatistics;
+
+
         }
-        ctrl.$onInit = function () {
-            const threadId = ctrl.threadId;
+
+        ctrl.aggregationIntervals = aggregationIntervals;
+
+        function updateStatistics() {
+            const selectedInterval = ctrl.intervalsArray[ctrl.selectedIntervalIndex];
+            getStatistics(selectedInterval);
+        }
+
+        function getStatistics(aggregationInterval) {
             threadStatisticsService
-                .getStatistics({ threadId: threadId, aggregationInterval: defaultAggregationInterval }).then(
+                .getStatistics({ threadId: ctrl.threadId, aggregationInterval: aggregationInterval.id }).then(
                     function (statistics) {
                         let labels = [];
                         let hitsDataSet = [];
@@ -77,8 +85,18 @@
                         ctrl.labels = labels;
                         ctrl.data = [hitsDataSet, absoluteHitsDataSet];
 
+                        if (hitsDataSet.length === 0) {
+                            ctrl.noDataAvailable = true;
+                        } else {
+                            ctrl.noDataAvailable = false;
+                        }
+
                         console.log('received ctrl statistics', ctrl.data);
                     });
+        }
+
+        ctrl.$onInit = function () {
+            getStatistics(defaultAggregationInterval);
         }
     }
 })();

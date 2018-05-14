@@ -1,9 +1,13 @@
-﻿<div class="container"
-    style="width: 700px; height: 400px; margin-top: 50px;">
+﻿<div id="threadStatisticsContainer" class="container"
+     style="width: 700px; height: 400px; margin-top: 50px;">
     
     <canvas id="threadStatistics" class="chart chart-line"
             chart-data="$ctrl.data"
             chart-labels="$ctrl.labels"
             chart-series="$ctrl.series"
             chart-options="{legend:{display:true}}"></canvas>
+    
+    <p ng-if="$ctrl.noDataAvailable">No data is available for this aggregation period. Please switch to a broader period</p>
 </div>
+
+<input id="threadStatisticsSlider" type="range" min="0" max="{{$ctrl.intervalsCount - 1}}" ng-model="$ctrl.selectedIntervalIndex" ng-change="$ctrl.sliderChanged($event)"/>
