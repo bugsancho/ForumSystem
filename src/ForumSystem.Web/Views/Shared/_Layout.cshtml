@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Bare - Start Bootstrap Template</title>
+    <title>Forum System</title>
     <!-- Bootstrap core CSS -->
     @Styles.Render("~/css/libs")
 
@@ -31,25 +31,17 @@
 <body>
     <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
         <div class="container">
-            <a class="navbar-brand visible-xs" href="#">UI Bootstrap 4</a>
+            <a class="navbar-brand visible-xs" href="#">Forum System</a>
             <button type="button" class="navbar-toggler" ng-click="isCollapsed = !isCollapsed">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" uib-collapse="isCollapsed" aria-expanded="false" aria-hidden="true" style="height: 0px;">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown" uib-dropdown="">
-                        <a class="nav-link dropdown-toggle" uib-dropdown-toggle="" id="directivesMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Directives
-                        </a>
-                        <div class="dropdown-menu" uib-dropdown-menu="" aria-labelledby="directivesMenuLink">
-                            <a class="dropdown-item" href="#accordion">Accordion</a><a class="dropdown-item" href="#alert">Alert</a><a class="dropdown-item" href="#buttons">Buttons</a><a class="dropdown-item" href="#carousel">Carousel</a><a class="dropdown-item" href="#collapse">Collapse</a><a class="dropdown-item" href="#dateparser">Dateparser</a><a class="dropdown-item" href="#datepicker">Datepicker</a><a class="dropdown-item" href="#datepickerPopup">Datepicker Popup</a><a class="dropdown-item" href="#dropdown">Dropdown</a><a class="dropdown-item" href="#modal">Modal</a><a class="dropdown-item" href="#pager">Pager</a><a class="dropdown-item" href="#pagination">Pagination</a><a class="dropdown-item" href="#popover">Popover</a><a class="dropdown-item" href="#position">Position</a><a class="dropdown-item" href="#progressbar">Progressbar</a><a class="dropdown-item" href="#rating">Rating</a><a class="dropdown-item" href="#tabs">Tabs</a><a class="dropdown-item" href="#timepicker">Timepicker</a><a class="dropdown-item" href="#tooltip">Tooltip</a><a class="dropdown-item" href="#typeahead">Typeahead</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
-                        <a ui-sref="threads" ui-sref-active="active">Forum Threads</a>
+                        <a class="nav-link" ui-sref="threads" ui-sref-active="active">Forum Threads</a>
                     </li>
                     <li class="nav-item" >
-                        <a ui-sref="threadCreate" ui-sref-active="active">Create new thread</a>
+                        <a  class="nav-link" ui-sref="threadCreate" ui-sref-active="active">Create new thread</a>
 
                     </li>
                 </ul>
@@ -57,35 +49,6 @@
             </div>
         </div>
     </nav>
-    <!-- Navigation -->
-    @*<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Start Bootstrap</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                       
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>*@
-    <!-- Page Content -->
     <div class="container">
         <ui-view></ui-view>
         @RenderBody()
