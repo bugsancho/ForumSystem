@@ -1,5 +1,7 @@
 ﻿<h3 ng-if="$ctrl.isEditPost">Edit post</h3>
 
+<a ng-if="$ctrl.isEditPost" class="btn btn-primary" ui-sref="thread({ threadId: $ctrl.post.threadId })">Back to thread</a>
+
 <form name="editPost">
     <div class="form-group">
         <label ng-if="$ctrl.isNewPost" for="initialPost">Reply: </label>

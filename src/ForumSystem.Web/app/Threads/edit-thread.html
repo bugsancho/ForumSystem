@@ -1,8 +1,9 @@
 ﻿<h3>{{$ctrl.pageTitle}}</h3>
+<a class="btn btn-primary" ui-sref="threads()">Back to threads list</a>
 <form name="editThread">
     <div class="form-group">
         <label for="title">Thread title</label>
-        <input type="text" ng class="form-control" required id="title" name="title"  ng-model="$ctrl.thread.title" placeholder="What is The True Nature of Reality?">
+        <input type="text" ng class="form-control" required id="title" name="title" ng-model="$ctrl.thread.title" placeholder="What is The True Nature of Reality?">
         <small ng-show="editThread.title.$error.required && editThread.title.$touched" id="titleRequired" class="form-text text-danger">Please enter the thread title</small>
     </div>
     <div class="form-group" ng-if="$ctrl.isCreateThread">

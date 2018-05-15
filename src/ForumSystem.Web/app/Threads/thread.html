@@ -1,13 +1,15 @@
 ﻿<h3>{{$ctrl.thread.title}}</h3>
+<a  class="btn btn-primary" ui-sref="threads()">Back to threads list</a>
 <div class="card" ng-repeat="post in $ctrl.thread.posts track by post.id">
     <div class="card-body">
-        <p class="card-text">{{post.content}}
+        <p class="card-text">
+            {{post.content}}
             <blockquote class="blockquote mb-0">
-                <p>{{post.createdOn}}</p>
-                <footer class="blockquote-footer">{{post.publisherUsername || 'anonymous'}} <cite title="Source Title" am-time-ago="post.publishedDate | amUtc"></cite></footer>
-            </blockquote>
-            <button  ng-click="$ctrl.editPost(post)" class="btn btn-primary">Edit</button>
-            <button ng-disabled="!$ctrl.canDeletePost()" title="{{$ctrl.canDeletePost() ? 'Delete' : 'Cannot delete the last post for the thread'}}" ng-click="$ctrl.deletePost(post.id)" class="btn btn-warning">Delete</button>
+        <p>{{post.createdOn}}</p>
+        <footer class="blockquote-footer">{{post.publisherUsername || 'anonymous'}} <cite title="Source Title" am-time-ago="post.publishedDate | amUtc"></cite></footer>
+        </blockquote>
+        <button ng-click="$ctrl.editPost(post)" class="btn btn-primary">Edit</button>
+        <button ng-disabled="!$ctrl.canDeletePost()" title="{{$ctrl.canDeletePost() ? 'Delete' : 'Cannot delete the last post for the thread'}}" ng-click="$ctrl.deletePost(post.id)" class="btn btn-warning">Delete</button>
         </p>
     </div>
 </div>
