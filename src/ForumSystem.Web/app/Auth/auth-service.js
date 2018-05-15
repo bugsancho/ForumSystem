@@ -9,7 +9,7 @@
     function authService($window, $location, $http, $state, $rootScope, urlHelper, tokenService, urls, events) {
         const service = {
             ensureAuthenticated: ensureAuthenticated,
-            processLoginCallback: processLoginCallback,
+            processAccessTokenCallback: processAccessTokenCallback,
             isAuthenticated: isAuthenticated,
             logout: logout
         };
@@ -28,7 +28,12 @@
 
             const accessToken = tokenService.getAccessToken();
             if (!accessToken) {
-                $window.location.href = '/Account/Authorize?client_id=web&response_type=token&state=' + encodeURIComponent(targetUrl);
+                let redirectUrl = '/Account/Authorize?client_id=web&response_type=token&state=';
+                if (targetUrl) {
+                    redirectUrl += encodeURIComponent(targetUrl);
+                }
+
+                $window.location.href = redirectUrl;
                 return false;
             }
 
@@ -41,21 +46,23 @@
             return !!accessToken;
         }
 
-        function processLoginCallback() {
+        function processAccessTokenCallback() {
             const hash = $location.hash();
             if (hash) {
                 const accessTokenData = urlHelper.parseQueryString(hash);
                 if (accessTokenData['access_token']) {
                     tokenService.setAccessToken(accessTokenData['access_token']);
+
                     const state = accessTokenData['state'];
+                    $rootScope.$emit(events.userLoggedIn);
+
                     if (state) {
+
                         const decodedState = decodeURIComponent(state);
-                        console.log('before redirect');
-
                         $window.location.href = decodedState;
-                        $rootScope.$emit(events.userLoggedIn);
-
-                        console.log('after redirect');
+                    }
+                    else {
+                        $state.go('default');
                     }
                 }
             }

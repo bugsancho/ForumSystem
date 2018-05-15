@@ -197,9 +197,10 @@
     <Content Include="app\app.js" />
     <Content Include="app\Auth\auth-interceptor.js" />
     <Content Include="app\Auth\auth-service.js" />
+    <Content Include="app\Auth\login-callback.js" />
     <Content Include="app\Auth\login-info.html" />
     <Content Include="app\Auth\login-info.js" />
-    <Content Include="app\Auth\login.js" />
+    <Content Include="app\Auth\access-token-callback.js" />
     <Content Include="app\Auth\users-service.js" />
     <Content Include="app\Auth\token-service.js" />
     <Content Include="app\constants.js" />
@@ -258,6 +259,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_EmptyLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ForumSystem.Core\ForumSystem.Core.csproj">

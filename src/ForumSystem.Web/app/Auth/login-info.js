@@ -10,7 +10,7 @@
             });
 
 
-    function controller(authService, usersService, $state, $rootScope, events) {
+    function controller(authService, usersService, $state, $rootScope, events, urls) {
         const ctrl = this;
         console.log('loginzz');
 
@@ -31,6 +31,14 @@
             console.log('initial logged in');
             getUser();
         }
+
+        const loginCallbackUrl = '/' + $state.href('loginCallback');
+        const returnUrl = '?returnUrl=' + encodeURIComponent(loginCallbackUrl);
+        const loginUrl = urls.login + returnUrl;
+        const registerUrl = urls.register + returnUrl;
+
+        ctrl.loginUrl = loginUrl;
+        ctrl.registerUrl = registerUrl;
 
         function getUser() {
             usersService.getCurrentUser().then(function (user) {

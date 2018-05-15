@@ -1,11 +1,13 @@
 ﻿@model ForumSystem.Web.Models.RegisterViewModel
 @{
     ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_EmptyLayout.cshtml";
+
 }
 
 <h2>@ViewBag.Title.</h2>
 
-@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+@using (Html.BeginForm("Register", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()
     <h4>Create a new account.</h4>
@@ -16,13 +18,7 @@
         <div class="col-md-10">
             @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
         </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Hometown, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.TextBoxFor(m => m.Hometown, new { @class = "form-control" })
-        </div>
-    </div>    
+    </div> 
     <div class="form-group">
         @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
@@ -40,8 +36,4 @@
             <input type="submit" class="btn btn-default" value="Register" />
         </div>
     </div>
-}
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
 }

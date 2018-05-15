@@ -50,6 +50,13 @@ namespace ForumSystem.Web.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            // Logged in users shouldn't be allowed to relogin
+            // TODO: move to action filter
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -61,6 +68,7 @@ namespace ForumSystem.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
+
             if (!ModelState.IsValid)
             {
                 return View(model);
@@ -85,8 +93,17 @@ namespace ForumSystem.Web.Controllers
         //
         // GET: /Account/Register
         [AllowAnonymous]
-        public ActionResult Register()
+        public ActionResult Register(string returnUrl)
         {
+            // Logged in users shouldn't be allowed to register new user
+            // TODO: move to action filter
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            ViewBag.ReturnUrl = returnUrl;
+
             return View();
         }
 
@@ -95,7 +112,7 @@ namespace ForumSystem.Web.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Register(RegisterViewModel model)
+        public async Task<ActionResult> Register(RegisterViewModel model, string returnUrl)
         {
             if (ModelState.IsValid)
             {
@@ -112,7 +129,7 @@ namespace ForumSystem.Web.Controllers
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await _userManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToLocal(returnUrl);
                 }
                 AddErrors(result);
             }
@@ -269,6 +286,7 @@ namespace ForumSystem.Web.Controllers
             {
                 return Redirect(returnUrl);
             }
+
             return RedirectToAction("Index", "Home");
         }
 

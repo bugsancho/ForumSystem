@@ -1,19 +1,19 @@
 ﻿(function () {
     angular.module('forumSystem').config(function ($stateProvider, $urlRouterProvider) {
         const threads = {
-                  name: 'threads',
-                  url: '/threads/{page:int}',
-                  params: {
-                      page: { value: null, squash: false }
-                  },
-                  component: 'threadsComponent',
-                  resolve: {
-                      threads: function(threadsService, $transition$) {
-                          "ngInject";
-                          return threadsService.getThreads($transition$.params().page);
-                      }
-                  }
-              },
+            name: 'threads',
+            url: '/threads/{page:int}',
+            params: {
+                page: { value: null, squash: false }
+            },
+            component: 'threadsComponent',
+            resolve: {
+                threads: function (threadsService, $transition$) {
+                    "ngInject";
+                    return threadsService.getThreads($transition$.params().page);
+                }
+            }
+        },
             createThread = {
                 name: 'threadCreate',
                 url: '/thread/create',
@@ -26,7 +26,7 @@
                 url: '/thread/{threadId}',
                 component: 'threadComponent',
                 resolve: {
-                    thread: function(threadsService, $transition$) {
+                    thread: function (threadsService, $transition$) {
                         "ngInject";
                         return threadsService.getThread($transition$.params().threadId);
                     }
@@ -41,7 +41,7 @@
                 name: 'editPost',
                 url: '/post/{postId}/edit',
                 resolve: {
-                    post: function(postsService, $transition$) {
+                    post: function (postsService, $transition$) {
                         "ngInject";
                         return postsService.getPost($transition$.params().postId);
                     },
@@ -50,11 +50,18 @@
                 },
                 component: 'editPost'
             },
-            login = {
+            accessTokenCallback = {
+                name: 'accessTokenCallback',
+                url: '/accessTokenCallback',
+
+                component: 'accessTokenCallback'
+
+            },
+            loginCallback = {
                 name: 'loginCallback',
                 url: '/loginCallback',
 
-                component: 'login'
+                component: 'loginCallback'
 
             };
 
@@ -63,9 +70,10 @@
         $stateProvider.state(thread);
         $stateProvider.state(threadStatistics);
         $stateProvider.state(editPost);
-        $stateProvider.state(login);
+        $stateProvider.state(accessTokenCallback);
+        $stateProvider.state(loginCallback);
 
-        $stateProvider.state({ name: 'default', url: '', redirectTo:'threads'});
+        $stateProvider.state({ name: 'default', url: '', redirectTo: 'threads' });
 
         function authenticate(authService, $transition$) {
             "ngInject";

@@ -3,7 +3,7 @@
 
     angular
         .module('forumSystem.auth')
-        .component('login',
+        .component('accessTokenCallback',
             {
                 controller: controller
             });
@@ -12,6 +12,6 @@
     function controller(authService, $rootScope) {
         const ctrl = this;
         console.log('loginzz');
-        authService.processLoginCallback();
+        authService.processAccessTokenCallback();
     }
 })();

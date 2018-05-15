@@ -6,6 +6,8 @@
             createThread: 'api/forumthreads/',
             posts: 'api/posts/',
             logout: 'account/logoff',
+            login: 'account/login',
+            register: 'account/register',
             threadStatistics: 'api/threadstatistics',
             user: '/api/user'
     })
