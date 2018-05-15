@@ -6,10 +6,10 @@
         .factory('authService', authService);
 
 
-    function authService($window, $location, $http, $state, urlHelper, tokenService, urls) {
+    function authService($window, $location, $http, $state, $rootScope, urlHelper, tokenService, urls, events) {
         const service = {
             ensureAuthenticated: ensureAuthenticated,
-            processRedirectInfo: processRedirectInfo,
+            processLoginCallback: processLoginCallback,
             isAuthenticated: isAuthenticated,
             logout: logout
         };
@@ -18,9 +18,8 @@
 
         function logout() {
             tokenService.clearAccessToken();
-            $http.post(urls.logout).then(function () {
-                $state.go('default');
-            });
+
+            return $http.post(urls.logout);
         }
 
         function ensureAuthenticated(targetUrl) {
@@ -42,7 +41,7 @@
             return !!accessToken;
         }
 
-        function processRedirectInfo() {
+        function processLoginCallback() {
             const hash = $location.hash();
             if (hash) {
                 const accessTokenData = urlHelper.parseQueryString(hash);
@@ -51,8 +50,12 @@
                     const state = accessTokenData['state'];
                     if (state) {
                         const decodedState = decodeURIComponent(state);
-                        $window.location.href = decodedState;
+                        console.log('before redirect');
 
+                        $window.location.href = decodedState;
+                        $rootScope.$emit(events.userLoggedIn);
+
+                        console.log('after redirect');
                     }
                 }
             }

@@ -6,7 +6,14 @@
             createThread: 'api/forumthreads/',
             posts: 'api/posts/',
             logout: 'account/logoff',
-            threadStatistics: 'api/threadstatistics'
+            threadStatistics: 'api/threadstatistics',
+            user: '/api/user'
     })
     // Provide Underscore for angular components
-    .constant('_', _);
+    .constant('_', _)
+    .constant('events',
+        {
+            userLoggedIn: 'userLoggedIn'
+        });
+
+

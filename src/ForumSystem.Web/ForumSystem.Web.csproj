@@ -175,7 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\ForumThreadsController.cs" />
-    <Compile Include="Api\PermissionsController.cs" />
+    <Compile Include="Api\UserController.cs" />
     <Compile Include="Api\PostsController.cs" />
     <Compile Include="Api\ThreadStatisticsController.cs" />
     <Compile Include="App_Start\AutofacConfig.cs" />
@@ -189,7 +189,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\PermissionsModel.cs" />
+    <Compile Include="Models\UserDetailsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

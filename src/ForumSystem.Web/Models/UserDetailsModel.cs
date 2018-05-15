@@ -1,6 +1,6 @@
 ﻿namespace ForumSystem.Web.Models
 {
-    public class PermissionsModel
+    public class UserDetailsModel
     {
         public string Username { get; set; }
 

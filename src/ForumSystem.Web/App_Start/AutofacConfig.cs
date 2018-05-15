@@ -11,7 +11,9 @@
 
     using ForumSystem.Core.Analytics;
     using ForumSystem.Core.Data;
+    using ForumSystem.Core.Users;
     using ForumSystem.Identity.Managers;
+    using ForumSystem.Identity.Providers;
     using ForumSystem.Infrastructure.Data;
 
     using Microsoft.AspNet.Identity.Owin;
@@ -35,6 +37,7 @@
             builder.RegisterGeneric(typeof(EfRepository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
             builder.RegisterType<ForumSystemDbContext>().WithParameter(new TypedParameter(typeof(string), "ForumSystemDbConnection")).InstancePerLifetimeScope();
 
+            builder.RegisterType<PermissionsService>().As<IPermissionsService>();
             builder.RegisterType<FileThreadStatisticsRepository>().As<IThreadStatisticsRepository>().WithParameter(
                 "filePath",
                 "C:\\Code\\chart-data\\chart-data.json");

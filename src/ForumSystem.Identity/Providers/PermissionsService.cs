@@ -5,6 +5,7 @@
 
     using ForumSystem.Core.Users;
     using ForumSystem.Identity.Managers;
+    using ForumSystem.Identity.Models;
 
     public class PermissionsService : IPermissionsService
     {
@@ -19,7 +20,14 @@
 
         public async Task<bool> CanEditThreads(string username)
         {
-            IList<string> roles = await _userManager.GetRolesAsync(username);
+            ApplicationIdentityUser user = await _userManager.FindByNameAsync(username);
+
+            if (user == null)
+            {
+                throw new UserNotFoundException(username);
+            }
+
+            IList<string> roles = await _userManager.GetRolesAsync(user.Id);
             return roles.Contains(CanEditThreadsRole);
         }
     }

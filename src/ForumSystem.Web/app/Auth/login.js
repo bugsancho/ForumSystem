@@ -9,11 +9,9 @@
             });
 
 
-    function controller(authService) {
+    function controller(authService, $rootScope) {
         const ctrl = this;
         console.log('loginzz');
-        authService.processRedirectInfo();
-
-
+        authService.processLoginCallback();
     }
 })();

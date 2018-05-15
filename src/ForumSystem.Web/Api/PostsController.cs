@@ -46,6 +46,7 @@ namespace ForumSystem.Web.Api
         }
 
         // PUT: api/Posts/5
+        [Authorize]
         public async Task<PostDetailsModel> Put(int id, [FromBody]EditPostModel editModel)
         {
 
