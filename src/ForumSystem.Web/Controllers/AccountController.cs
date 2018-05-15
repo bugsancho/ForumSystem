@@ -71,6 +71,8 @@ namespace ForumSystem.Web.Controllers
 
             if (!ModelState.IsValid)
             {
+                ViewBag.ReturnUrl = returnUrl;
+
                 return View(model);
             }
 
@@ -86,6 +88,7 @@ namespace ForumSystem.Web.Controllers
                 case SignInStatus.Failure:
                 default:
                     ModelState.AddModelError("", "Invalid login attempt.");
+                    ViewBag.ReturnUrl = returnUrl;
                     return View(model);
             }
         }
@@ -133,6 +136,8 @@ namespace ForumSystem.Web.Controllers
                 }
                 AddErrors(result);
             }
+
+            ViewBag.ReturnUrl = returnUrl;
 
             // If we got this far, something failed, redisplay form
             return View(model);
