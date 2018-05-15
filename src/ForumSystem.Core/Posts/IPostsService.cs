@@ -9,7 +9,7 @@ namespace ForumSystem.Core.Posts
     {
         Task<PostDetailsModel> CreatePost(CreatePostModel createModel);
 
-        Task<IReadOnlyCollection<PostDetailsModel>> GetPosts(int threadId);
+        Task<IReadOnlyCollection<PostDetailsModel>> GetByThread(int threadId);
 
         Task<PostDetailsModel> GetById(int id);
 

@@ -6,6 +6,7 @@
 
     using ForumSystem.Core.Data;
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Shared;
     using ForumSystem.Core.Users;
 
     public class PostsService : IPostsService
@@ -41,7 +42,7 @@
             return postDetails;
         }
 
-        public async Task<IReadOnlyCollection<PostDetailsModel>> GetPosts(int threadId)
+        public async Task<IReadOnlyCollection<PostDetailsModel>> GetByThread(int threadId)
         {
             IReadOnlyCollection<ForumPost> posts = await _unitOfWork.ForumPosts.GetByThread(threadId);
             List<PostDetailsModel> postDetails = posts.Select(x => new PostDetailsModel(x)).ToList();
@@ -60,6 +61,11 @@
         public async Task<PostDetailsModel> UpdatePost(EditPostModel editModel)
         {
             ForumPost post = await _unitOfWork.ForumPosts.GetById(editModel.PostId);
+            if (post == null)
+            {
+                throw new EntityNotFoundException<ForumPost>(editModel.PostId);
+            }
+
             post.Content = editModel.Content;
 
             _unitOfWork.ForumPosts.Update(post);
