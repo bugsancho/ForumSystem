@@ -61,6 +61,7 @@ namespace ForumSystem.Web.Api
         }
 
         // DELETE: api/Posts/5
+        [Authorize]
         public async Task Delete(int id)
         {
             await _postsService.DeletePost(id);

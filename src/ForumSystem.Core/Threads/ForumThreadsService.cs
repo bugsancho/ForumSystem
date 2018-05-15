@@ -54,7 +54,7 @@
         {
             // Get the thread and then retrieve the posts associated with it
             ForumThread thread = await _unitOfWork.ForumThreads.GetById(id);
-            IReadOnlyCollection<PostDetailsModel> posts = await _postsService.GetPosts(id);
+            IReadOnlyCollection<PostDetailsModel> posts = await _postsService.GetByThread(id);
 
             // Combine the retrieved thread and the posts
             ThreadDetailsModel threadDetails = new ThreadDetailsModel(thread, posts);
