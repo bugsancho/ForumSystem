@@ -208,6 +208,9 @@
     <Content Include="app\Posts\edit-post.js" />
     <Content Include="app\Posts\posts-service.js" />
     <Content Include="app\routes.js" />
+    <Content Include="app\Shared\error-handler.js" />
+    <Content Include="app\Shared\error-message.html" />
+    <Content Include="app\Shared\message-service.js" />
     <Content Include="app\Shared\url-helper.js" />
     <Content Include="app\Statistics\aggregation-intervals.js" />
     <Content Include="app\Statistics\thread-statistics-service.js" />
