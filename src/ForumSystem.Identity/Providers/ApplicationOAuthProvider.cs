@@ -32,7 +32,7 @@
                 }
                 else if (context.ClientId == "web")
                 {
-                    var expectedUri = new Uri(context.Request.Uri, "/");
+                    var expectedUri = new Uri(context.Request.Uri, "/#!/loginCallback#");
                     context.Validated(expectedUri.AbsoluteUri);
                 }
             }

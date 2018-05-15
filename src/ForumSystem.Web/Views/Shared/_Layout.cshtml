@@ -31,7 +31,7 @@
 <body>
     <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
         <div class="container">
-            <a class="navbar-brand visible-xs" href="#">Forum System</a>
+            <a class="navbar-brand visible-xs"  ui-sref="default">Forum System</a>
             <button type="button" class="navbar-toggler" ng-click="isCollapsed = !isCollapsed">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,7 +45,7 @@
 
                     </li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                <login-info></login-info>
             </div>
         </div>
     </nav>

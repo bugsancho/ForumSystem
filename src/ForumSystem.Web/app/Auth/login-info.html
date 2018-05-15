@@ -1,0 +1,13 @@
+﻿<ul class="nav navbar-nav navbar-right">
+    <li>
+        Hello {{$ctrl.user.username}}
+    </li>
+    <li><a class="nav-item" ng-click="$ctrl.logout()">Log off</a></li>
+</ul>
+
+
+<ul ng-hide="true" class="nav navbar-nav navbar-right">
+    <li>@Html.ActionLink("Register", "Register", "Account", routeValues: new { area = "" }, htmlAttributes: new { id = "registerLink" })</li>
+    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: new { area = "" }, htmlAttributes: new { id = "loginLink" })</li>
+</ul>
+

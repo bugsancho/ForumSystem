@@ -19,17 +19,18 @@
         function logout() {
             tokenService.clearAccessToken();
             $http.post(urls.logout).then(function () {
-                $state.go('threads');
+                $state.go('default');
             });
         }
 
         function ensureAuthenticated(targetUrl) {
             // Check if we're currently redirected from the auth server and the auth token is in the URL
-            processRedirectInfo();
+            //processRedirectInfo();
 
             const accessToken = tokenService.getAccessToken();
             if (!accessToken) {
                 $window.location.href = '/Account/Authorize?client_id=web&response_type=token&state=' + encodeURIComponent(targetUrl);
+                return false;
             }
 
             //Indicate success of the operation

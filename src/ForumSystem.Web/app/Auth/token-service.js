@@ -12,7 +12,7 @@
         const service = {
             getAccessToken: getAccessToken,
             setAccessToken: setAccessToken,
-            clearAccessToken: clearAccessToken,
+            clearAccessToken: clearAccessToken
         };
 
         return service;
@@ -26,7 +26,7 @@
 
         function clearAccessToken() {
             const sessionStorage = $window.sessionStorage;
-            sessionStorage.removeItem()(tokenCacheKey);
+            sessionStorage.removeItem(tokenCacheKey);
         }
 
         function setAccessToken(accessToken) {
