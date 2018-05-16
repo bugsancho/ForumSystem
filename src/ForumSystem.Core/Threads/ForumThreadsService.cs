@@ -18,7 +18,7 @@
         private readonly IPostsService _postsService;
         private readonly ILogger _logger;
 
-        private const int DefaultPageSize = 10;
+        private const int DefaultPageSize = 5;
 
         public ForumThreadsService(IUnitOfWork unitOfWork, IUserService userService, IPostsService postsService, ILogger logger)
         {
