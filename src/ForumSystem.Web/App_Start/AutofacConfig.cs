@@ -1,5 +1,7 @@
 ﻿namespace ForumSystem.Web
 {
+    using System;
+    using System.Configuration;
     using System.Reflection;
     using System.Web;
     using System.Web.Http;
@@ -38,9 +40,20 @@
             builder.RegisterType<ForumSystemDbContext>().WithParameter(new TypedParameter(typeof(string), "ForumSystemDbConnection")).InstancePerLifetimeScope();
 
             builder.RegisterType<PermissionsService>().As<IPermissionsService>();
+
             builder.RegisterType<FileThreadStatisticsRepository>().As<IThreadStatisticsRepository>().WithParameter(
-                "filePath",
-                "C:\\Code\\chart-data\\chart-data.json");
+                (param, context) => param.Name == "filePath",
+                (info, context) =>
+                    {
+                        string settingKey = "ThreadStatisticsDataFileName";
+                        string statisticsRelativePath = ConfigurationManager.AppSettings[settingKey];
+                        if (string.IsNullOrWhiteSpace(statisticsRelativePath))
+                        {
+                            throw new ArgumentException($"Please provide a value for the '{settingKey}' AppSetting");
+                        }
+
+                        return HttpContext.Current.Server.MapPath(statisticsRelativePath);
+                    });
 
 
             IContainer container = builder.Build();

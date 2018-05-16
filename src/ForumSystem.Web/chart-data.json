@@ -1,0 +1,6160 @@
+ [{
+		"Timestamp": "2018-03-29T00:01:00Z",
+		"Hits": 2690,
+		"AbsoluteHits": 8737991
+	},
+	{
+		"Timestamp": "2018-03-28T00:01:00Z",
+		"Hits": 2710,
+		"AbsoluteHits": 8730630
+	},
+	{
+		"Timestamp": "2018-03-27T00:01:00Z",
+		"Hits": 2530,
+		"AbsoluteHits": 8722710
+	},
+	{
+		"Timestamp": "2018-03-26T00:01:00Z",
+		"Hits": 850,
+		"AbsoluteHits": 8714557
+	},
+	{
+		"Timestamp": "2018-03-25T00:01:00Z",
+		"Hits": 883,
+		"AbsoluteHits": 8712614
+	},
+	{
+		"Timestamp": "2018-03-24T00:01:00Z",
+		"Hits": 2389,
+		"AbsoluteHits": 8710696
+	},
+	{
+		"Timestamp": "2018-03-23T00:01:00Z",
+		"Hits": 2726,
+		"AbsoluteHits": 8704003
+	},
+	{
+		"Timestamp": "2018-03-22T00:01:00Z",
+		"Hits": 2732,
+		"AbsoluteHits": 8696262
+	},
+	{
+		"Timestamp": "2018-03-21T00:01:00Z",
+		"Hits": 2823,
+		"AbsoluteHits": 8688331
+	},
+	{
+		"Timestamp": "2018-03-20T00:01:00Z",
+		"Hits": 2459,
+		"AbsoluteHits": 8680212
+	},
+	{
+		"Timestamp": "2018-03-19T00:01:00Z",
+		"Hits": 813,
+		"AbsoluteHits": 8672981
+	},
+	{
+		"Timestamp": "2018-03-18T00:01:00Z",
+		"Hits": 918,
+		"AbsoluteHits": 8671070
+	},
+	{
+		"Timestamp": "2018-03-17T00:01:00Z",
+		"Hits": 2367,
+		"AbsoluteHits": 8669020
+	},
+	{
+		"Timestamp": "2018-03-16T00:01:00Z",
+		"Hits": 2724,
+		"AbsoluteHits": 8662527
+	},
+	{
+		"Timestamp": "2018-03-15T00:01:00Z",
+		"Hits": 2645,
+		"AbsoluteHits": 8654891
+	},
+	{
+		"Timestamp": "2018-03-14T00:01:00Z",
+		"Hits": 2701,
+		"AbsoluteHits": 8647149
+	},
+	{
+		"Timestamp": "2018-03-13T00:01:00Z",
+		"Hits": 2594,
+		"AbsoluteHits": 8639789
+	},
+	{
+		"Timestamp": "2018-03-12T00:01:00Z",
+		"Hits": 813,
+		"AbsoluteHits": 8632140
+	},
+	{
+		"Timestamp": "2018-03-11T00:01:00Z",
+		"Hits": 934,
+		"AbsoluteHits": 8630042
+	},
+	{
+		"Timestamp": "2018-03-10T00:01:00Z",
+		"Hits": 2456,
+		"AbsoluteHits": 8627846
+	},
+	{
+		"Timestamp": "2018-03-09T00:01:00Z",
+		"Hits": 2799,
+		"AbsoluteHits": 8621202
+	},
+	{
+		"Timestamp": "2018-03-08T00:01:00Z",
+		"Hits": 2847,
+		"AbsoluteHits": 8613653
+	},
+	{
+		"Timestamp": "2018-03-07T00:01:00Z",
+		"Hits": 2983,
+		"AbsoluteHits": 8605782
+	},
+	{
+		"Timestamp": "2018-03-06T00:01:00Z",
+		"Hits": 2756,
+		"AbsoluteHits": 8596805
+	},
+	{
+		"Timestamp": "2018-03-05T00:01:00Z",
+		"Hits": 940,
+		"AbsoluteHits": 8588848
+	},
+	{
+		"Timestamp": "2018-03-04T00:01:00Z",
+		"Hits": 939,
+		"AbsoluteHits": 8586497
+	},
+	{
+		"Timestamp": "2018-03-03T00:01:00Z",
+		"Hits": 2429,
+		"AbsoluteHits": 8584308
+	},
+	{
+		"Timestamp": "2018-03-02T00:01:00Z",
+		"Hits": 2844,
+		"AbsoluteHits": 8577557
+	},
+	{
+		"Timestamp": "2018-03-01T00:01:00Z",
+		"Hits": 2894,
+		"AbsoluteHits": 8568863
+	},
+	{
+		"Timestamp": "2018-02-28T00:01:00Z",
+		"Hits": 3063,
+		"AbsoluteHits": 8561155
+	},
+	{
+		"Timestamp": "2018-02-27T00:01:00Z",
+		"Hits": 2954,
+		"AbsoluteHits": 8552664
+	},
+	{
+		"Timestamp": "2018-02-26T00:01:00Z",
+		"Hits": 986,
+		"AbsoluteHits": 8543321
+	},
+	{
+		"Timestamp": "2018-02-25T00:01:00Z",
+		"Hits": 1079,
+		"AbsoluteHits": 8540867
+	},
+	{
+		"Timestamp": "2018-02-24T00:01:00Z",
+		"Hits": 2599,
+		"AbsoluteHits": 8538353
+	},
+	{
+		"Timestamp": "2018-02-23T00:01:00Z",
+		"Hits": 2912,
+		"AbsoluteHits": 8530905
+	},
+	{
+		"Timestamp": "2018-02-22T00:01:00Z",
+		"Hits": 2993,
+		"AbsoluteHits": 8522238
+	},
+	{
+		"Timestamp": "2018-02-21T00:01:00Z",
+		"Hits": 3025,
+		"AbsoluteHits": 8513153
+	},
+	{
+		"Timestamp": "2018-02-20T00:01:00Z",
+		"Hits": 2712,
+		"AbsoluteHits": 8504902
+	},
+	{
+		"Timestamp": "2018-02-19T00:01:00Z",
+		"Hits": 918,
+		"AbsoluteHits": 8497161
+	},
+	{
+		"Timestamp": "2018-02-18T00:01:00Z",
+		"Hits": 1053,
+		"AbsoluteHits": 8495058
+	},
+	{
+		"Timestamp": "2018-02-17T00:01:00Z",
+		"Hits": 2654,
+		"AbsoluteHits": 8492775
+	},
+	{
+		"Timestamp": "2018-02-16T00:01:00Z",
+		"Hits": 2774,
+		"AbsoluteHits": 8485377
+	},
+	{
+		"Timestamp": "2018-02-15T00:01:00Z",
+		"Hits": 2773,
+		"AbsoluteHits": 8477799
+	},
+	{
+		"Timestamp": "2018-02-14T00:01:00Z",
+		"Hits": 2860,
+		"AbsoluteHits": 8469791
+	},
+	{
+		"Timestamp": "2018-02-13T00:01:00Z",
+		"Hits": 3021,
+		"AbsoluteHits": 8461431
+	},
+	{
+		"Timestamp": "2018-02-12T00:01:00Z",
+		"Hits": 1024,
+		"AbsoluteHits": 8453138
+	},
+	{
+		"Timestamp": "2018-02-11T00:01:00Z",
+		"Hits": 1097,
+		"AbsoluteHits": 8450597
+	},
+	{
+		"Timestamp": "2018-02-10T00:01:00Z",
+		"Hits": 2896,
+		"AbsoluteHits": 8448092
+	},
+	{
+		"Timestamp": "2018-02-09T00:01:00Z",
+		"Hits": 3786,
+		"AbsoluteHits": 8440668
+	},
+	{
+		"Timestamp": "2018-02-08T00:01:00Z",
+		"Hits": 3081,
+		"AbsoluteHits": 8430142
+	},
+	{
+		"Timestamp": "2018-02-07T00:01:00Z",
+		"Hits": 3137,
+		"AbsoluteHits": 8421778
+	},
+	{
+		"Timestamp": "2018-02-06T00:01:00Z",
+		"Hits": 2887,
+		"AbsoluteHits": 8412469
+	},
+	{
+		"Timestamp": "2018-02-05T00:01:00Z",
+		"Hits": 982,
+		"AbsoluteHits": 8404094
+	},
+	{
+		"Timestamp": "2018-02-04T00:01:00Z",
+		"Hits": 1131,
+		"AbsoluteHits": 8401748
+	},
+	{
+		"Timestamp": "2018-02-03T00:01:00Z",
+		"Hits": 2775,
+		"AbsoluteHits": 8398896
+	},
+	{
+		"Timestamp": "2018-02-02T00:01:00Z",
+		"Hits": 3147,
+		"AbsoluteHits": 8390853
+	},
+	{
+		"Timestamp": "2018-02-01T00:01:00Z",
+		"Hits": 3234,
+		"AbsoluteHits": 8381987
+	},
+	{
+		"Timestamp": "2018-01-31T00:01:00Z",
+		"Hits": 3211,
+		"AbsoluteHits": 8372760
+	},
+	{
+		"Timestamp": "2018-01-30T00:01:00Z",
+		"Hits": 3077,
+		"AbsoluteHits": 8363175
+	},
+	{
+		"Timestamp": "2018-01-29T00:01:00Z",
+		"Hits": 972,
+		"AbsoluteHits": 8354022
+	},
+	{
+		"Timestamp": "2018-01-28T00:01:00Z",
+		"Hits": 1073,
+		"AbsoluteHits": 8351597
+	},
+	{
+		"Timestamp": "2018-01-27T00:01:00Z",
+		"Hits": 2486,
+		"AbsoluteHits": 8349045
+	},
+	{
+		"Timestamp": "2018-01-26T00:01:00Z",
+		"Hits": 3146,
+		"AbsoluteHits": 8341524
+	},
+	{
+		"Timestamp": "2018-01-25T00:01:00Z",
+		"Hits": 3355,
+		"AbsoluteHits": 8332333
+	},
+	{
+		"Timestamp": "2018-01-24T00:01:00Z",
+		"Hits": 3287,
+		"AbsoluteHits": 8322410
+	},
+	{
+		"Timestamp": "2018-01-23T00:01:00Z",
+		"Hits": 3358,
+		"AbsoluteHits": 8312458
+	},
+	{
+		"Timestamp": "2018-01-22T00:01:00Z",
+		"Hits": 1035,
+		"AbsoluteHits": 8302138
+	},
+	{
+		"Timestamp": "2018-01-21T00:01:00Z",
+		"Hits": 1093,
+		"AbsoluteHits": 8299320
+	},
+	{
+		"Timestamp": "2018-01-20T00:01:00Z",
+		"Hits": 3185,
+		"AbsoluteHits": 8296449
+	},
+	{
+		"Timestamp": "2018-01-19T00:01:00Z",
+		"Hits": 3888,
+		"AbsoluteHits": 8286932
+	},
+	{
+		"Timestamp": "2018-01-18T00:01:00Z",
+		"Hits": 3753,
+		"AbsoluteHits": 8273528
+	},
+	{
+		"Timestamp": "2018-01-17T00:01:00Z",
+		"Hits": 2714,
+		"AbsoluteHits": 8259254
+	},
+	{
+		"Timestamp": "2018-01-16T00:01:00Z",
+		"Hits": 2481,
+		"AbsoluteHits": 8251513
+	},
+	{
+		"Timestamp": "2018-01-15T00:01:00Z",
+		"Hits": 836,
+		"AbsoluteHits": 8244501
+	},
+	{
+		"Timestamp": "2018-01-14T00:01:00Z",
+		"Hits": 922,
+		"AbsoluteHits": 8242177
+	},
+	{
+		"Timestamp": "2018-01-13T00:01:00Z",
+		"Hits": 2478,
+		"AbsoluteHits": 8240061
+	},
+	{
+		"Timestamp": "2018-01-12T00:01:00Z",
+		"Hits": 2819,
+		"AbsoluteHits": 8233669
+	},
+	{
+		"Timestamp": "2018-01-11T00:01:00Z",
+		"Hits": 2859,
+		"AbsoluteHits": 8225260
+	},
+	{
+		"Timestamp": "2018-01-10T00:01:00Z",
+		"Hits": 2883,
+		"AbsoluteHits": 8217066
+	},
+	{
+		"Timestamp": "2018-01-09T00:01:00Z",
+		"Hits": 2571,
+		"AbsoluteHits": 8209346
+	},
+	{
+		"Timestamp": "2018-01-08T00:01:00Z",
+		"Hits": 768,
+		"AbsoluteHits": 8201992
+	},
+	{
+		"Timestamp": "2018-01-07T00:01:00Z",
+		"Hits": 916,
+		"AbsoluteHits": 8199899
+	},
+	{
+		"Timestamp": "2018-01-06T00:01:00Z",
+		"Hits": 2280,
+		"AbsoluteHits": 8198075
+	},
+	{
+		"Timestamp": "2018-01-05T00:01:00Z",
+		"Hits": 2501,
+		"AbsoluteHits": 8191762
+	},
+	{
+		"Timestamp": "2018-01-04T00:01:00Z",
+		"Hits": 2444,
+		"AbsoluteHits": 8184441
+	},
+	{
+		"Timestamp": "2018-01-03T00:01:00Z",
+		"Hits": 2090,
+		"AbsoluteHits": 8177484
+	},
+	{
+		"Timestamp": "2018-01-02T00:01:00Z",
+		"Hits": 685,
+		"AbsoluteHits": 8171633
+	},
+	{
+		"Timestamp": "2018-01-01T00:01:00Z",
+		"Hits": 0,
+		"AbsoluteHits": 0
+	},
+	{
+		"Timestamp": "2017-12-31T00:01:00Z",
+		"Hits": 798,
+		"AbsoluteHits": 8168650
+	},
+	{
+		"Timestamp": "2017-12-30T00:01:00Z",
+		"Hits": 1584,
+		"AbsoluteHits": 8166711
+	},
+	{
+		"Timestamp": "2017-12-29T00:01:00Z",
+		"Hits": 2000,
+		"AbsoluteHits": 8162812
+	},
+	{
+		"Timestamp": "2017-12-28T00:01:00Z",
+		"Hits": 1986,
+		"AbsoluteHits": 8157641
+	},
+	{
+		"Timestamp": "2017-12-27T00:01:00Z",
+		"Hits": 1760,
+		"AbsoluteHits": 8152519
+	},
+	{
+		"Timestamp": "2017-12-26T00:01:00Z",
+		"Hits": 915,
+		"AbsoluteHits": 8147891
+	},
+	{
+		"Timestamp": "2017-12-25T00:01:00Z",
+		"Hits": 654,
+		"AbsoluteHits": 8145523
+	},
+	{
+		"Timestamp": "2017-12-24T00:01:00Z",
+		"Hits": 770,
+		"AbsoluteHits": 8144143
+	},
+	{
+		"Timestamp": "2017-12-23T00:01:00Z",
+		"Hits": 1969,
+		"AbsoluteHits": 8142487
+	},
+	{
+		"Timestamp": "2017-12-22T00:01:00Z",
+		"Hits": 2509,
+		"AbsoluteHits": 8137586
+	},
+	{
+		"Timestamp": "2017-12-21T00:01:00Z",
+		"Hits": 2718,
+		"AbsoluteHits": 8130942
+	},
+	{
+		"Timestamp": "2017-12-20T00:01:00Z",
+		"Hits": 2780,
+		"AbsoluteHits": 8123631
+	},
+	{
+		"Timestamp": "2017-12-19T00:01:00Z",
+		"Hits": 2687,
+		"AbsoluteHits": 8116087
+	},
+	{
+		"Timestamp": "2017-12-18T00:01:00Z",
+		"Hits": 800,
+		"AbsoluteHits": 8108517
+	},
+	{
+		"Timestamp": "2017-12-17T00:01:00Z",
+		"Hits": 872,
+		"AbsoluteHits": 8106709
+	},
+	{
+		"Timestamp": "2017-12-16T00:01:00Z",
+		"Hits": 2398,
+		"AbsoluteHits": 8104704
+	},
+	{
+		"Timestamp": "2017-12-15T00:01:00Z",
+		"Hits": 2949,
+		"AbsoluteHits": 8098277
+	},
+	{
+		"Timestamp": "2017-12-14T00:01:00Z",
+		"Hits": 2802,
+		"AbsoluteHits": 8090329
+	},
+	{
+		"Timestamp": "2017-12-13T00:01:00Z",
+		"Hits": 3612,
+		"AbsoluteHits": 8082650
+	},
+	{
+		"Timestamp": "2017-12-12T00:01:00Z",
+		"Hits": 2587,
+		"AbsoluteHits": 8071497
+	},
+	{
+		"Timestamp": "2017-12-11T00:01:00Z",
+		"Hits": 854,
+		"AbsoluteHits": 8064125
+	},
+	{
+		"Timestamp": "2017-12-10T00:01:00Z",
+		"Hits": 833,
+		"AbsoluteHits": 8061965
+	},
+	{
+		"Timestamp": "2017-12-09T00:01:00Z",
+		"Hits": 2219,
+		"AbsoluteHits": 8059843
+	},
+	{
+		"Timestamp": "2017-12-08T00:01:00Z",
+		"Hits": 2541,
+		"AbsoluteHits": 8053956
+	},
+	{
+		"Timestamp": "2017-12-07T00:01:00Z",
+		"Hits": 2637,
+		"AbsoluteHits": 8046515
+	},
+	{
+		"Timestamp": "2017-12-06T00:01:00Z",
+		"Hits": 2598,
+		"AbsoluteHits": 8039390
+	},
+	{
+		"Timestamp": "2017-12-05T00:01:00Z",
+		"Hits": 2065,
+		"AbsoluteHits": 8031955
+	},
+	{
+		"Timestamp": "2017-12-04T00:01:00Z",
+		"Hits": 738,
+		"AbsoluteHits": 8025369
+	},
+	{
+		"Timestamp": "2017-12-03T00:01:00Z",
+		"Hits": 776,
+		"AbsoluteHits": 8023435
+	},
+	{
+		"Timestamp": "2017-12-02T00:01:00Z",
+		"Hits": 2116,
+		"AbsoluteHits": 8021267
+	},
+	{
+		"Timestamp": "2017-12-01T00:01:00Z",
+		"Hits": 2290,
+		"AbsoluteHits": 8015627
+	},
+	{
+		"Timestamp": "2017-11-30T00:01:00Z",
+		"Hits": 2433,
+		"AbsoluteHits": 8008355
+	},
+	{
+		"Timestamp": "2017-11-29T00:01:00Z",
+		"Hits": 2592,
+		"AbsoluteHits": 8001123
+	},
+	{
+		"Timestamp": "2017-11-28T00:01:00Z",
+		"Hits": 2396,
+		"AbsoluteHits": 7993504
+	},
+	{
+		"Timestamp": "2017-11-27T00:01:00Z",
+		"Hits": 772,
+		"AbsoluteHits": 7986323
+	},
+	{
+		"Timestamp": "2017-11-26T00:01:00Z",
+		"Hits": 809,
+		"AbsoluteHits": 7984300
+	},
+	{
+		"Timestamp": "2017-11-25T00:01:00Z",
+		"Hits": 1916,
+		"AbsoluteHits": 7982377
+	},
+	{
+		"Timestamp": "2017-11-24T00:01:00Z",
+		"Hits": 2055,
+		"AbsoluteHits": 7977177
+	},
+	{
+		"Timestamp": "2017-11-23T00:01:00Z",
+		"Hits": 2403,
+		"AbsoluteHits": 7971486
+	},
+	{
+		"Timestamp": "2017-11-22T00:01:00Z",
+		"Hits": 2545,
+		"AbsoluteHits": 7964639
+	},
+	{
+		"Timestamp": "2017-11-21T00:01:00Z",
+		"Hits": 2372,
+		"AbsoluteHits": 7956979
+	},
+	{
+		"Timestamp": "2017-11-20T00:01:00Z",
+		"Hits": 836,
+		"AbsoluteHits": 7949663
+	},
+	{
+		"Timestamp": "2017-11-19T00:01:00Z",
+		"Hits": 872,
+		"AbsoluteHits": 7947619
+	},
+	{
+		"Timestamp": "2017-11-18T00:01:00Z",
+		"Hits": 2172,
+		"AbsoluteHits": 7945480
+	},
+	{
+		"Timestamp": "2017-11-17T00:01:00Z",
+		"Hits": 2598,
+		"AbsoluteHits": 7939146
+	},
+	{
+		"Timestamp": "2017-11-16T00:01:00Z",
+		"Hits": 2589,
+		"AbsoluteHits": 7931493
+	},
+	{
+		"Timestamp": "2017-11-15T00:01:00Z",
+		"Hits": 2572,
+		"AbsoluteHits": 7923241
+	},
+	{
+		"Timestamp": "2017-11-14T00:01:00Z",
+		"Hits": 2301,
+		"AbsoluteHits": 7915561
+	},
+	{
+		"Timestamp": "2017-11-13T00:01:00Z",
+		"Hits": 718,
+		"AbsoluteHits": 7908166
+	},
+	{
+		"Timestamp": "2017-11-12T00:01:00Z",
+		"Hits": 839,
+		"AbsoluteHits": 7906242
+	},
+	{
+		"Timestamp": "2017-11-11T00:01:00Z",
+		"Hits": 2241,
+		"AbsoluteHits": 7904080
+	},
+	{
+		"Timestamp": "2017-11-10T00:01:00Z",
+		"Hits": 2590,
+		"AbsoluteHits": 7897573
+	},
+	{
+		"Timestamp": "2017-11-09T00:01:00Z",
+		"Hits": 2592,
+		"AbsoluteHits": 7885826
+	},
+	{
+		"Timestamp": "2017-11-08T00:01:00Z",
+		"Hits": 2495,
+		"AbsoluteHits": 7878379
+	},
+	{
+		"Timestamp": "2017-11-07T00:01:00Z",
+		"Hits": 2293,
+		"AbsoluteHits": 7870623
+	},
+	{
+		"Timestamp": "2017-11-06T00:01:00Z",
+		"Hits": 824,
+		"AbsoluteHits": 7863687
+	},
+	{
+		"Timestamp": "2017-11-05T00:01:00Z",
+		"Hits": 868,
+		"AbsoluteHits": 7861495
+	},
+	{
+		"Timestamp": "2017-11-04T00:01:00Z",
+		"Hits": 2218,
+		"AbsoluteHits": 7859262
+	},
+	{
+		"Timestamp": "2017-11-03T00:01:00Z",
+		"Hits": 2457,
+		"AbsoluteHits": 7853093
+	},
+	{
+		"Timestamp": "2017-11-02T00:01:00Z",
+		"Hits": 2233,
+		"AbsoluteHits": 7845733
+	},
+	{
+		"Timestamp": "2017-11-01T00:01:00Z",
+		"Hits": 2460,
+		"AbsoluteHits": 7838629
+	},
+	{
+		"Timestamp": "2017-10-31T00:01:00Z",
+		"Hits": 2494,
+		"AbsoluteHits": 7831181
+	},
+	{
+		"Timestamp": "2017-10-30T00:01:00Z",
+		"Hits": 839,
+		"AbsoluteHits": 7822979
+	},
+	{
+		"Timestamp": "2017-10-29T00:01:00Z",
+		"Hits": 956,
+		"AbsoluteHits": 7820695
+	},
+	{
+		"Timestamp": "2017-10-28T00:01:00Z",
+		"Hits": 2364,
+		"AbsoluteHits": 7818325
+	},
+	{
+		"Timestamp": "2017-10-27T00:01:00Z",
+		"Hits": 2723,
+		"AbsoluteHits": 7810655
+	},
+	{
+		"Timestamp": "2017-10-26T00:01:00Z",
+		"Hits": 2804,
+		"AbsoluteHits": 7802565
+	},
+	{
+		"Timestamp": "2017-10-25T00:01:00Z",
+		"Hits": 2888,
+		"AbsoluteHits": 7794453
+	},
+	{
+		"Timestamp": "2017-10-24T00:01:00Z",
+		"Hits": 2646,
+		"AbsoluteHits": 7786437
+	},
+	{
+		"Timestamp": "2017-10-23T00:01:00Z",
+		"Hits": 837,
+		"AbsoluteHits": 7778043
+	},
+	{
+		"Timestamp": "2017-10-22T00:01:00Z",
+		"Hits": 915,
+		"AbsoluteHits": 7775752
+	},
+	{
+		"Timestamp": "2017-10-21T00:01:00Z",
+		"Hits": 2127,
+		"AbsoluteHits": 7773685
+	},
+	{
+		"Timestamp": "2017-10-20T00:01:00Z",
+		"Hits": 2399,
+		"AbsoluteHits": 7767299
+	},
+	{
+		"Timestamp": "2017-10-19T00:01:00Z",
+		"Hits": 2304,
+		"AbsoluteHits": 7759840
+	},
+	{
+		"Timestamp": "2017-10-18T00:01:00Z",
+		"Hits": 2651,
+		"AbsoluteHits": 7752405
+	},
+	{
+		"Timestamp": "2017-10-17T00:01:00Z",
+		"Hits": 2560,
+		"AbsoluteHits": 7744266
+	},
+	{
+		"Timestamp": "2017-10-16T00:01:00Z",
+		"Hits": 826,
+		"AbsoluteHits": 7736768
+	},
+	{
+		"Timestamp": "2017-10-15T00:01:00Z",
+		"Hits": 900,
+		"AbsoluteHits": 7734544
+	},
+	{
+		"Timestamp": "2017-10-14T00:01:00Z",
+		"Hits": 2361,
+		"AbsoluteHits": 7732224
+	},
+	{
+		"Timestamp": "2017-10-13T00:01:00Z",
+		"Hits": 2631,
+		"AbsoluteHits": 7725488
+	},
+	{
+		"Timestamp": "2017-10-12T00:01:00Z",
+		"Hits": 2770,
+		"AbsoluteHits": 7717603
+	},
+	{
+		"Timestamp": "2017-10-11T00:01:00Z",
+		"Hits": 2657,
+		"AbsoluteHits": 7709079
+	},
+	{
+		"Timestamp": "2017-10-10T00:01:00Z",
+		"Hits": 2348,
+		"AbsoluteHits": 7700768
+	},
+	{
+		"Timestamp": "2017-10-09T00:01:00Z",
+		"Hits": 774,
+		"AbsoluteHits": 7693574
+	},
+	{
+		"Timestamp": "2017-10-08T00:01:00Z",
+		"Hits": 931,
+		"AbsoluteHits": 7691509
+	},
+	{
+		"Timestamp": "2017-10-07T00:01:00Z",
+		"Hits": 2354,
+		"AbsoluteHits": 7689369
+	},
+	{
+		"Timestamp": "2017-10-06T00:01:00Z",
+		"Hits": 2642,
+		"AbsoluteHits": 7682633
+	},
+	{
+		"Timestamp": "2017-10-05T00:01:00Z",
+		"Hits": 2507,
+		"AbsoluteHits": 7674966
+	},
+	{
+		"Timestamp": "2017-10-04T00:01:00Z",
+		"Hits": 2604,
+		"AbsoluteHits": 7667392
+	},
+	{
+		"Timestamp": "2017-10-03T00:01:00Z",
+		"Hits": 2165,
+		"AbsoluteHits": 7659188
+	},
+	{
+		"Timestamp": "2017-10-02T00:01:00Z",
+		"Hits": 741,
+		"AbsoluteHits": 7652489
+	},
+	{
+		"Timestamp": "2017-10-01T00:01:00Z",
+		"Hits": 865,
+		"AbsoluteHits": 7650514
+	},
+	{
+		"Timestamp": "2017-09-30T00:01:00Z",
+		"Hits": 2181,
+		"AbsoluteHits": 7648452
+	},
+	{
+		"Timestamp": "2017-09-29T00:01:00Z",
+		"Hits": 2704,
+		"AbsoluteHits": 7642027
+	},
+	{
+		"Timestamp": "2017-09-28T00:01:00Z",
+		"Hits": 2657,
+		"AbsoluteHits": 7673754
+	},
+	{
+		"Timestamp": "2017-09-27T00:01:00Z",
+		"Hits": 2515,
+		"AbsoluteHits": 7665508
+	},
+	{
+		"Timestamp": "2017-09-26T00:01:00Z",
+		"Hits": 2522,
+		"AbsoluteHits": 7657533
+	},
+	{
+		"Timestamp": "2017-09-25T00:01:00Z",
+		"Hits": 814,
+		"AbsoluteHits": 7649590
+	},
+	{
+		"Timestamp": "2017-09-24T00:01:00Z",
+		"Hits": 939,
+		"AbsoluteHits": 7647438
+	},
+	{
+		"Timestamp": "2017-09-23T00:01:00Z",
+		"Hits": 2548,
+		"AbsoluteHits": 7645204
+	},
+	{
+		"Timestamp": "2017-09-22T00:01:00Z",
+		"Hits": 2868,
+		"AbsoluteHits": 7637794
+	},
+	{
+		"Timestamp": "2017-09-21T00:01:00Z",
+		"Hits": 3004,
+		"AbsoluteHits": 7629347
+	},
+	{
+		"Timestamp": "2017-09-20T00:01:00Z",
+		"Hits": 3196,
+		"AbsoluteHits": 7620368
+	},
+	{
+		"Timestamp": "2017-09-19T00:01:00Z",
+		"Hits": 2874,
+		"AbsoluteHits": 7610152
+	},
+	{
+		"Timestamp": "2017-09-18T00:01:00Z",
+		"Hits": 987,
+		"AbsoluteHits": 7601029
+	},
+	{
+		"Timestamp": "2017-09-17T00:01:00Z",
+		"Hits": 1081,
+		"AbsoluteHits": 7598384
+	},
+	{
+		"Timestamp": "2017-09-16T00:01:00Z",
+		"Hits": 2764,
+		"AbsoluteHits": 7595692
+	},
+	{
+		"Timestamp": "2017-09-15T00:01:00Z",
+		"Hits": 4554,
+		"AbsoluteHits": 7586847
+	},
+	{
+		"Timestamp": "2017-09-14T00:01:00Z",
+		"Hits": 4187,
+		"AbsoluteHits": 7569723
+	},
+	{
+		"Timestamp": "2017-09-13T00:01:00Z",
+		"Hits": 2882,
+		"AbsoluteHits": 7553586
+	},
+	{
+		"Timestamp": "2017-09-12T00:01:00Z",
+		"Hits": 2646,
+		"AbsoluteHits": 7545551
+	},
+	{
+		"Timestamp": "2017-09-11T00:01:00Z",
+		"Hits": 923,
+		"AbsoluteHits": 7537697
+	},
+	{
+		"Timestamp": "2017-09-10T00:01:00Z",
+		"Hits": 988,
+		"AbsoluteHits": 7535771
+	},
+	{
+		"Timestamp": "2017-09-09T00:01:00Z",
+		"Hits": 2458,
+		"AbsoluteHits": 7533482
+	},
+	{
+		"Timestamp": "2017-09-08T00:01:00Z",
+		"Hits": 2681,
+		"AbsoluteHits": 7526277
+	},
+	{
+		"Timestamp": "2017-09-06T00:01:00Z",
+		"Hits": 2851,
+		"AbsoluteHits": 7509970
+	},
+	{
+		"Timestamp": "2017-09-05T00:01:00Z",
+		"Hits": 2405,
+		"AbsoluteHits": 7500601
+	},
+	{
+		"Timestamp": "2017-09-04T00:01:00Z",
+		"Hits": 949,
+		"AbsoluteHits": 7493432
+	},
+	{
+		"Timestamp": "2017-09-03T00:01:00Z",
+		"Hits": 921,
+		"AbsoluteHits": 7491230
+	},
+	{
+		"Timestamp": "2017-09-02T00:01:00Z",
+		"Hits": 2481,
+		"AbsoluteHits": 7489210
+	},
+	{
+		"Timestamp": "2017-09-01T00:01:00Z",
+		"Hits": 2572,
+		"AbsoluteHits": 7481325
+	},
+	{
+		"Timestamp": "2017-08-31T00:01:00Z",
+		"Hits": 2679,
+		"AbsoluteHits": 7474091
+	},
+	{
+		"Timestamp": "2017-08-30T00:01:00Z",
+		"Hits": 2747,
+		"AbsoluteHits": 7466455
+	},
+	{
+		"Timestamp": "2017-08-29T00:01:00Z",
+		"Hits": 2599,
+		"AbsoluteHits": 7458312
+	},
+	{
+		"Timestamp": "2017-08-28T00:01:00Z",
+		"Hits": 1088,
+		"AbsoluteHits": 7451135
+	},
+	{
+		"Timestamp": "2017-08-27T00:01:00Z",
+		"Hits": 1114,
+		"AbsoluteHits": 7448997
+	},
+	{
+		"Timestamp": "2017-08-26T00:01:00Z",
+		"Hits": 2226,
+		"AbsoluteHits": 7446893
+	},
+	{
+		"Timestamp": "2017-08-25T00:01:00Z",
+		"Hits": 2588,
+		"AbsoluteHits": 7440729
+	},
+	{
+		"Timestamp": "2017-08-24T00:01:00Z",
+		"Hits": 2682,
+		"AbsoluteHits": 7433461
+	},
+	{
+		"Timestamp": "2017-08-23T00:01:00Z",
+		"Hits": 2601,
+		"AbsoluteHits": 7425377
+	},
+	{
+		"Timestamp": "2017-08-22T00:01:00Z",
+		"Hits": 2364,
+		"AbsoluteHits": 7417169
+	},
+	{
+		"Timestamp": "2017-08-21T00:01:00Z",
+		"Hits": 882,
+		"AbsoluteHits": 7410164
+	},
+	{
+		"Timestamp": "2017-08-20T00:01:00Z",
+		"Hits": 895,
+		"AbsoluteHits": 7408348
+	},
+	{
+		"Timestamp": "2017-08-19T00:01:00Z",
+		"Hits": 2222,
+		"AbsoluteHits": 7406280
+	},
+	{
+		"Timestamp": "2017-08-18T00:01:00Z",
+		"Hits": 2426,
+		"AbsoluteHits": 7400327
+	},
+	{
+		"Timestamp": "2017-08-17T00:01:00Z",
+		"Hits": 2471,
+		"AbsoluteHits": 7393120
+	},
+	{
+		"Timestamp": "2017-08-16T00:01:00Z",
+		"Hits": 2036,
+		"AbsoluteHits": 7385529
+	},
+	{
+		"Timestamp": "2017-08-15T00:01:00Z",
+		"Hits": 2186,
+		"AbsoluteHits": 7379200
+	},
+	{
+		"Timestamp": "2017-08-14T00:01:00Z",
+		"Hits": 915,
+		"AbsoluteHits": 7372795
+	},
+	{
+		"Timestamp": "2017-08-13T00:01:00Z",
+		"Hits": 991,
+		"AbsoluteHits": 7370481
+	},
+	{
+		"Timestamp": "2017-08-12T00:01:00Z",
+		"Hits": 2313,
+		"AbsoluteHits": 7368256
+	},
+	{
+		"Timestamp": "2017-08-11T00:01:00Z",
+		"Hits": 2629,
+		"AbsoluteHits": 7361788
+	},
+	{
+		"Timestamp": "2017-08-10T00:01:00Z",
+		"Hits": 2772,
+		"AbsoluteHits": 7354513
+	},
+	{
+		"Timestamp": "2017-08-09T00:01:00Z",
+		"Hits": 2769,
+		"AbsoluteHits": 7346781
+	},
+	{
+		"Timestamp": "2017-08-08T00:01:00Z",
+		"Hits": 2409,
+		"AbsoluteHits": 7338731
+	},
+	{
+		"Timestamp": "2017-08-07T00:01:00Z",
+		"Hits": 985,
+		"AbsoluteHits": 7331778
+	},
+	{
+		"Timestamp": "2017-08-06T00:01:00Z",
+		"Hits": 1119,
+		"AbsoluteHits": 7329680
+	},
+	{
+		"Timestamp": "2017-08-05T00:01:00Z",
+		"Hits": 2336,
+		"AbsoluteHits": 7327442
+	},
+	{
+		"Timestamp": "2017-08-04T00:01:00Z",
+		"Hits": 2630,
+		"AbsoluteHits": 7320997
+	},
+	{
+		"Timestamp": "2017-08-03T00:01:00Z",
+		"Hits": 2475,
+		"AbsoluteHits": 7313912
+	},
+	{
+		"Timestamp": "2017-08-02T00:01:00Z",
+		"Hits": 2489,
+		"AbsoluteHits": 7306810
+	},
+	{
+		"Timestamp": "2017-08-01T00:01:00Z",
+		"Hits": 2452,
+		"AbsoluteHits": 7299086
+	},
+	{
+		"Timestamp": "2017-07-31T00:01:00Z",
+		"Hits": 1000,
+		"AbsoluteHits": 7291771
+	},
+	{
+		"Timestamp": "2017-07-30T00:01:00Z",
+		"Hits": 1125,
+		"AbsoluteHits": 7289551
+	},
+	{
+		"Timestamp": "2017-07-29T00:01:00Z",
+		"Hits": 2545,
+		"AbsoluteHits": 7287427
+	},
+	{
+		"Timestamp": "2017-07-28T00:01:00Z",
+		"Hits": 2733,
+		"AbsoluteHits": 7280331
+	},
+	{
+		"Timestamp": "2017-07-27T00:01:00Z",
+		"Hits": 2846,
+		"AbsoluteHits": 7272682
+	},
+	{
+		"Timestamp": "2017-07-26T00:01:00Z",
+		"Hits": 2881,
+		"AbsoluteHits": 7264864
+	},
+	{
+		"Timestamp": "2017-07-25T00:01:00Z",
+		"Hits": 2683,
+		"AbsoluteHits": 7257197
+	},
+	{
+		"Timestamp": "2017-07-24T00:01:00Z",
+		"Hits": 963,
+		"AbsoluteHits": 7249383
+	},
+	{
+		"Timestamp": "2017-07-23T00:01:00Z",
+		"Hits": 1099,
+		"AbsoluteHits": 7247321
+	},
+	{
+		"Timestamp": "2017-07-22T00:01:00Z",
+		"Hits": 2518,
+		"AbsoluteHits": 7244983
+	},
+	{
+		"Timestamp": "2017-07-21T00:01:00Z",
+		"Hits": 2777,
+		"AbsoluteHits": 7238174
+	},
+	{
+		"Timestamp": "2017-07-20T00:01:00Z",
+		"Hits": 2856,
+		"AbsoluteHits": 7230508
+	},
+	{
+		"Timestamp": "2017-07-19T00:01:00Z",
+		"Hits": 2742,
+		"AbsoluteHits": 7222788
+	},
+	{
+		"Timestamp": "2017-07-18T00:01:00Z",
+		"Hits": 2557,
+		"AbsoluteHits": 7214951
+	},
+	{
+		"Timestamp": "2017-07-17T00:01:00Z",
+		"Hits": 889,
+		"AbsoluteHits": 7207051
+	},
+	{
+		"Timestamp": "2017-07-16T00:01:00Z",
+		"Hits": 922,
+		"AbsoluteHits": 7205060
+	},
+	{
+		"Timestamp": "2017-07-15T00:01:00Z",
+		"Hits": 2354,
+		"AbsoluteHits": 7203095
+	},
+	{
+		"Timestamp": "2017-07-14T00:01:00Z",
+		"Hits": 2761,
+		"AbsoluteHits": 7196427
+	},
+	{
+		"Timestamp": "2017-07-13T00:01:00Z",
+		"Hits": 2744,
+		"AbsoluteHits": 7188758
+	},
+	{
+		"Timestamp": "2017-07-12T00:01:00Z",
+		"Hits": 3191,
+		"AbsoluteHits": 7180436
+	},
+	{
+		"Timestamp": "2017-07-11T00:01:00Z",
+		"Hits": 2734,
+		"AbsoluteHits": 7171316
+	},
+	{
+		"Timestamp": "2017-07-10T00:01:00Z",
+		"Hits": 995,
+		"AbsoluteHits": 7163205
+	},
+	{
+		"Timestamp": "2017-07-09T00:01:00Z",
+		"Hits": 1098,
+		"AbsoluteHits": 7161239
+	},
+	{
+		"Timestamp": "2017-07-08T00:01:00Z",
+		"Hits": 2516,
+		"AbsoluteHits": 7159086
+	},
+	{
+		"Timestamp": "2017-07-07T00:01:00Z",
+		"Hits": 2815,
+		"AbsoluteHits": 7152127
+	},
+	{
+		"Timestamp": "2017-07-06T00:01:00Z",
+		"Hits": 2866,
+		"AbsoluteHits": 7144102
+	},
+	{
+		"Timestamp": "2017-07-05T00:01:00Z",
+		"Hits": 2461,
+		"AbsoluteHits": 7135448
+	},
+	{
+		"Timestamp": "2017-07-04T00:01:00Z",
+		"Hits": 2663,
+		"AbsoluteHits": 7127959
+	},
+	{
+		"Timestamp": "2017-07-03T00:01:00Z",
+		"Hits": 893,
+		"AbsoluteHits": 7120148
+	},
+	{
+		"Timestamp": "2017-07-02T00:01:00Z",
+		"Hits": 1064,
+		"AbsoluteHits": 7117851
+	},
+	{
+		"Timestamp": "2017-07-01T00:01:00Z",
+		"Hits": 4320,
+		"AbsoluteHits": 7115524
+	},
+	{
+		"Timestamp": "2017-06-30T00:01:00Z",
+		"Hits": 4734,
+		"AbsoluteHits": 7103713
+	},
+	{
+		"Timestamp": "2017-06-29T00:01:00Z",
+		"Hits": 2655,
+		"AbsoluteHits": 7089850
+	},
+	{
+		"Timestamp": "2017-06-28T00:01:00Z",
+		"Hits": 2695,
+		"AbsoluteHits": 7081734
+	},
+	{
+		"Timestamp": "2017-06-27T00:01:00Z",
+		"Hits": 2354,
+		"AbsoluteHits": 7073910
+	},
+	{
+		"Timestamp": "2017-06-26T00:01:00Z",
+		"Hits": 961,
+		"AbsoluteHits": 7067185
+	},
+	{
+		"Timestamp": "2017-06-25T00:01:00Z",
+		"Hits": 1054,
+		"AbsoluteHits": 7065149
+	},
+	{
+		"Timestamp": "2017-06-24T00:01:00Z",
+		"Hits": 2492,
+		"AbsoluteHits": 7063044
+	},
+	{
+		"Timestamp": "2017-06-23T00:01:00Z",
+		"Hits": 2847,
+		"AbsoluteHits": 7056048
+	},
+	{
+		"Timestamp": "2017-06-22T00:01:00Z",
+		"Hits": 2708,
+		"AbsoluteHits": 7047364
+	},
+	{
+		"Timestamp": "2017-06-21T00:01:00Z",
+		"Hits": 2775,
+		"AbsoluteHits": 7039155
+	},
+	{
+		"Timestamp": "2017-06-20T00:01:00Z",
+		"Hits": 2454,
+		"AbsoluteHits": 7030869
+	},
+	{
+		"Timestamp": "2017-06-19T00:01:00Z",
+		"Hits": 839,
+		"AbsoluteHits": 7023315
+	},
+	{
+		"Timestamp": "2017-06-18T00:01:00Z",
+		"Hits": 1044,
+		"AbsoluteHits": 7021082
+	},
+	{
+		"Timestamp": "2017-06-17T00:01:00Z",
+		"Hits": 2531,
+		"AbsoluteHits": 7018954
+	},
+	{
+		"Timestamp": "2017-06-16T00:01:00Z",
+		"Hits": 2664,
+		"AbsoluteHits": 7012270
+	},
+	{
+		"Timestamp": "2017-06-15T00:01:00Z",
+		"Hits": 2921,
+		"AbsoluteHits": 7004211
+	},
+	{
+		"Timestamp": "2017-06-14T00:01:00Z",
+		"Hits": 2826,
+		"AbsoluteHits": 6995582
+	},
+	{
+		"Timestamp": "2017-06-13T00:01:00Z",
+		"Hits": 2673,
+		"AbsoluteHits": 6986940
+	},
+	{
+		"Timestamp": "2017-06-12T00:01:00Z",
+		"Hits": 1101,
+		"AbsoluteHits": 6979218
+	},
+	{
+		"Timestamp": "2017-06-11T00:01:00Z",
+		"Hits": 1149,
+		"AbsoluteHits": 6976974
+	},
+	{
+		"Timestamp": "2017-06-10T00:01:00Z",
+		"Hits": 2632,
+		"AbsoluteHits": 6974851
+	},
+	{
+		"Timestamp": "2017-06-09T00:01:00Z",
+		"Hits": 2602,
+		"AbsoluteHits": 6967537
+	},
+	{
+		"Timestamp": "2017-06-08T00:01:00Z",
+		"Hits": 2739,
+		"AbsoluteHits": 6960125
+	},
+	{
+		"Timestamp": "2017-06-07T00:01:00Z",
+		"Hits": 2703,
+		"AbsoluteHits": 6951682
+	},
+	{
+		"Timestamp": "2017-06-06T00:01:00Z",
+		"Hits": 2367,
+		"AbsoluteHits": 6943721
+	},
+	{
+		"Timestamp": "2017-06-05T00:01:00Z",
+		"Hits": 1008,
+		"AbsoluteHits": 6937096
+	},
+	{
+		"Timestamp": "2017-06-04T00:01:00Z",
+		"Hits": 1116,
+		"AbsoluteHits": 6934736
+	},
+	{
+		"Timestamp": "2017-06-03T00:01:00Z",
+		"Hits": 2516,
+		"AbsoluteHits": 6932470
+	},
+	{
+		"Timestamp": "2017-06-02T00:01:00Z",
+		"Hits": 2765,
+		"AbsoluteHits": 6925027
+	},
+	{
+		"Timestamp": "2017-05-31T00:01:00Z",
+		"Hits": 2581,
+		"AbsoluteHits": 6908716
+	},
+	{
+		"Timestamp": "2017-05-30T00:01:00Z",
+		"Hits": 1971,
+		"AbsoluteHits": 6901338
+	},
+	{
+		"Timestamp": "2017-05-29T00:01:00Z",
+		"Hits": 981,
+		"AbsoluteHits": 6895267
+	},
+	{
+		"Timestamp": "2017-05-28T00:01:00Z",
+		"Hits": 1107,
+		"AbsoluteHits": 6893170
+	},
+	{
+		"Timestamp": "2017-05-27T00:01:00Z",
+		"Hits": 2428,
+		"AbsoluteHits": 6890940
+	},
+	{
+		"Timestamp": "2017-05-26T00:01:00Z",
+		"Hits": 2662,
+		"AbsoluteHits": 6884514
+	},
+	{
+		"Timestamp": "2017-05-25T00:01:00Z",
+		"Hits": 2762,
+		"AbsoluteHits": 6876783
+	},
+	{
+		"Timestamp": "2017-05-24T00:01:00Z",
+		"Hits": 2897,
+		"AbsoluteHits": 6868598
+	},
+	{
+		"Timestamp": "2017-05-23T00:01:00Z",
+		"Hits": 2766,
+		"AbsoluteHits": 6859715
+	},
+	{
+		"Timestamp": "2017-05-22T00:01:00Z",
+		"Hits": 976,
+		"AbsoluteHits": 6851878
+	},
+	{
+		"Timestamp": "2017-05-21T00:01:00Z",
+		"Hits": 1057,
+		"AbsoluteHits": 6849490
+	},
+	{
+		"Timestamp": "2017-05-20T00:01:00Z",
+		"Hits": 2566,
+		"AbsoluteHits": 6847152
+	},
+	{
+		"Timestamp": "2017-05-19T00:01:00Z",
+		"Hits": 2939,
+		"AbsoluteHits": 6839639
+	},
+	{
+		"Timestamp": "2017-05-18T00:01:00Z",
+		"Hits": 2846,
+		"AbsoluteHits": 6831340
+	},
+	{
+		"Timestamp": "2017-05-17T00:01:00Z",
+		"Hits": 3009,
+		"AbsoluteHits": 6823464
+	},
+	{
+		"Timestamp": "2017-05-16T00:01:00Z",
+		"Hits": 2589,
+		"AbsoluteHits": 6814842
+	},
+	{
+		"Timestamp": "2017-05-15T00:01:00Z",
+		"Hits": 966,
+		"AbsoluteHits": 6806892
+	},
+	{
+		"Timestamp": "2017-05-14T00:01:00Z",
+		"Hits": 1057,
+		"AbsoluteHits": 6804932
+	},
+	{
+		"Timestamp": "2017-05-13T00:01:00Z",
+		"Hits": 2684,
+		"AbsoluteHits": 6802704
+	},
+	{
+		"Timestamp": "2017-05-12T00:01:00Z",
+		"Hits": 2980,
+		"AbsoluteHits": 6795467
+	},
+	{
+		"Timestamp": "2017-05-11T00:01:00Z",
+		"Hits": 2870,
+		"AbsoluteHits": 6786400
+	},
+	{
+		"Timestamp": "2017-05-10T00:01:00Z",
+		"Hits": 2978,
+		"AbsoluteHits": 6777495
+	},
+	{
+		"Timestamp": "2017-05-09T00:01:00Z",
+		"Hits": 2749,
+		"AbsoluteHits": 6768026
+	},
+	{
+		"Timestamp": "2017-05-08T00:01:00Z",
+		"Hits": 893,
+		"AbsoluteHits": 6759441
+	},
+	{
+		"Timestamp": "2017-05-07T00:01:00Z",
+		"Hits": 1028,
+		"AbsoluteHits": 6756820
+	},
+	{
+		"Timestamp": "2017-05-06T00:01:00Z",
+		"Hits": 2568,
+		"AbsoluteHits": 6754362
+	},
+	{
+		"Timestamp": "2017-05-05T00:01:00Z",
+		"Hits": 3525,
+		"AbsoluteHits": 6745951
+	},
+	{
+		"Timestamp": "2017-05-04T00:01:00Z",
+		"Hits": 3697,
+		"AbsoluteHits": 6732309
+	},
+	{
+		"Timestamp": "2017-05-03T00:01:00Z",
+		"Hits": 1904,
+		"AbsoluteHits": 6718532
+	},
+	{
+		"Timestamp": "2017-05-02T00:01:00Z",
+		"Hits": 1255,
+		"AbsoluteHits": 6712407
+	},
+	{
+		"Timestamp": "2017-05-01T00:01:00Z",
+		"Hits": 681,
+		"AbsoluteHits": 6708314
+	},
+	{
+		"Timestamp": "2017-04-30T00:01:00Z",
+		"Hits": 722,
+		"AbsoluteHits": 6706618
+	},
+	{
+		"Timestamp": "2017-04-29T00:01:00Z",
+		"Hits": 1715,
+		"AbsoluteHits": 6705132
+	},
+	{
+		"Timestamp": "2017-04-28T00:01:00Z",
+		"Hits": 2031,
+		"AbsoluteHits": 6699810
+	},
+	{
+		"Timestamp": "2017-04-27T00:01:00Z",
+		"Hits": 2234,
+		"AbsoluteHits": 6693280
+	},
+	{
+		"Timestamp": "2017-04-26T00:01:00Z",
+		"Hits": 2048,
+		"AbsoluteHits": 6686056
+	},
+	{
+		"Timestamp": "2017-04-25T00:01:00Z",
+		"Hits": 2187,
+		"AbsoluteHits": 6678642
+	},
+	{
+		"Timestamp": "2017-04-24T00:01:00Z",
+		"Hits": 824,
+		"AbsoluteHits": 6671574
+	},
+	{
+		"Timestamp": "2017-04-23T00:01:00Z",
+		"Hits": 904,
+		"AbsoluteHits": 6669468
+	},
+	{
+		"Timestamp": "2017-04-22T00:01:00Z",
+		"Hits": 1871,
+		"AbsoluteHits": 6667426
+	},
+	{
+		"Timestamp": "2017-04-21T00:01:00Z",
+		"Hits": 1998,
+		"AbsoluteHits": 6661336
+	},
+	{
+		"Timestamp": "2017-04-20T00:01:00Z",
+		"Hits": 1949,
+		"AbsoluteHits": 6653752
+	},
+	{
+		"Timestamp": "2017-04-19T00:01:00Z",
+		"Hits": 2056,
+		"AbsoluteHits": 6646893
+	},
+	{
+		"Timestamp": "2017-04-18T00:01:00Z",
+		"Hits": 1475,
+		"AbsoluteHits": 6639669
+	},
+	{
+		"Timestamp": "2017-04-17T00:01:00Z",
+		"Hits": 540,
+		"AbsoluteHits": 6634315
+	},
+	{
+		"Timestamp": "2017-04-16T00:01:00Z",
+		"Hits": 576,
+		"AbsoluteHits": 6632765
+	},
+	{
+		"Timestamp": "2017-04-15T00:01:00Z",
+		"Hits": 1109,
+		"AbsoluteHits": 6630993
+	},
+	{
+		"Timestamp": "2017-04-14T00:01:00Z",
+		"Hits": 1780,
+		"AbsoluteHits": 6627139
+	},
+	{
+		"Timestamp": "2017-04-13T00:01:00Z",
+		"Hits": 1885,
+		"AbsoluteHits": 6621007
+	},
+	{
+		"Timestamp": "2017-04-12T00:01:00Z",
+		"Hits": 1921,
+		"AbsoluteHits": 6614103
+	},
+	{
+		"Timestamp": "2017-04-11T00:01:00Z",
+		"Hits": 1743,
+		"AbsoluteHits": 6607250
+	},
+	{
+		"Timestamp": "2017-04-10T00:01:00Z",
+		"Hits": 492,
+		"AbsoluteHits": 6600895
+	},
+	{
+		"Timestamp": "2017-04-09T00:01:00Z",
+		"Hits": 576,
+		"AbsoluteHits": 6599415
+	},
+	{
+		"Timestamp": "2017-04-08T00:01:00Z",
+		"Hits": 1594,
+		"AbsoluteHits": 6597747
+	},
+	{
+		"Timestamp": "2017-04-07T00:01:00Z",
+		"Hits": 1845,
+		"AbsoluteHits": 6592100
+	},
+	{
+		"Timestamp": "2017-04-06T00:01:00Z",
+		"Hits": 1882,
+		"AbsoluteHits": 6585465
+	},
+	{
+		"Timestamp": "2017-04-05T00:01:00Z",
+		"Hits": 2016,
+		"AbsoluteHits": 6578690
+	},
+	{
+		"Timestamp": "2017-04-04T00:01:00Z",
+		"Hits": 2138,
+		"AbsoluteHits": 6571658
+	},
+	{
+		"Timestamp": "2017-04-03T00:01:00Z",
+		"Hits": -828,
+		"AbsoluteHits": 6563985
+	},
+	{
+		"Timestamp": "2017-04-02T00:01:00Z",
+		"Hits": 936,
+		"AbsoluteHits": 6561155
+	},
+	{
+		"Timestamp": "2017-04-01T00:01:00Z",
+		"Hits": 1918,
+		"AbsoluteHits": 6558521
+	},
+	{
+		"Timestamp": "2017-03-31T00:01:00Z",
+		"Hits": 2114,
+		"AbsoluteHits": 6551684
+	},
+	{
+		"Timestamp": "2017-03-30T00:01:00Z",
+		"Hits": 2062,
+		"AbsoluteHits": 6543885
+	},
+	{
+		"Timestamp": "2017-03-28T00:01:00Z",
+		"Hits": 2276,
+		"AbsoluteHits": 6528341
+	},
+	{
+		"Timestamp": "2017-03-27T00:01:00Z",
+		"Hits": 799,
+		"AbsoluteHits": 6520552
+	},
+	{
+		"Timestamp": "2017-03-26T00:01:00Z",
+		"Hits": 739,
+		"AbsoluteHits": 6517905
+	},
+	{
+		"Timestamp": "2017-03-25T00:01:00Z",
+		"Hits": 1920,
+		"AbsoluteHits": 6515845
+	},
+	{
+		"Timestamp": "2017-03-24T00:01:00Z",
+		"Hits": 2097,
+		"AbsoluteHits": 6509276
+	},
+	{
+		"Timestamp": "2017-03-23T00:01:00Z",
+		"Hits": 2088,
+		"AbsoluteHits": 6501910
+	},
+	{
+		"Timestamp": "2017-03-22T00:01:00Z",
+		"Hits": 2226,
+		"AbsoluteHits": 6494540
+	},
+	{
+		"Timestamp": "2017-03-21T00:01:00Z",
+		"Hits": 1960,
+		"AbsoluteHits": 6486696
+	},
+	{
+		"Timestamp": "2017-03-20T00:01:00Z",
+		"Hits": 713,
+		"AbsoluteHits": 6479608
+	},
+	{
+		"Timestamp": "2017-03-19T00:01:00Z",
+		"Hits": 797,
+		"AbsoluteHits": 6477285
+	},
+	{
+		"Timestamp": "2017-03-18T00:01:00Z",
+		"Hits": 1845,
+		"AbsoluteHits": 6474911
+	},
+	{
+		"Timestamp": "2017-03-17T00:01:00Z",
+		"Hits": 2109,
+		"AbsoluteHits": 6468389
+	},
+	{
+		"Timestamp": "2017-03-16T00:01:00Z",
+		"Hits": 2053,
+		"AbsoluteHits": 6460497
+	},
+	{
+		"Timestamp": "2017-03-15T00:01:00Z",
+		"Hits": 2154,
+		"AbsoluteHits": 6453019
+	},
+	{
+		"Timestamp": "2017-03-14T00:01:00Z",
+		"Hits": 1832,
+		"AbsoluteHits": 6445220
+	},
+	{
+		"Timestamp": "2017-03-13T00:01:00Z",
+		"Hits": 895,
+		"AbsoluteHits": 6438306
+	},
+	{
+		"Timestamp": "2017-03-12T00:01:00Z",
+		"Hits": 899,
+		"AbsoluteHits": 6436287
+	},
+	{
+		"Timestamp": "2017-03-11T00:01:00Z",
+		"Hits": 1954,
+		"AbsoluteHits": 6434147
+	},
+	{
+		"Timestamp": "2017-03-10T00:01:00Z",
+		"Hits": 2083,
+		"AbsoluteHits": 6428035
+	},
+	{
+		"Timestamp": "2017-03-09T00:01:00Z",
+		"Hits": 1998,
+		"AbsoluteHits": 6420816
+	},
+	{
+		"Timestamp": "2017-03-08T00:01:00Z",
+		"Hits": 1926,
+		"AbsoluteHits": 6413589
+	},
+	{
+		"Timestamp": "2017-03-07T00:01:00Z",
+		"Hits": 1908,
+		"AbsoluteHits": 6406691
+	},
+	{
+		"Timestamp": "2017-03-06T00:01:00Z",
+		"Hits": 757,
+		"AbsoluteHits": 6399565
+	},
+	{
+		"Timestamp": "2017-03-05T00:01:00Z",
+		"Hits": 770,
+		"AbsoluteHits": 6397592
+	},
+	{
+		"Timestamp": "2017-03-04T00:01:00Z",
+		"Hits": 1748,
+		"AbsoluteHits": 6395627
+	},
+	{
+		"Timestamp": "2017-03-03T00:01:00Z",
+		"Hits": 1960,
+		"AbsoluteHits": 6389253
+	},
+	{
+		"Timestamp": "2017-03-02T00:01:00Z",
+		"Hits": 1855,
+		"AbsoluteHits": 6381945
+	},
+	{
+		"Timestamp": "2017-03-01T00:01:00Z",
+		"Hits": 1915,
+		"AbsoluteHits": 6374444
+	},
+	{
+		"Timestamp": "2017-02-28T00:01:00Z",
+		"Hits": 1845,
+		"AbsoluteHits": 6367961
+	},
+	{
+		"Timestamp": "2017-02-27T00:01:00Z",
+		"Hits": 676,
+		"AbsoluteHits": 6360959
+	},
+	{
+		"Timestamp": "2017-02-26T00:01:00Z",
+		"Hits": 851,
+		"AbsoluteHits": 6358843
+	},
+	{
+		"Timestamp": "2017-02-25T00:01:00Z",
+		"Hits": 1740,
+		"AbsoluteHits": 6356848
+	},
+	{
+		"Timestamp": "2017-02-24T00:01:00Z",
+		"Hits": 2075,
+		"AbsoluteHits": 6350340
+	},
+	{
+		"Timestamp": "2017-02-23T00:01:00Z",
+		"Hits": 2104,
+		"AbsoluteHits": 6342887
+	},
+	{
+		"Timestamp": "2017-02-22T00:01:00Z",
+		"Hits": 2193,
+		"AbsoluteHits": 6335399
+	},
+	{
+		"Timestamp": "2017-02-21T00:01:00Z",
+		"Hits": 1967,
+		"AbsoluteHits": 6328147
+	},
+	{
+		"Timestamp": "2017-02-20T00:01:00Z",
+		"Hits": 820,
+		"AbsoluteHits": 6321740
+	},
+	{
+		"Timestamp": "2017-02-19T00:01:00Z",
+		"Hits": 942,
+		"AbsoluteHits": 6319823
+	},
+	{
+		"Timestamp": "2017-02-18T00:01:00Z",
+		"Hits": 1828,
+		"AbsoluteHits": 6317628
+	},
+	{
+		"Timestamp": "2017-02-17T00:01:00Z",
+		"Hits": 2141,
+		"AbsoluteHits": 6311518
+	},
+	{
+		"Timestamp": "2017-02-16T00:01:00Z",
+		"Hits": 2210,
+		"AbsoluteHits": 6304348
+	},
+	{
+		"Timestamp": "2017-02-15T00:01:00Z",
+		"Hits": 2203,
+		"AbsoluteHits": 6296902
+	},
+	{
+		"Timestamp": "2017-02-14T00:01:00Z",
+		"Hits": 2121,
+		"AbsoluteHits": 6289389
+	},
+	{
+		"Timestamp": "2017-02-13T00:01:00Z",
+		"Hits": 805,
+		"AbsoluteHits": 6282340
+	},
+	{
+		"Timestamp": "2017-02-12T00:01:00Z",
+		"Hits": 1002,
+		"AbsoluteHits": 6280345
+	},
+	{
+		"Timestamp": "2017-02-11T00:01:00Z",
+		"Hits": 2132,
+		"AbsoluteHits": 6277916
+	},
+	{
+		"Timestamp": "2017-02-10T00:01:00Z",
+		"Hits": 2268,
+		"AbsoluteHits": 6270979
+	},
+	{
+		"Timestamp": "2017-02-09T00:01:00Z",
+		"Hits": 2174,
+		"AbsoluteHits": 6263508
+	},
+	{
+		"Timestamp": "2017-02-08T00:01:00Z",
+		"Hits": 2140,
+		"AbsoluteHits": 6255736
+	},
+	{
+		"Timestamp": "2017-02-07T00:01:00Z",
+		"Hits": 2085,
+		"AbsoluteHits": 6248436
+	},
+	{
+		"Timestamp": "2017-02-06T00:01:00Z",
+		"Hits": 837,
+		"AbsoluteHits": 6241028
+	},
+	{
+		"Timestamp": "2017-02-05T00:01:00Z",
+		"Hits": 918,
+		"AbsoluteHits": 6238983
+	},
+	{
+		"Timestamp": "2017-02-04T00:01:00Z",
+		"Hits": 1942,
+		"AbsoluteHits": 6236748
+	},
+	{
+		"Timestamp": "2017-02-03T00:01:00Z",
+		"Hits": 2240,
+		"AbsoluteHits": 6230515
+	},
+	{
+		"Timestamp": "2017-02-02T00:01:00Z",
+		"Hits": 2036,
+		"AbsoluteHits": 6222652
+	},
+	{
+		"Timestamp": "2017-02-01T00:01:00Z",
+		"Hits": 2073,
+		"AbsoluteHits": 6215366
+	},
+	{
+		"Timestamp": "2017-01-31T00:01:00Z",
+		"Hits": 2035,
+		"AbsoluteHits": 6208292
+	},
+	{
+		"Timestamp": "2017-01-30T00:01:00Z",
+		"Hits": 868,
+		"AbsoluteHits": 6201553
+	},
+	{
+		"Timestamp": "2017-01-29T00:01:00Z",
+		"Hits": 903,
+		"AbsoluteHits": 6199335
+	},
+	{
+		"Timestamp": "2017-01-28T00:01:00Z",
+		"Hits": 1731,
+		"AbsoluteHits": 6197180
+	},
+	{
+		"Timestamp": "2017-01-27T00:01:00Z",
+		"Hits": 1716,
+		"AbsoluteHits": 6191058
+	},
+	{
+		"Timestamp": "2017-01-26T00:01:00Z",
+		"Hits": 1929,
+		"AbsoluteHits": 6184448
+	},
+	{
+		"Timestamp": "2017-01-25T00:01:00Z",
+		"Hits": 2056,
+		"AbsoluteHits": 6176857
+	},
+	{
+		"Timestamp": "2017-01-24T00:01:00Z",
+		"Hits": 1900,
+		"AbsoluteHits": 6169113
+	},
+	{
+		"Timestamp": "2017-01-23T00:01:00Z",
+		"Hits": 728,
+		"AbsoluteHits": 6161614
+	},
+	{
+		"Timestamp": "2017-01-22T00:01:00Z",
+		"Hits": 751,
+		"AbsoluteHits": 6159443
+	},
+	{
+		"Timestamp": "2017-01-20T00:01:00Z",
+		"Hits": 2341,
+		"AbsoluteHits": 6150875
+	},
+	{
+		"Timestamp": "2017-01-19T00:01:00Z",
+		"Hits": 2647,
+		"AbsoluteHits": 6140543
+	},
+	{
+		"Timestamp": "2017-01-18T00:01:00Z",
+		"Hits": 2049,
+		"AbsoluteHits": 6128620
+	},
+	{
+		"Timestamp": "2017-01-17T00:01:00Z",
+		"Hits": 1891,
+		"AbsoluteHits": 6121238
+	},
+	{
+		"Timestamp": "2017-01-16T00:01:00Z",
+		"Hits": 708,
+		"AbsoluteHits": 6115050
+	},
+	{
+		"Timestamp": "2017-01-15T00:01:00Z",
+		"Hits": 761,
+		"AbsoluteHits": 6113286
+	},
+	{
+		"Timestamp": "2017-01-14T00:01:00Z",
+		"Hits": 1660,
+		"AbsoluteHits": 6111535
+	},
+	{
+		"Timestamp": "2017-01-13T00:01:00Z",
+		"Hits": 1913,
+		"AbsoluteHits": 6105919
+	},
+	{
+		"Timestamp": "2017-01-12T00:01:00Z",
+		"Hits": 1974,
+		"AbsoluteHits": 6099134
+	},
+	{
+		"Timestamp": "2017-01-11T00:01:00Z",
+		"Hits": 1963,
+		"AbsoluteHits": 6092509
+	},
+	{
+		"Timestamp": "2017-01-10T00:01:00Z",
+		"Hits": 1853,
+		"AbsoluteHits": 6085411
+	},
+	{
+		"Timestamp": "2017-01-09T00:01:00Z",
+		"Hits": 740,
+		"AbsoluteHits": 6078498
+	},
+	{
+		"Timestamp": "2017-01-08T00:01:00Z",
+		"Hits": 795,
+		"AbsoluteHits": 6076693
+	},
+	{
+		"Timestamp": "2017-01-07T00:01:00Z",
+		"Hits": 1624,
+		"AbsoluteHits": 6074919
+	},
+	{
+		"Timestamp": "2017-01-06T00:01:00Z",
+		"Hits": 1912,
+		"AbsoluteHits": 6069697
+	},
+	{
+		"Timestamp": "2017-01-05T00:01:00Z",
+		"Hits": 1890,
+		"AbsoluteHits": 6063431
+	},
+	{
+		"Timestamp": "2017-01-04T00:01:00Z",
+		"Hits": 1760,
+		"AbsoluteHits": 6057064
+	},
+	{
+		"Timestamp": "2017-01-03T00:01:00Z",
+		"Hits": 1154,
+		"AbsoluteHits": 6050865
+	},
+	{
+		"Timestamp": "2017-01-02T00:01:00Z",
+		"Hits": 568,
+		"AbsoluteHits": 6047472
+	},
+	{
+		"Timestamp": "2017-01-01T00:01:00Z",
+		"Hits": 614,
+		"AbsoluteHits": 6046264
+	},
+	{
+		"Timestamp": "2016-12-31T00:01:00Z",
+		"Hits": 1208,
+		"AbsoluteHits": 6045014
+	},
+	{
+		"Timestamp": "2016-12-30T00:01:00Z",
+		"Hits": 1481,
+		"AbsoluteHits": 6041437
+	},
+	{
+		"Timestamp": "2016-12-29T00:01:00Z",
+		"Hits": 1573,
+		"AbsoluteHits": 6036852
+	},
+	{
+		"Timestamp": "2016-12-28T00:01:00Z",
+		"Hits": 1459,
+		"AbsoluteHits": 6032079
+	},
+	{
+		"Timestamp": "2016-12-27T00:01:00Z",
+		"Hits": 1096,
+		"AbsoluteHits": 6027467
+	},
+	{
+		"Timestamp": "2016-12-26T00:01:00Z",
+		"Hits": 546,
+		"AbsoluteHits": 6024406
+	},
+	{
+		"Timestamp": "2016-12-25T00:01:00Z",
+		"Hits": 614,
+		"AbsoluteHits": 6023234
+	},
+	{
+		"Timestamp": "2016-12-24T00:01:00Z",
+		"Hits": 1256,
+		"AbsoluteHits": 6021827
+	},
+	{
+		"Timestamp": "2016-12-23T00:01:00Z",
+		"Hits": 1767,
+		"AbsoluteHits": 6017645
+	},
+	{
+		"Timestamp": "2016-12-22T00:01:00Z",
+		"Hits": 1874,
+		"AbsoluteHits": 6011930
+	},
+	{
+		"Timestamp": "2016-12-21T00:01:00Z",
+		"Hits": 1822,
+		"AbsoluteHits": 6005929
+	},
+	{
+		"Timestamp": "2016-12-20T00:01:00Z",
+		"Hits": 1793,
+		"AbsoluteHits": 5999394
+	},
+	{
+		"Timestamp": "2016-12-19T00:01:00Z",
+		"Hits": 795,
+		"AbsoluteHits": 5993267
+	},
+	{
+		"Timestamp": "2016-12-18T00:01:00Z",
+		"Hits": 827,
+		"AbsoluteHits": 5991268
+	},
+	{
+		"Timestamp": "2016-12-17T00:01:00Z",
+		"Hits": 1756,
+		"AbsoluteHits": 5989421
+	},
+	{
+		"Timestamp": "2016-12-16T00:01:00Z",
+		"Hits": 1996,
+		"AbsoluteHits": 5983818
+	},
+	{
+		"Timestamp": "2016-12-15T00:01:00Z",
+		"Hits": 1969,
+		"AbsoluteHits": 5977263
+	},
+	{
+		"Timestamp": "2016-12-14T00:01:00Z",
+		"Hits": 1817,
+		"AbsoluteHits": 5970773
+	},
+	{
+		"Timestamp": "2016-12-13T00:01:00Z",
+		"Hits": 1724,
+		"AbsoluteHits": 5964166
+	},
+	{
+		"Timestamp": "2016-12-12T00:01:00Z",
+		"Hits": 669,
+		"AbsoluteHits": 5957888
+	},
+	{
+		"Timestamp": "2016-12-11T00:01:00Z",
+		"Hits": 773,
+		"AbsoluteHits": 5956214
+	},
+	{
+		"Timestamp": "2016-12-10T00:01:00Z",
+		"Hits": 1557,
+		"AbsoluteHits": 5954253
+	},
+	{
+		"Timestamp": "2016-12-09T00:01:00Z",
+		"Hits": 1763,
+		"AbsoluteHits": 5948415
+	},
+	{
+		"Timestamp": "2016-12-08T00:01:00Z",
+		"Hits": 1884,
+		"AbsoluteHits": 5942680
+	},
+	{
+		"Timestamp": "2016-12-07T00:01:00Z",
+		"Hits": 1841,
+		"AbsoluteHits": 5935779
+	},
+	{
+		"Timestamp": "2016-12-06T00:01:00Z",
+		"Hits": 1841,
+		"AbsoluteHits": 5928216
+	},
+	{
+		"Timestamp": "2016-12-05T00:01:00Z",
+		"Hits": 674,
+		"AbsoluteHits": 5921676
+	},
+	{
+		"Timestamp": "2016-12-04T00:01:00Z",
+		"Hits": 723,
+		"AbsoluteHits": 5919993
+	},
+	{
+		"Timestamp": "2016-12-03T00:01:00Z",
+		"Hits": 1727,
+		"AbsoluteHits": 5917970
+	},
+	{
+		"Timestamp": "2016-12-02T00:01:00Z",
+		"Hits": 1920,
+		"AbsoluteHits": 5912019
+	},
+	{
+		"Timestamp": "2016-12-01T00:01:00Z",
+		"Hits": 2030,
+		"AbsoluteHits": 5905683
+	},
+	{
+		"Timestamp": "2016-11-30T00:01:00Z",
+		"Hits": 2078,
+		"AbsoluteHits": 5898544
+	},
+	{
+		"Timestamp": "2016-11-29T00:01:00Z",
+		"Hits": 1903,
+		"AbsoluteHits": 5891349
+	},
+	{
+		"Timestamp": "2016-11-28T00:01:00Z",
+		"Hits": 773,
+		"AbsoluteHits": 5884835
+	},
+	{
+		"Timestamp": "2016-11-27T00:01:00Z",
+		"Hits": 795,
+		"AbsoluteHits": 5882965
+	},
+	{
+		"Timestamp": "2016-11-26T00:01:00Z",
+		"Hits": 1469,
+		"AbsoluteHits": 5881293
+	},
+	{
+		"Timestamp": "2016-11-25T00:01:00Z",
+		"Hits": 1729,
+		"AbsoluteHits": 5876542
+	},
+	{
+		"Timestamp": "2016-11-24T00:01:00Z",
+		"Hits": 1868,
+		"AbsoluteHits": 5871478
+	},
+	{
+		"Timestamp": "2016-11-23T00:01:00Z",
+		"Hits": 2065,
+		"AbsoluteHits": 5865057
+	},
+	{
+		"Timestamp": "2016-11-22T00:01:00Z",
+		"Hits": 1899,
+		"AbsoluteHits": 5857251
+	},
+	{
+		"Timestamp": "2016-11-21T00:01:00Z",
+		"Hits": 827,
+		"AbsoluteHits": 5850458
+	},
+	{
+		"Timestamp": "2016-11-20T00:01:00Z",
+		"Hits": 845,
+		"AbsoluteHits": 5848496
+	},
+	{
+		"Timestamp": "2016-11-19T00:01:00Z",
+		"Hits": 1814,
+		"AbsoluteHits": 5846375
+	},
+	{
+		"Timestamp": "2016-11-18T00:01:00Z",
+		"Hits": 1869,
+		"AbsoluteHits": 5840103
+	},
+	{
+		"Timestamp": "2016-11-17T00:01:00Z",
+		"Hits": 1976,
+		"AbsoluteHits": 5833208
+	},
+	{
+		"Timestamp": "2016-11-16T00:01:00Z",
+		"Hits": 2061,
+		"AbsoluteHits": 5825958
+	},
+	{
+		"Timestamp": "2016-11-15T00:01:00Z",
+		"Hits": 1921,
+		"AbsoluteHits": 5819273
+	},
+	{
+		"Timestamp": "2016-11-14T00:01:00Z",
+		"Hits": 843,
+		"AbsoluteHits": 5812235
+	},
+	{
+		"Timestamp": "2016-11-13T00:01:00Z",
+		"Hits": 820,
+		"AbsoluteHits": 5810104
+	},
+	{
+		"Timestamp": "2016-11-12T00:01:00Z",
+		"Hits": 1840,
+		"AbsoluteHits": 5808111
+	},
+	{
+		"Timestamp": "2016-11-11T00:01:00Z",
+		"Hits": 2106,
+		"AbsoluteHits": 5802235
+	},
+	{
+		"Timestamp": "2016-11-10T00:01:00Z",
+		"Hits": 1967,
+		"AbsoluteHits": 5795195
+	},
+	{
+		"Timestamp": "2016-11-09T00:01:00Z",
+		"Hits": 1992,
+		"AbsoluteHits": 5788481
+	},
+	{
+		"Timestamp": "2016-11-08T00:01:00Z",
+		"Hits": 1926,
+		"AbsoluteHits": 5781576
+	},
+	{
+		"Timestamp": "2016-11-07T00:01:00Z",
+		"Hits": 758,
+		"AbsoluteHits": 5774667
+	},
+	{
+		"Timestamp": "2016-11-06T00:01:00Z",
+		"Hits": 810,
+		"AbsoluteHits": 5772799
+	},
+	{
+		"Timestamp": "2016-11-05T00:01:00Z",
+		"Hits": 1893,
+		"AbsoluteHits": 5770734
+	},
+	{
+		"Timestamp": "2016-11-04T00:01:00Z",
+		"Hits": 2110,
+		"AbsoluteHits": 5764632
+	},
+	{
+		"Timestamp": "2016-11-03T00:01:00Z",
+		"Hits": 1952,
+		"AbsoluteHits": 5757414
+	},
+	{
+		"Timestamp": "2016-11-02T00:01:00Z",
+		"Hits": 1665,
+		"AbsoluteHits": 5750266
+	},
+	{
+		"Timestamp": "2016-11-01T00:01:00Z",
+		"Hits": 1566,
+		"AbsoluteHits": 5744178
+	},
+	{
+		"Timestamp": "2016-10-31T00:01:00Z",
+		"Hits": 550,
+		"AbsoluteHits": 0
+	},
+	{
+		"Timestamp": "2016-10-30T00:01:00Z",
+		"Hits": 583,
+		"AbsoluteHits": 5736163
+	},
+	{
+		"Timestamp": "2016-10-29T00:01:00Z",
+		"Hits": 1737,
+		"AbsoluteHits": 5734328
+	},
+	{
+		"Timestamp": "2016-10-28T00:01:00Z",
+		"Hits": 2022,
+		"AbsoluteHits": 5728011
+	},
+	{
+		"Timestamp": "2016-10-27T00:01:00Z",
+		"Hits": 2184,
+		"AbsoluteHits": 5720769
+	},
+	{
+		"Timestamp": "2016-10-26T00:01:00Z",
+		"Hits": 2193,
+		"AbsoluteHits": 5713141
+	},
+	{
+		"Timestamp": "2016-10-25T00:01:00Z",
+		"Hits": -2050,
+		"AbsoluteHits": 5705490
+	},
+	{
+		"Timestamp": "2016-10-24T00:01:00Z",
+		"Hits": 778,
+		"AbsoluteHits": 5698517
+	},
+	{
+		"Timestamp": "2016-10-23T00:01:00Z",
+		"Hits": 856,
+		"AbsoluteHits": 5696530
+	},
+	{
+		"Timestamp": "2016-10-22T00:01:00Z",
+		"Hits": 1818,
+		"AbsoluteHits": 5694449
+	},
+	{
+		"Timestamp": "2016-10-21T00:01:00Z",
+		"Hits": 2004,
+		"AbsoluteHits": 5688510
+	},
+	{
+		"Timestamp": "2016-10-20T00:01:00Z",
+		"Hits": 2131,
+		"AbsoluteHits": 5681154
+	},
+	{
+		"Timestamp": "2016-10-19T00:01:00Z",
+		"Hits": 2057,
+		"AbsoluteHits": 5673810
+	},
+	{
+		"Timestamp": "2016-10-18T00:01:00Z",
+		"Hits": 1962,
+		"AbsoluteHits": 5666488
+	},
+	{
+		"Timestamp": "2016-10-17T00:01:00Z",
+		"Hits": 737,
+		"AbsoluteHits": 5659860
+	},
+	{
+		"Timestamp": "2016-10-16T00:01:00Z",
+		"Hits": 833,
+		"AbsoluteHits": 5657861
+	},
+	{
+		"Timestamp": "2016-10-15T00:01:00Z",
+		"Hits": 1989,
+		"AbsoluteHits": 5655883
+	},
+	{
+		"Timestamp": "2016-10-14T00:01:00Z",
+		"Hits": 2151,
+		"AbsoluteHits": 5649018
+	},
+	{
+		"Timestamp": "2016-10-13T00:01:00Z",
+		"Hits": 2077,
+		"AbsoluteHits": 5642153
+	},
+	{
+		"Timestamp": "2016-10-12T00:01:00Z",
+		"Hits": 1869,
+		"AbsoluteHits": 5634123
+	},
+	{
+		"Timestamp": "2016-10-11T00:01:00Z",
+		"Hits": 1753,
+		"AbsoluteHits": 5627286
+	},
+	{
+		"Timestamp": "2016-10-10T00:01:00Z",
+		"Hits": 763,
+		"AbsoluteHits": 5621298
+	},
+	{
+		"Timestamp": "2016-10-09T00:01:00Z",
+		"Hits": 868,
+		"AbsoluteHits": 5619208
+	},
+	{
+		"Timestamp": "2016-10-08T00:01:00Z",
+		"Hits": 1770,
+		"AbsoluteHits": 5617084
+	},
+	{
+		"Timestamp": "2016-10-07T00:01:00Z",
+		"Hits": 1998,
+		"AbsoluteHits": 5611348
+	},
+	{
+		"Timestamp": "2016-10-06T00:01:00Z",
+		"Hits": 2039,
+		"AbsoluteHits": 5604181
+	},
+	{
+		"Timestamp": "2016-10-05T00:01:00Z",
+		"Hits": 1942,
+		"AbsoluteHits": 5597379
+	},
+	{
+		"Timestamp": "2016-10-04T00:01:00Z",
+		"Hits": 1885,
+		"AbsoluteHits": 5589895
+	},
+	{
+		"Timestamp": "2016-10-03T00:01:00Z",
+		"Hits": 747,
+		"AbsoluteHits": 5583011
+	},
+	{
+		"Timestamp": "2016-10-02T00:01:00Z",
+		"Hits": 706,
+		"AbsoluteHits": 5581122
+	},
+	{
+		"Timestamp": "2016-10-01T00:01:00Z",
+		"Hits": 1663,
+		"AbsoluteHits": 5579278
+	},
+	{
+		"Timestamp": "2016-09-30T00:01:00Z",
+		"Hits": 2006,
+		"AbsoluteHits": 5573536
+	},
+	{
+		"Timestamp": "2016-09-29T00:01:00Z",
+		"Hits": 1970,
+		"AbsoluteHits": 5566448
+	},
+	{
+		"Timestamp": "2016-09-28T00:01:00Z",
+		"Hits": 2184,
+		"AbsoluteHits": 5559261
+	},
+	{
+		"Timestamp": "2016-09-27T00:01:00Z",
+		"Hits": 2088,
+		"AbsoluteHits": 5551633
+	},
+	{
+		"Timestamp": "2016-09-26T00:01:00Z",
+		"Hits": 833,
+		"AbsoluteHits": 5544225
+	},
+	{
+		"Timestamp": "2016-09-25T00:01:00Z",
+		"Hits": 865,
+		"AbsoluteHits": 5542147
+	},
+	{
+		"Timestamp": "2016-09-24T00:01:00Z",
+		"Hits": 1883,
+		"AbsoluteHits": 5540133
+	},
+	{
+		"Timestamp": "2016-09-23T00:01:00Z",
+		"Hits": 2189,
+		"AbsoluteHits": 5533674
+	},
+	{
+		"Timestamp": "2016-09-22T00:01:00Z",
+		"Hits": 2196,
+		"AbsoluteHits": 5526464
+	},
+	{
+		"Timestamp": "2016-09-21T00:01:00Z",
+		"Hits": 2119,
+		"AbsoluteHits": 5518757
+	},
+	{
+		"Timestamp": "2016-09-20T00:01:00Z",
+		"Hits": 2083,
+		"AbsoluteHits": 5511199
+	},
+	{
+		"Timestamp": "2016-09-19T00:01:00Z",
+		"Hits": 872,
+		"AbsoluteHits": 5502818
+	},
+	{
+		"Timestamp": "2016-09-18T00:01:00Z",
+		"Hits": 887,
+		"AbsoluteHits": 5500388
+	},
+	{
+		"Timestamp": "2016-09-17T00:01:00Z",
+		"Hits": 1876,
+		"AbsoluteHits": 5498169
+	},
+	{
+		"Timestamp": "2016-09-16T00:01:00Z",
+		"Hits": 2402,
+		"AbsoluteHits": 5490375
+	},
+	{
+		"Timestamp": "2016-09-15T00:01:00Z",
+		"Hits": 2994,
+		"AbsoluteHits": 5479460
+	},
+	{
+		"Timestamp": "2016-09-14T00:01:00Z",
+		"Hits": 1993,
+		"AbsoluteHits": 5466068
+	},
+	{
+		"Timestamp": "2016-09-13T00:01:00Z",
+		"Hits": 1735,
+		"AbsoluteHits": 5458826
+	},
+	{
+		"Timestamp": "2016-09-12T00:01:00Z",
+		"Hits": 638,
+		"AbsoluteHits": 5452289
+	},
+	{
+		"Timestamp": "2016-09-11T00:01:00Z",
+		"Hits": 752,
+		"AbsoluteHits": 5450655
+	},
+	{
+		"Timestamp": "2016-09-10T00:01:00Z",
+		"Hits": 1794,
+		"AbsoluteHits": 5448615
+	},
+	{
+		"Timestamp": "2016-09-09T00:01:00Z",
+		"Hits": 1975,
+		"AbsoluteHits": 5442398
+	},
+	{
+		"Timestamp": "2016-09-08T00:01:00Z",
+		"Hits": 1965,
+		"AbsoluteHits": 5435576
+	},
+	{
+		"Timestamp": "2016-09-07T00:01:00Z",
+		"Hits": 2137,
+		"AbsoluteHits": 5428781
+	},
+	{
+		"Timestamp": "2016-09-06T00:01:00Z",
+		"Hits": 1571,
+		"AbsoluteHits": 5421591
+	},
+	{
+		"Timestamp": "2016-09-05T00:01:00Z",
+		"Hits": 762,
+		"AbsoluteHits": 5417101
+	},
+	{
+		"Timestamp": "2016-09-04T00:01:00Z",
+		"Hits": 804,
+		"AbsoluteHits": 5415067
+	},
+	{
+		"Timestamp": "2016-09-03T00:01:00Z",
+		"Hits": 1858,
+		"AbsoluteHits": 5413254
+	},
+	{
+		"Timestamp": "2016-09-02T00:01:00Z",
+		"Hits": 2034,
+		"AbsoluteHits": 5407361
+	},
+	{
+		"Timestamp": "2016-09-01T00:01:00Z",
+		"Hits": 1887,
+		"AbsoluteHits": 5400782
+	},
+	{
+		"Timestamp": "2016-08-31T00:01:00Z",
+		"Hits": 1975,
+		"AbsoluteHits": 5394317
+	},
+	{
+		"Timestamp": "2016-08-30T00:01:00Z",
+		"Hits": 1953,
+		"AbsoluteHits": 5386938
+	},
+	{
+		"Timestamp": "2016-08-29T00:01:00Z",
+		"Hits": 643,
+		"AbsoluteHits": 5379896
+	},
+	{
+		"Timestamp": "2016-08-28T00:01:00Z",
+		"Hits": 640,
+		"AbsoluteHits": 5378284
+	},
+	{
+		"Timestamp": "2016-08-27T00:01:00Z",
+		"Hits": 1648,
+		"AbsoluteHits": 5376675
+	},
+	{
+		"Timestamp": "2016-08-26T00:01:00Z",
+		"Hits": 1984,
+		"AbsoluteHits": 5371207
+	},
+	{
+		"Timestamp": "2016-08-25T00:01:00Z",
+		"Hits": 2051,
+		"AbsoluteHits": 5364895
+	},
+	{
+		"Timestamp": "2016-08-24T00:01:00Z",
+		"Hits": 2281,
+		"AbsoluteHits": 5357391
+	},
+	{
+		"Timestamp": "2016-08-23T00:01:00Z",
+		"Hits": 2139,
+		"AbsoluteHits": 5349782
+	},
+	{
+		"Timestamp": "2016-08-22T00:01:00Z",
+		"Hits": 738,
+		"AbsoluteHits": 5342963
+	},
+	{
+		"Timestamp": "2016-08-21T00:01:00Z",
+		"Hits": 787,
+		"AbsoluteHits": 5341224
+	},
+	{
+		"Timestamp": "2016-08-20T00:01:00Z",
+		"Hits": 1784,
+		"AbsoluteHits": 5339346
+	},
+	{
+		"Timestamp": "2016-08-19T00:01:00Z",
+		"Hits": 2124,
+		"AbsoluteHits": 5333564
+	},
+	{
+		"Timestamp": "2016-08-18T00:01:00Z",
+		"Hits": 2106,
+		"AbsoluteHits": 5326582
+	},
+	{
+		"Timestamp": "2016-08-17T00:01:00Z",
+		"Hits": 2184,
+		"AbsoluteHits": 5319659
+	},
+	{
+		"Timestamp": "2016-08-16T00:01:00Z",
+		"Hits": 1723,
+		"AbsoluteHits": 5312591
+	},
+	{
+		"Timestamp": "2016-08-15T00:01:00Z",
+		"Hits": 736,
+		"AbsoluteHits": 5306899
+	},
+	{
+		"Timestamp": "2016-08-14T00:01:00Z",
+		"Hits": 678,
+		"AbsoluteHits": 5305175
+	},
+	{
+		"Timestamp": "2016-08-13T00:01:00Z",
+		"Hits": 1719,
+		"AbsoluteHits": 5303453
+	},
+	{
+		"Timestamp": "2016-08-12T00:01:00Z",
+		"Hits": 2154,
+		"AbsoluteHits": 5297696
+	},
+	{
+		"Timestamp": "2016-08-11T00:01:00Z",
+		"Hits": 2242,
+		"AbsoluteHits": 5290017
+	},
+	{
+		"Timestamp": "2016-08-10T00:01:00Z",
+		"Hits": 2059,
+		"AbsoluteHits": 5280643
+	},
+	{
+		"Timestamp": "2016-08-09T00:01:00Z",
+		"Hits": 2140,
+		"AbsoluteHits": 5270785
+	},
+	{
+		"Timestamp": "2016-08-08T00:01:00Z",
+		"Hits": 833,
+		"AbsoluteHits": 5261794
+	},
+	{
+		"Timestamp": "2016-08-07T00:01:00Z",
+		"Hits": 924,
+		"AbsoluteHits": 5258128
+	},
+	{
+		"Timestamp": "2016-08-06T00:01:00Z",
+		"Hits": 1935,
+		"AbsoluteHits": 5253652
+	},
+	{
+		"Timestamp": "2016-08-05T00:01:00Z",
+		"Hits": 2358,
+		"AbsoluteHits": 5244637
+	},
+	{
+		"Timestamp": "2016-08-04T00:01:00Z",
+		"Hits": 2231,
+		"AbsoluteHits": 5234441
+	},
+	{
+		"Timestamp": "2016-08-03T00:01:00Z",
+		"Hits": 2186,
+		"AbsoluteHits": 5224515
+	},
+	{
+		"Timestamp": "2016-08-02T00:01:00Z",
+		"Hits": 2257,
+		"AbsoluteHits": 5215015
+	},
+	{
+		"Timestamp": "2016-08-01T00:01:00Z",
+		"Hits": 793,
+		"AbsoluteHits": 5205611
+	},
+	{
+		"Timestamp": "2016-07-31T00:01:00Z",
+		"Hits": 912,
+		"AbsoluteHits": 5201448
+	},
+	{
+		"Timestamp": "2016-07-30T00:01:00Z",
+		"Hits": 2091,
+		"AbsoluteHits": 5197110
+	},
+	{
+		"Timestamp": "2016-07-29T00:01:00Z",
+		"Hits": 2482,
+		"AbsoluteHits": 5188363
+	},
+	{
+		"Timestamp": "2016-07-28T00:01:00Z",
+		"Hits": 2495,
+		"AbsoluteHits": 5178246
+	},
+	{
+		"Timestamp": "2016-07-27T00:01:00Z",
+		"Hits": 2416,
+		"AbsoluteHits": 5167987
+	},
+	{
+		"Timestamp": "2016-07-26T00:01:00Z",
+		"Hits": 2274,
+		"AbsoluteHits": 5157294
+	},
+	{
+		"Timestamp": "2016-07-25T00:01:00Z",
+		"Hits": 684,
+		"AbsoluteHits": 5147614
+	},
+	{
+		"Timestamp": "2016-07-24T00:01:00Z",
+		"Hits": 736,
+		"AbsoluteHits": 5143808
+	},
+	{
+		"Timestamp": "2016-07-23T00:01:00Z",
+		"Hits": 1946,
+		"AbsoluteHits": 5138383
+	},
+	{
+		"Timestamp": "2016-07-22T00:01:00Z",
+		"Hits": 2110,
+		"AbsoluteHits": 5129200
+	},
+	{
+		"Timestamp": "2016-07-21T00:01:00Z",
+		"Hits": 2127,
+		"AbsoluteHits": 5120152
+	},
+	{
+		"Timestamp": "2016-07-20T00:01:00Z",
+		"Hits": 2262,
+		"AbsoluteHits": 5110623
+	},
+	{
+		"Timestamp": "2016-07-19T00:01:00Z",
+		"Hits": 2100,
+		"AbsoluteHits": 5101226
+	},
+	{
+		"Timestamp": "2016-07-18T00:01:00Z",
+		"Hits": 791,
+		"AbsoluteHits": 5091418
+	},
+	{
+		"Timestamp": "2016-07-17T00:01:00Z",
+		"Hits": 775,
+		"AbsoluteHits": 5087012
+	},
+	{
+		"Timestamp": "2016-07-16T00:01:00Z",
+		"Hits": 1939,
+		"AbsoluteHits": 5082632
+	},
+	{
+		"Timestamp": "2016-07-15T00:01:00Z",
+		"Hits": 2168,
+		"AbsoluteHits": 5074683
+	},
+	{
+		"Timestamp": "2016-07-14T00:01:00Z",
+		"Hits": 2225,
+		"AbsoluteHits": 5065329
+	},
+	{
+		"Timestamp": "2016-07-13T00:01:00Z",
+		"Hits": 2249,
+		"AbsoluteHits": 5055842
+	},
+	{
+		"Timestamp": "2016-07-12T00:01:00Z",
+		"Hits": 2138,
+		"AbsoluteHits": 5046347
+	},
+	{
+		"Timestamp": "2016-07-11T00:01:00Z",
+		"Hits": 797,
+		"AbsoluteHits": 5036797
+	},
+	{
+		"Timestamp": "2016-07-10T00:01:00Z",
+		"Hits": 853,
+		"AbsoluteHits": 5033435
+	},
+	{
+		"Timestamp": "2016-07-09T00:01:00Z",
+		"Hits": 1816,
+		"AbsoluteHits": 5029444
+	},
+	{
+		"Timestamp": "2016-07-08T00:01:00Z",
+		"Hits": 1975,
+		"AbsoluteHits": 5021303
+	},
+	{
+		"Timestamp": "2016-07-07T00:01:00Z",
+		"Hits": 1930,
+		"AbsoluteHits": 5012272
+	},
+	{
+		"Timestamp": "2016-07-06T00:01:00Z",
+		"Hits": 1943,
+		"AbsoluteHits": 5003440
+	},
+	{
+		"Timestamp": "2016-07-05T00:01:00Z",
+		"Hits": 1774,
+		"AbsoluteHits": 4994698
+	},
+	{
+		"Timestamp": "2016-07-04T00:01:00Z",
+		"Hits": 730,
+		"AbsoluteHits": 4987541
+	},
+	{
+		"Timestamp": "2016-07-03T00:01:00Z",
+		"Hits": 865,
+		"AbsoluteHits": 4984300
+	},
+	{
+		"Timestamp": "2016-07-02T00:01:00Z",
+		"Hits": 1909,
+		"AbsoluteHits": 4980910
+	},
+	{
+		"Timestamp": "2016-07-01T00:01:00Z",
+		"Hits": 2227,
+		"AbsoluteHits": 4973307
+	},
+	{
+		"Timestamp": "2016-06-30T00:01:00Z",
+		"Hits": 2309,
+		"AbsoluteHits": 4964711
+	},
+	{
+		"Timestamp": "2016-06-29T00:01:00Z",
+		"Hits": 2398,
+		"AbsoluteHits": 4955287
+	},
+	{
+		"Timestamp": "2016-06-28T00:01:00Z",
+		"Hits": 2171,
+		"AbsoluteHits": 4946124
+	},
+	{
+		"Timestamp": "2016-06-27T00:01:00Z",
+		"Hits": 841,
+		"AbsoluteHits": 4937598
+	},
+	{
+		"Timestamp": "2016-06-26T00:01:00Z",
+		"Hits": 983,
+		"AbsoluteHits": 4934509
+	},
+	{
+		"Timestamp": "2016-06-25T00:01:00Z",
+		"Hits": 1979,
+		"AbsoluteHits": 4931238
+	},
+	{
+		"Timestamp": "2016-06-24T00:01:00Z",
+		"Hits": 2295,
+		"AbsoluteHits": 4923623
+	},
+	{
+		"Timestamp": "2016-06-23T00:01:00Z",
+		"Hits": 2191,
+		"AbsoluteHits": 4914108
+	},
+	{
+		"Timestamp": "2016-06-22T00:01:00Z",
+		"Hits": 2291,
+		"AbsoluteHits": 4905297
+	},
+	{
+		"Timestamp": "2016-06-21T00:01:00Z",
+		"Hits": 2054,
+		"AbsoluteHits": 4895198
+	},
+	{
+		"Timestamp": "2016-06-20T00:01:00Z",
+		"Hits": 712,
+		"AbsoluteHits": 4885331
+	},
+	{
+		"Timestamp": "2016-06-19T00:01:00Z",
+		"Hits": 799,
+		"AbsoluteHits": 4880438
+	},
+	{
+		"Timestamp": "2016-06-18T00:01:00Z",
+		"Hits": 1932,
+		"AbsoluteHits": 4875398
+	},
+	{
+		"Timestamp": "2016-06-17T00:01:00Z",
+		"Hits": 2225,
+		"AbsoluteHits": 4865899
+	},
+	{
+		"Timestamp": "2016-06-16T00:01:00Z",
+		"Hits": 2053,
+		"AbsoluteHits": 4855669
+	},
+	{
+		"Timestamp": "2016-06-15T00:01:00Z",
+		"Hits": 2214,
+		"AbsoluteHits": 4845648
+	},
+	{
+		"Timestamp": "2016-06-14T00:01:00Z",
+		"Hits": 2110,
+		"AbsoluteHits": 4835229
+	},
+	{
+		"Timestamp": "2016-06-13T00:01:00Z",
+		"Hits": 780,
+		"AbsoluteHits": 4825613
+	},
+	{
+		"Timestamp": "2016-06-12T00:01:00Z",
+		"Hits": 770,
+		"AbsoluteHits": 4821305
+	},
+	{
+		"Timestamp": "2016-06-11T00:01:00Z",
+		"Hits": 1841,
+		"AbsoluteHits": 4817111
+	},
+	{
+		"Timestamp": "2016-06-10T00:01:00Z",
+		"Hits": 2155,
+		"AbsoluteHits": 4808606
+	},
+	{
+		"Timestamp": "2016-06-09T00:01:00Z",
+		"Hits": 2173,
+		"AbsoluteHits": 4798854
+	},
+	{
+		"Timestamp": "2016-06-08T00:01:00Z",
+		"Hits": 2279,
+		"AbsoluteHits": 4788194
+	},
+	{
+		"Timestamp": "2016-06-07T00:01:00Z",
+		"Hits": 2093,
+		"AbsoluteHits": 4777962
+	},
+	{
+		"Timestamp": "2016-06-06T00:01:00Z",
+		"Hits": 696,
+		"AbsoluteHits": 4769230
+	},
+	{
+		"Timestamp": "2016-06-05T00:01:00Z",
+		"Hits": 675,
+		"AbsoluteHits": 4765736
+	},
+	{
+		"Timestamp": "2016-06-04T00:01:00Z",
+		"Hits": 1995,
+		"AbsoluteHits": 4762347
+	},
+	{
+		"Timestamp": "2016-06-03T00:01:00Z",
+		"Hits": 2136,
+		"AbsoluteHits": 4753911
+	},
+	{
+		"Timestamp": "2016-06-02T00:01:00Z",
+		"Hits": 2229,
+		"AbsoluteHits": 4744768
+	},
+	{
+		"Timestamp": "2016-06-01T00:01:00Z",
+		"Hits": 2144,
+		"AbsoluteHits": 4735184
+	},
+	{
+		"Timestamp": "2016-05-31T00:01:00Z",
+		"Hits": 1885,
+		"AbsoluteHits": 4725070
+	},
+	{
+		"Timestamp": "2016-05-30T00:01:00Z",
+		"Hits": 772,
+		"AbsoluteHits": 4717500
+	},
+	{
+		"Timestamp": "2016-05-29T00:01:00Z",
+		"Hits": 885,
+		"AbsoluteHits": 4714344
+	},
+	{
+		"Timestamp": "2016-05-28T00:01:00Z",
+		"Hits": 1888,
+		"AbsoluteHits": 4710851
+	},
+	{
+		"Timestamp": "2016-05-27T00:01:00Z",
+		"Hits": 2228,
+		"AbsoluteHits": 4702995
+	},
+	{
+		"Timestamp": "2016-05-26T00:01:00Z",
+		"Hits": 2512,
+		"AbsoluteHits": 4693913
+	},
+	{
+		"Timestamp": "2016-05-25T00:01:00Z",
+		"Hits": 2365,
+		"AbsoluteHits": 4682476
+	},
+	{
+		"Timestamp": "2016-05-24T00:01:00Z",
+		"Hits": 2202,
+		"AbsoluteHits": 4587358
+	},
+	{
+		"Timestamp": "2016-05-23T00:01:00Z",
+		"Hits": 852,
+		"AbsoluteHits": 4543111
+	},
+	{
+		"Timestamp": "2016-05-22T00:01:00Z",
+		"Hits": 896,
+		"AbsoluteHits": 4538692
+	},
+	{
+		"Timestamp": "2016-05-21T00:01:00Z",
+		"Hits": 1955,
+		"AbsoluteHits": 4534157
+	},
+	{
+		"Timestamp": "2016-05-20T00:01:00Z",
+		"Hits": 2297,
+		"AbsoluteHits": 4525395
+	},
+	{
+		"Timestamp": "2016-05-19T00:01:00Z",
+		"Hits": 2445,
+		"AbsoluteHits": 4515247
+	},
+	{
+		"Timestamp": "2016-05-18T00:01:00Z",
+		"Hits": 2360,
+		"AbsoluteHits": 4504917
+	},
+	{
+		"Timestamp": "2016-05-17T00:01:00Z",
+		"Hits": 2133,
+		"AbsoluteHits": 4494695
+	},
+	{
+		"Timestamp": "2016-05-16T00:01:00Z",
+		"Hits": 860,
+		"AbsoluteHits": 4485521
+	},
+	{
+		"Timestamp": "2016-05-15T00:01:00Z",
+		"Hits": 832,
+		"AbsoluteHits": 4481536
+	},
+	{
+		"Timestamp": "2016-05-14T00:01:00Z",
+		"Hits": 1998,
+		"AbsoluteHits": 4477421
+	},
+	{
+		"Timestamp": "2016-05-13T00:01:00Z",
+		"Hits": 2383,
+		"AbsoluteHits": 4468214
+	},
+	{
+		"Timestamp": "2016-05-12T00:01:00Z",
+		"Hits": 2239,
+		"AbsoluteHits": 4457685
+	},
+	{
+		"Timestamp": "2016-05-11T00:01:00Z",
+		"Hits": 2428,
+		"AbsoluteHits": 4447734
+	},
+	{
+		"Timestamp": "2016-05-10T00:01:00Z",
+		"Hits": 2209,
+		"AbsoluteHits": 4437153
+	},
+	{
+		"Timestamp": "2016-05-09T00:01:00Z",
+		"Hits": 841,
+		"AbsoluteHits": 4426788
+	},
+	{
+		"Timestamp": "2016-05-08T00:01:00Z",
+		"Hits": 782,
+		"AbsoluteHits": 4422177
+	},
+	{
+		"Timestamp": "2016-05-07T00:01:00Z",
+		"Hits": 2114,
+		"AbsoluteHits": 4417452
+	},
+	{
+		"Timestamp": "2016-05-06T00:01:00Z",
+		"Hits": 2668,
+		"AbsoluteHits": 4407174
+	},
+	{
+		"Timestamp": "2016-05-05T00:01:00Z",
+		"Hits": 3508,
+		"AbsoluteHits": 4393982
+	},
+	{
+		"Timestamp": "2016-05-04T00:01:00Z",
+		"Hits": 2225,
+		"AbsoluteHits": 4377381
+	},
+	{
+		"Timestamp": "2016-05-03T00:01:00Z",
+		"Hits": 1788,
+		"AbsoluteHits": 4367628
+	},
+	{
+		"Timestamp": "2016-05-02T00:01:00Z",
+		"Hits": 710,
+		"AbsoluteHits": 4359174
+	},
+	{
+		"Timestamp": "2016-05-01T00:01:00Z",
+		"Hits": 759,
+		"AbsoluteHits": 4355141
+	},
+	{
+		"Timestamp": "2016-04-30T00:01:00Z",
+		"Hits": 1911,
+		"AbsoluteHits": 4351200
+	},
+	{
+		"Timestamp": "2016-04-29T00:01:00Z",
+		"Hits": 2325,
+		"AbsoluteHits": 4342927
+	},
+	{
+		"Timestamp": "2016-04-28T00:01:00Z",
+		"Hits": 2209,
+		"AbsoluteHits": 4333185
+	},
+	{
+		"Timestamp": "2016-04-27T00:01:00Z",
+		"Hits": 2407,
+		"AbsoluteHits": 4323683
+	},
+	{
+		"Timestamp": "2016-04-26T00:01:00Z",
+		"Hits": 2213,
+		"AbsoluteHits": 4313405
+	},
+	{
+		"Timestamp": "2016-04-25T00:01:00Z",
+		"Hits": 746,
+		"AbsoluteHits": 4303603
+	},
+	{
+		"Timestamp": "2016-04-24T00:01:00Z",
+		"Hits": 774,
+		"AbsoluteHits": 4299915
+	},
+	{
+		"Timestamp": "2016-04-23T00:01:00Z",
+		"Hits": 1940,
+		"AbsoluteHits": 4295949
+	},
+	{
+		"Timestamp": "2016-04-22T00:01:00Z",
+		"Hits": 2313,
+		"AbsoluteHits": 4288593
+	},
+	{
+		"Timestamp": "2016-04-21T00:01:00Z",
+		"Hits": 2348,
+		"AbsoluteHits": 4279999
+	},
+	{
+		"Timestamp": "2016-04-20T00:01:00Z",
+		"Hits": 2440,
+		"AbsoluteHits": 4270798
+	},
+	{
+		"Timestamp": "2016-04-19T00:01:00Z",
+		"Hits": 2162,
+		"AbsoluteHits": 4261029
+	},
+	{
+		"Timestamp": "2016-04-18T00:01:00Z",
+		"Hits": 621,
+		"AbsoluteHits": 4251944
+	},
+	{
+		"Timestamp": "2016-04-17T00:01:00Z",
+		"Hits": 738,
+		"AbsoluteHits": 4248797
+	},
+	{
+		"Timestamp": "2016-04-16T00:01:00Z",
+		"Hits": 1959,
+		"AbsoluteHits": 4245137
+	},
+	{
+		"Timestamp": "2016-04-15T00:01:00Z",
+		"Hits": 2232,
+		"AbsoluteHits": 4236590
+	},
+	{
+		"Timestamp": "2016-04-14T00:01:00Z",
+		"Hits": 2106,
+		"AbsoluteHits": 4226686
+	},
+	{
+		"Timestamp": "2016-04-13T00:01:00Z",
+		"Hits": 2330,
+		"AbsoluteHits": 4217470
+	},
+	{
+		"Timestamp": "2016-04-12T00:01:00Z",
+		"Hits": 2346,
+		"AbsoluteHits": 4207335
+	},
+	{
+		"Timestamp": "2016-04-11T00:01:00Z",
+		"Hits": 782,
+		"AbsoluteHits": 4197488
+	},
+	{
+		"Timestamp": "2016-04-10T00:01:00Z",
+		"Hits": 851,
+		"AbsoluteHits": 4193749
+	},
+	{
+		"Timestamp": "2016-04-09T00:01:00Z",
+		"Hits": 1974,
+		"AbsoluteHits": 4189714
+	},
+	{
+		"Timestamp": "2016-04-08T00:01:00Z",
+		"Hits": 2353,
+		"AbsoluteHits": 4180464
+	},
+	{
+		"Timestamp": "2016-04-07T00:01:00Z",
+		"Hits": 2476,
+		"AbsoluteHits": 4163993
+	},
+	{
+		"Timestamp": "2016-04-06T00:01:00Z",
+		"Hits": 2338,
+		"AbsoluteHits": 4154639
+	},
+	{
+		"Timestamp": "2016-04-05T00:01:00Z",
+		"Hits": 2232,
+		"AbsoluteHits": 4144709
+	},
+	{
+		"Timestamp": "2016-04-04T00:01:00Z",
+		"Hits": 718,
+		"AbsoluteHits": 4135144
+	},
+	{
+		"Timestamp": "2016-04-03T00:01:00Z",
+		"Hits": 809,
+		"AbsoluteHits": 4131601
+	},
+	{
+		"Timestamp": "2016-04-02T00:01:00Z",
+		"Hits": 1988,
+		"AbsoluteHits": 4128042
+	},
+	{
+		"Timestamp": "2016-04-01T00:01:00Z",
+		"Hits": 2207,
+		"AbsoluteHits": 4119809
+	},
+	{
+		"Timestamp": "2016-03-31T00:01:00Z",
+		"Hits": 2161,
+		"AbsoluteHits": 4110205
+	},
+	{
+		"Timestamp": "2016-03-30T00:01:00Z",
+		"Hits": 2205,
+		"AbsoluteHits": 4101104
+	},
+	{
+		"Timestamp": "2016-03-28T00:01:00Z",
+		"Hits": 712,
+		"AbsoluteHits": 4083696
+	},
+	{
+		"Timestamp": "2016-03-27T00:01:00Z",
+		"Hits": 697,
+		"AbsoluteHits": 4080902
+	},
+	{
+		"Timestamp": "2016-03-26T00:01:00Z",
+		"Hits": 1360,
+		"AbsoluteHits": 4077346
+	},
+	{
+		"Timestamp": "2016-03-25T00:01:00Z",
+		"Hits": 1979,
+		"AbsoluteHits": 4071665
+	},
+	{
+		"Timestamp": "2016-03-24T00:01:00Z",
+		"Hits": 2267,
+		"AbsoluteHits": 4063101
+	},
+	{
+		"Timestamp": "2016-03-23T00:01:00Z",
+		"Hits": 2343,
+		"AbsoluteHits": 4053462
+	},
+	{
+		"Timestamp": "2016-03-22T00:01:00Z",
+		"Hits": 2234,
+		"AbsoluteHits": 4043647
+	},
+	{
+		"Timestamp": "2016-03-21T00:01:00Z",
+		"Hits": 704,
+		"AbsoluteHits": 4034211
+	},
+	{
+		"Timestamp": "2016-03-20T00:01:00Z",
+		"Hits": 818,
+		"AbsoluteHits": 4031009
+	},
+	{
+		"Timestamp": "2016-03-19T00:01:00Z",
+		"Hits": 2107,
+		"AbsoluteHits": 4027447
+	},
+	{
+		"Timestamp": "2016-03-18T00:01:00Z",
+		"Hits": 2338,
+		"AbsoluteHits": 4019067
+	},
+	{
+		"Timestamp": "2016-03-17T00:01:00Z",
+		"Hits": 2430,
+		"AbsoluteHits": 4009389
+	},
+	{
+		"Timestamp": "2016-03-16T00:01:00Z",
+		"Hits": 2402,
+		"AbsoluteHits": 3999479
+	},
+	{
+		"Timestamp": "2016-03-15T00:01:00Z",
+		"Hits": 2246,
+		"AbsoluteHits": 3989303
+	},
+	{
+		"Timestamp": "2016-03-14T00:01:00Z",
+		"Hits": 766,
+		"AbsoluteHits": 3979926
+	},
+	{
+		"Timestamp": "2016-03-13T00:01:00Z",
+		"Hits": 827,
+		"AbsoluteHits": 3976727
+	},
+	{
+		"Timestamp": "2016-03-12T00:01:00Z",
+		"Hits": 2104,
+		"AbsoluteHits": 3973015
+	},
+	{
+		"Timestamp": "2016-03-11T00:01:00Z",
+		"Hits": 2335,
+		"AbsoluteHits": 3964802
+	},
+	{
+		"Timestamp": "2016-03-10T00:01:00Z",
+		"Hits": 2440,
+		"AbsoluteHits": 3954955
+	},
+	{
+		"Timestamp": "2016-03-09T00:01:00Z",
+		"Hits": 2327,
+		"AbsoluteHits": 3945377
+	},
+	{
+		"Timestamp": "2016-03-08T00:01:00Z",
+		"Hits": 2197,
+		"AbsoluteHits": 3935905
+	},
+	{
+		"Timestamp": "2016-03-07T00:01:00Z",
+		"Hits": 809,
+		"AbsoluteHits": 3927196
+	},
+	{
+		"Timestamp": "2016-03-06T00:01:00Z",
+		"Hits": 872,
+		"AbsoluteHits": 3923417
+	},
+	{
+		"Timestamp": "2016-03-05T00:01:00Z",
+		"Hits": 2104,
+		"AbsoluteHits": 3919041
+	},
+	{
+		"Timestamp": "2016-03-04T00:01:00Z",
+		"Hits": 2438,
+		"AbsoluteHits": 3908828
+	},
+	{
+		"Timestamp": "2016-03-03T00:01:00Z",
+		"Hits": 2455,
+		"AbsoluteHits": 3896757
+	},
+	{
+		"Timestamp": "2016-03-02T00:01:00Z",
+		"Hits": 2370,
+		"AbsoluteHits": 3885200
+	},
+	{
+		"Timestamp": "2016-03-01T00:01:00Z",
+		"Hits": 2200,
+		"AbsoluteHits": 3873901
+	},
+	{
+		"Timestamp": "2016-02-29T00:01:00Z",
+		"Hits": 821,
+		"AbsoluteHits": 3861948
+	},
+	{
+		"Timestamp": "2016-02-28T00:01:00Z",
+		"Hits": 792,
+		"AbsoluteHits": 3856160
+	},
+	{
+		"Timestamp": "2016-02-27T00:01:00Z",
+		"Hits": 2019,
+		"AbsoluteHits": 3848366
+	},
+	{
+		"Timestamp": "2016-02-26T00:01:00Z",
+		"Hits": 2382,
+		"AbsoluteHits": 3836785
+	},
+	{
+		"Timestamp": "2016-02-25T00:01:00Z",
+		"Hits": 2341,
+		"AbsoluteHits": 3823303
+	},
+	{
+		"Timestamp": "2016-02-24T00:01:00Z",
+		"Hits": 2346,
+		"AbsoluteHits": 3797910
+	},
+	{
+		"Timestamp": "2016-02-23T00:01:00Z",
+		"Hits": 2400,
+		"AbsoluteHits": 3785085
+	},
+	{
+		"Timestamp": "2016-02-22T00:01:00Z",
+		"Hits": 712,
+		"AbsoluteHits": 3772892
+	},
+	{
+		"Timestamp": "2016-02-21T00:01:00Z",
+		"Hits": 767,
+		"AbsoluteHits": 3768106
+	},
+	{
+		"Timestamp": "2016-02-20T00:01:00Z",
+		"Hits": 2027,
+		"AbsoluteHits": 3763947
+	},
+	{
+		"Timestamp": "2016-02-19T00:01:00Z",
+		"Hits": 2423,
+		"AbsoluteHits": 3755311
+	},
+	{
+		"Timestamp": "2016-02-18T00:01:00Z",
+		"Hits": 2381,
+		"AbsoluteHits": 3743932
+	},
+	{
+		"Timestamp": "2016-02-17T00:01:00Z",
+		"Hits": 2391,
+		"AbsoluteHits": 3733405
+	},
+	{
+		"Timestamp": "2016-02-16T00:01:00Z",
+		"Hits": 2023,
+		"AbsoluteHits": 3722523
+	},
+	{
+		"Timestamp": "2016-02-15T00:01:00Z",
+		"Hits": 688,
+		"AbsoluteHits": 3713413
+	},
+	{
+		"Timestamp": "2016-02-14T00:01:00Z",
+		"Hits": 747,
+		"AbsoluteHits": 3709648
+	},
+	{
+		"Timestamp": "2016-02-13T00:01:00Z",
+		"Hits": 1925,
+		"AbsoluteHits": 3706333
+	},
+	{
+		"Timestamp": "2016-02-12T00:01:00Z",
+		"Hits": 2031,
+		"AbsoluteHits": 3698088
+	},
+	{
+		"Timestamp": "2016-02-11T00:01:00Z",
+		"Hits": 2239,
+		"AbsoluteHits": 3689455
+	},
+	{
+		"Timestamp": "2016-02-10T00:01:00Z",
+		"Hits": 2178,
+		"AbsoluteHits": 3680431
+	},
+	{
+		"Timestamp": "2016-02-09T00:01:00Z",
+		"Hits": 1952,
+		"AbsoluteHits": 3671576
+	},
+	{
+		"Timestamp": "2016-02-08T00:01:00Z",
+		"Hits": 700,
+		"AbsoluteHits": 3663288
+	},
+	{
+		"Timestamp": "2016-02-07T00:01:00Z",
+		"Hits": 810,
+		"AbsoluteHits": 3660255
+	},
+	{
+		"Timestamp": "2016-02-06T00:01:00Z",
+		"Hits": 2029,
+		"AbsoluteHits": 3656963
+	},
+	{
+		"Timestamp": "2016-02-05T00:01:00Z",
+		"Hits": 2259,
+		"AbsoluteHits": 3648624
+	},
+	{
+		"Timestamp": "2016-02-04T00:01:00Z",
+		"Hits": 2376,
+		"AbsoluteHits": 3617755
+	},
+	{
+		"Timestamp": "2016-02-03T00:01:00Z",
+		"Hits": 2410,
+		"AbsoluteHits": 3608220
+	},
+	{
+		"Timestamp": "2016-02-02T00:01:00Z",
+		"Hits": 2176,
+		"AbsoluteHits": 3597692
+	},
+	{
+		"Timestamp": "2016-02-01T00:01:00Z",
+		"Hits": 709,
+		"AbsoluteHits": 3588487
+	},
+	{
+		"Timestamp": "2016-01-31T00:01:00Z",
+		"Hits": 798,
+		"AbsoluteHits": 3585249
+	},
+	{
+		"Timestamp": "2016-01-30T00:01:00Z",
+		"Hits": 1979,
+		"AbsoluteHits": 3581501
+	},
+	{
+		"Timestamp": "2016-01-29T00:01:00Z",
+		"Hits": 2296,
+		"AbsoluteHits": 3573262
+	},
+	{
+		"Timestamp": "2016-01-28T00:01:00Z",
+		"Hits": 2300,
+		"AbsoluteHits": 3563876
+	},
+	{
+		"Timestamp": "2016-01-27T00:01:00Z",
+		"Hits": 2057,
+		"AbsoluteHits": 3550785
+	},
+	{
+		"Timestamp": "2016-01-26T00:01:00Z",
+		"Hits": 2085,
+		"AbsoluteHits": 3541817
+	},
+	{
+		"Timestamp": "2016-01-25T00:01:00Z",
+		"Hits": 686,
+		"AbsoluteHits": 3532408
+	},
+	{
+		"Timestamp": "2016-01-24T00:01:00Z",
+		"Hits": 772,
+		"AbsoluteHits": 3528741
+	},
+	{
+		"Timestamp": "2016-01-23T00:01:00Z",
+		"Hits": 2042,
+		"AbsoluteHits": 3525197
+	},
+	{
+		"Timestamp": "2016-01-22T00:01:00Z",
+		"Hits": 2360,
+		"AbsoluteHits": 3516804
+	},
+	{
+		"Timestamp": "2016-01-20T00:01:00Z",
+		"Hits": 2393,
+		"AbsoluteHits": 3497366
+	},
+	{
+		"Timestamp": "2016-01-19T00:01:00Z",
+		"Hits": 2104,
+		"AbsoluteHits": 3487799
+	},
+	{
+		"Timestamp": "2016-01-18T00:01:00Z",
+		"Hits": 687,
+		"AbsoluteHits": 3479123
+	},
+	{
+		"Timestamp": "2016-01-17T00:01:00Z",
+		"Hits": 792,
+		"AbsoluteHits": 3475980
+	},
+	{
+		"Timestamp": "2016-01-16T00:01:00Z",
+		"Hits": 2060,
+		"AbsoluteHits": 3472711
+	},
+	{
+		"Timestamp": "2016-01-15T00:01:00Z",
+		"Hits": 2925,
+		"AbsoluteHits": 3463637
+	},
+	{
+		"Timestamp": "2016-01-14T00:01:00Z",
+		"Hits": 3976,
+		"AbsoluteHits": 3449864
+	},
+	{
+		"Timestamp": "2016-01-13T00:01:00Z",
+		"Hits": 2341,
+		"AbsoluteHits": 3431105
+	},
+	{
+		"Timestamp": "2016-01-12T00:01:00Z",
+		"Hits": 2144,
+		"AbsoluteHits": 3422103
+	},
+	{
+		"Timestamp": "2016-01-11T00:01:00Z",
+		"Hits": 682,
+		"AbsoluteHits": 3413884
+	},
+	{
+		"Timestamp": "2016-01-10T00:01:00Z",
+		"Hits": 739,
+		"AbsoluteHits": 3411194
+	},
+	{
+		"Timestamp": "2016-01-09T00:01:00Z",
+		"Hits": 1932,
+		"AbsoluteHits": 3408290
+	},
+	{
+		"Timestamp": "2016-01-08T00:01:00Z",
+		"Hits": 2244,
+		"AbsoluteHits": 3400319
+	},
+	{
+		"Timestamp": "2016-01-07T00:01:00Z",
+		"Hits": 2088,
+		"AbsoluteHits": 3391683
+	},
+	{
+		"Timestamp": "2016-01-06T00:01:00Z",
+		"Hits": 2181,
+		"AbsoluteHits": 3383377
+	},
+	{
+		"Timestamp": "2016-01-05T00:01:00Z",
+		"Hits": 1980,
+		"AbsoluteHits": 3374132
+	},
+	{
+		"Timestamp": "2016-01-04T00:01:00Z",
+		"Hits": 669,
+		"AbsoluteHits": 3366295
+	},
+	{
+		"Timestamp": "2016-01-03T00:01:00Z",
+		"Hits": 640,
+		"AbsoluteHits": 3363447
+	},
+	{
+		"Timestamp": "2016-01-02T00:01:00Z",
+		"Hits": 599,
+		"AbsoluteHits": 3360594
+	},
+	{
+		"Timestamp": "2016-01-01T00:01:00Z",
+		"Hits": 1038,
+		"AbsoluteHits": 3357996
+	},
+	{
+		"Timestamp": "2015-12-31T00:01:00Z",
+		"Hits": 1581,
+		"AbsoluteHits": 3353715
+	},
+	{
+		"Timestamp": "2015-12-30T00:01:00Z",
+		"Hits": 1649,
+		"AbsoluteHits": 3347509
+	},
+	{
+		"Timestamp": "2015-12-29T00:01:00Z",
+		"Hits": 1547,
+		"AbsoluteHits": 3341041
+	},
+	{
+		"Timestamp": "2015-12-28T00:01:00Z",
+		"Hits": 576,
+		"AbsoluteHits": 3334809
+	},
+	{
+		"Timestamp": "2015-12-27T00:01:00Z",
+		"Hits": 566,
+		"AbsoluteHits": 3332430
+	},
+	{
+		"Timestamp": "2015-12-26T00:01:00Z",
+		"Hits": 614,
+		"AbsoluteHits": 3330047
+	},
+	{
+		"Timestamp": "2015-12-25T00:01:00Z",
+		"Hits": 1140,
+		"AbsoluteHits": 3327612
+	},
+	{
+		"Timestamp": "2015-12-24T00:01:00Z",
+		"Hits": 1729,
+		"AbsoluteHits": 3323307
+	},
+	{
+		"Timestamp": "2015-12-23T00:01:00Z",
+		"Hits": 1962,
+		"AbsoluteHits": 3316551
+	},
+	{
+		"Timestamp": "2015-12-22T00:01:00Z",
+		"Hits": 2028,
+		"AbsoluteHits": 3308790
+	},
+	{
+		"Timestamp": "2015-12-21T00:01:00Z",
+		"Hits": 682,
+		"AbsoluteHits": 3301005
+	},
+	{
+		"Timestamp": "2015-12-20T00:01:00Z",
+		"Hits": 691,
+		"AbsoluteHits": 3298450
+	},
+	{
+		"Timestamp": "2015-12-19T00:01:00Z",
+		"Hits": 1850,
+		"AbsoluteHits": 3295608
+	},
+	{
+		"Timestamp": "2015-12-18T00:01:00Z",
+		"Hits": 2107,
+		"AbsoluteHits": 3269014
+	},
+	{
+		"Timestamp": "2015-12-17T00:01:00Z",
+		"Hits": 2219,
+		"AbsoluteHits": 3260337
+	},
+	{
+		"Timestamp": "2015-12-16T00:01:00Z",
+		"Hits": 2343,
+		"AbsoluteHits": 3251378
+	},
+	{
+		"Timestamp": "2015-12-15T00:01:00Z",
+		"Hits": 2146,
+		"AbsoluteHits": 3242577
+	},
+	{
+		"Timestamp": "2015-12-14T00:01:00Z",
+		"Hits": 700,
+		"AbsoluteHits": 3234447
+	},
+	{
+		"Timestamp": "2015-12-13T00:01:00Z",
+		"Hits": -768,
+		"AbsoluteHits": 3231683
+	},
+	{
+		"Timestamp": "2015-12-12T00:01:00Z",
+		"Hits": 1962,
+		"AbsoluteHits": 3228667
+	},
+	{
+		"Timestamp": "2015-12-11T00:01:00Z",
+		"Hits": 2186,
+		"AbsoluteHits": 3221264
+	},
+	{
+		"Timestamp": "2015-12-10T00:01:00Z",
+		"Hits": 2277,
+		"AbsoluteHits": 3212755
+	},
+	{
+		"Timestamp": "2015-12-09T00:01:00Z",
+		"Hits": 2165,
+		"AbsoluteHits": 3204013
+	},
+	{
+		"Timestamp": "2015-12-08T00:01:00Z",
+		"Hits": 2119,
+		"AbsoluteHits": 3195523
+	},
+	{
+		"Timestamp": "2015-12-07T00:01:00Z",
+		"Hits": 737,
+		"AbsoluteHits": 3187068
+	},
+	{
+		"Timestamp": "2015-12-06T00:01:00Z",
+		"Hits": 746,
+		"AbsoluteHits": 3184337
+	},
+	{
+		"Timestamp": "2015-12-05T00:01:00Z",
+		"Hits": 1950,
+		"AbsoluteHits": 3181536
+	},
+	{
+		"Timestamp": "2015-12-04T00:01:00Z",
+		"Hits": 2231,
+		"AbsoluteHits": 3173997
+	},
+	{
+		"Timestamp": "2015-12-03T00:01:00Z",
+		"Hits": 2362,
+		"AbsoluteHits": 3165097
+	},
+	{
+		"Timestamp": "2015-12-02T00:01:00Z",
+		"Hits": 2325,
+		"AbsoluteHits": 3155629
+	},
+	{
+		"Timestamp": "2015-12-01T00:01:00Z",
+		"Hits": 2127,
+		"AbsoluteHits": 3146354
+	},
+	{
+		"Timestamp": "2015-11-30T00:01:00Z",
+		"Hits": 734,
+		"AbsoluteHits": 3137482
+	},
+	{
+		"Timestamp": "2015-11-29T00:01:00Z",
+		"Hits": 751,
+		"AbsoluteHits": 3134416
+	},
+	{
+		"Timestamp": "2015-11-28T00:01:00Z",
+		"Hits": 1640,
+		"AbsoluteHits": 3131504
+	},
+	{
+		"Timestamp": "2015-11-27T00:01:00Z",
+		"Hits": 2045,
+		"AbsoluteHits": 3125189
+	},
+	{
+		"Timestamp": "2015-11-26T00:01:00Z",
+		"Hits": 2309,
+		"AbsoluteHits": 3117695
+	},
+	{
+		"Timestamp": "2015-11-25T00:01:00Z",
+		"Hits": 2396,
+		"AbsoluteHits": 3109268
+	},
+	{
+		"Timestamp": "2015-11-24T00:01:00Z",
+		"Hits": 2389,
+		"AbsoluteHits": 3100246
+	},
+	{
+		"Timestamp": "2015-11-23T00:01:00Z",
+		"Hits": 799,
+		"AbsoluteHits": 3091061
+	},
+	{
+		"Timestamp": "2015-11-22T00:01:00Z",
+		"Hits": 833,
+		"AbsoluteHits": 3088344
+	},
+	{
+		"Timestamp": "2015-11-21T00:01:00Z",
+		"Hits": 2042,
+		"AbsoluteHits": 3085502
+	},
+	{
+		"Timestamp": "2015-11-20T00:01:00Z",
+		"Hits": 2231,
+		"AbsoluteHits": 3077020
+	},
+	{
+		"Timestamp": "2015-11-19T00:01:00Z",
+		"Hits": 2223,
+		"AbsoluteHits": 3067131
+	},
+	{
+		"Timestamp": "2015-11-18T00:01:00Z",
+		"Hits": 2224,
+		"AbsoluteHits": 3057617
+	},
+	{
+		"Timestamp": "2015-11-17T00:01:00Z",
+		"Hits": 2054,
+		"AbsoluteHits": 3047929
+	},
+	{
+		"Timestamp": "2015-11-16T00:01:00Z",
+		"Hits": 724,
+		"AbsoluteHits": 3039870
+	},
+	{
+		"Timestamp": "2015-11-15T00:01:00Z",
+		"Hits": 772,
+		"AbsoluteHits": 3037454
+	},
+	{
+		"Timestamp": "2015-11-14T00:01:00Z",
+		"Hits": 1835,
+		"AbsoluteHits": 3034956
+	},
+	{
+		"Timestamp": "2015-11-13T00:01:00Z",
+		"Hits": 2052,
+		"AbsoluteHits": 3027402
+	},
+	{
+		"Timestamp": "2015-11-12T00:01:00Z",
+		"Hits": 1830,
+		"AbsoluteHits": 2965875
+	},
+	{
+		"Timestamp": "2015-11-11T00:01:00Z",
+		"Hits": 2022,
+		"AbsoluteHits": 2891753
+	},
+	{
+		"Timestamp": "2015-11-10T00:01:00Z",
+		"Hits": 2035,
+		"AbsoluteHits": 2879140
+	},
+	{
+		"Timestamp": "2015-11-09T00:01:00Z",
+		"Hits": 596,
+		"AbsoluteHits": 2870671
+	},
+	{
+		"Timestamp": "2015-11-08T00:01:00Z",
+		"Hits": 634,
+		"AbsoluteHits": 2868411
+	},
+	{
+		"Timestamp": "2015-11-07T00:01:00Z",
+		"Hits": 1834,
+		"AbsoluteHits": 2865905
+	},
+	{
+		"Timestamp": "2015-11-06T00:01:00Z",
+		"Hits": 2132,
+		"AbsoluteHits": 2858197
+	},
+	{
+		"Timestamp": "2015-11-05T00:01:00Z",
+		"Hits": 2090,
+		"AbsoluteHits": 2849571
+	},
+	{
+		"Timestamp": "2015-11-04T00:01:00Z",
+		"Hits": 2134,
+		"AbsoluteHits": 2840622
+	},
+	{
+		"Timestamp": "2015-11-03T00:01:00Z",
+		"Hits": 1986,
+		"AbsoluteHits": 2832107
+	},
+	{
+		"Timestamp": "2015-11-02T00:01:00Z",
+		"Hits": 531,
+		"AbsoluteHits": 2823754
+	},
+	{
+		"Timestamp": "2015-11-01T00:01:00Z",
+		"Hits": 633,
+		"AbsoluteHits": 2821601
+	},
+	{
+		"Timestamp": "2015-10-31T00:01:00Z",
+		"Hits": 1855,
+		"AbsoluteHits": 2819070
+	},
+	{
+		"Timestamp": "2015-10-30T00:01:00Z",
+		"Hits": 2248,
+		"AbsoluteHits": 2810928
+	},
+	{
+		"Timestamp": "2015-10-29T00:01:00Z",
+		"Hits": 2213,
+		"AbsoluteHits": 2801089
+	},
+	{
+		"Timestamp": "2015-10-28T00:01:00Z",
+		"Hits": 2202,
+		"AbsoluteHits": 2791504
+	},
+	{
+		"Timestamp": "2015-10-27T00:01:00Z",
+		"Hits": 2057,
+		"AbsoluteHits": 2762656
+	},
+	{
+		"Timestamp": "2015-10-26T00:01:00Z",
+		"Hits": 612,
+		"AbsoluteHits": 2732990
+	},
+	{
+		"Timestamp": "2015-10-25T00:01:00Z",
+		"Hits": 706,
+		"AbsoluteHits": 2730085
+	},
+	{
+		"Timestamp": "2015-10-24T00:01:00Z",
+		"Hits": 1717,
+		"AbsoluteHits": 2726958
+	},
+	{
+		"Timestamp": "2015-10-23T00:01:00Z",
+		"Hits": 1922,
+		"AbsoluteHits": 2698248
+	},
+	{
+		"Timestamp": "2015-10-22T00:01:00Z",
+		"Hits": 2085,
+		"AbsoluteHits": 2680543
+	},
+	{
+		"Timestamp": "2015-10-21T00:01:00Z",
+		"Hits": 2181,
+		"AbsoluteHits": 2670805
+	},
+	{
+		"Timestamp": "2015-10-20T00:01:00Z",
+		"Hits": 1995,
+		"AbsoluteHits": 2661003
+	},
+	{
+		"Timestamp": "2015-10-19T00:01:00Z",
+		"Hits": 605,
+		"AbsoluteHits": 2651663
+	},
+	{
+		"Timestamp": "2015-10-18T00:01:00Z",
+		"Hits": 776,
+		"AbsoluteHits": 2648837
+	},
+	{
+		"Timestamp": "2015-10-17T00:01:00Z",
+		"Hits": 1839,
+		"AbsoluteHits": 2645515
+	},
+	{
+		"Timestamp": "2015-10-16T00:01:00Z",
+		"Hits": 2193,
+		"AbsoluteHits": 2636845
+	},
+	{
+		"Timestamp": "2015-10-15T00:01:00Z",
+		"Hits": 2164,
+		"AbsoluteHits": 2626595
+	},
+	{
+		"Timestamp": "2015-10-14T00:01:00Z",
+		"Hits": 2218,
+		"AbsoluteHits": 2616063
+	},
+	{
+		"Timestamp": "2015-10-13T00:01:00Z",
+		"Hits": 1981,
+		"AbsoluteHits": 2605741
+	},
+	{
+		"Timestamp": "2015-10-12T00:01:00Z",
+		"Hits": 656,
+		"AbsoluteHits": 2596704
+	},
+	{
+		"Timestamp": "2015-10-11T00:01:00Z",
+		"Hits": 732,
+		"AbsoluteHits": 2593803
+	},
+	{
+		"Timestamp": "2015-10-10T00:01:00Z",
+		"Hits": 1976,
+		"AbsoluteHits": 2590184
+	},
+	{
+		"Timestamp": "2015-10-09T00:01:00Z",
+		"Hits": 2290,
+		"AbsoluteHits": 2581335
+	},
+	{
+		"Timestamp": "2015-10-08T00:01:00Z",
+		"Hits": 2437,
+		"AbsoluteHits": 2570892
+	},
+	{
+		"Timestamp": "2015-10-07T00:01:00Z",
+		"Hits": 2427,
+		"AbsoluteHits": 2559535
+	},
+	{
+		"Timestamp": "2015-10-06T00:01:00Z",
+		"Hits": 2155,
+		"AbsoluteHits": 2548122
+	},
+	{
+		"Timestamp": "2015-10-05T00:01:00Z",
+		"Hits": 657,
+		"AbsoluteHits": 2537329
+	},
+	{
+		"Timestamp": "2015-10-04T00:01:00Z",
+		"Hits": 785,
+		"AbsoluteHits": 2534104
+	},
+	{
+		"Timestamp": "2015-10-03T00:01:00Z",
+		"Hits": 1946,
+		"AbsoluteHits": 2530243
+	},
+	{
+		"Timestamp": "2015-10-02T00:01:00Z",
+		"Hits": 3442,
+		"AbsoluteHits": 2519403
+	},
+	{
+		"Timestamp": "2015-10-01T00:01:00Z",
+		"Hits": 4331,
+		"AbsoluteHits": 2500518
+	},
+	{
+		"Timestamp": "2015-09-30T00:01:00Z",
+		"Hits": 2101,
+		"AbsoluteHits": 2480908
+	},
+	{
+		"Timestamp": "2015-09-29T00:01:00Z",
+		"Hits": 1956,
+		"AbsoluteHits": 2472224
+	},
+	{
+		"Timestamp": "2015-09-28T00:01:00Z",
+		"Hits": 607,
+		"AbsoluteHits": 2464178
+	},
+	{
+		"Timestamp": "2015-09-27T00:01:00Z",
+		"Hits": 623,
+		"AbsoluteHits": 2461582
+	},
+	{
+		"Timestamp": "2015-09-26T00:01:00Z",
+		"Hits": 1715,
+		"AbsoluteHits": 2459076
+	},
+	{
+		"Timestamp": "2015-09-25T00:01:00Z",
+		"Hits": 1938,
+		"AbsoluteHits": 2451980
+	},
+	{
+		"Timestamp": "2015-09-24T00:01:00Z",
+		"Hits": 1997,
+		"AbsoluteHits": 2443756
+	},
+	{
+		"Timestamp": "2015-09-23T00:01:00Z",
+		"Hits": 2133,
+		"AbsoluteHits": 2435070
+	},
+	{
+		"Timestamp": "2015-09-22T00:01:00Z",
+		"Hits": 1973,
+		"AbsoluteHits": 2426115
+	},
+	{
+		"Timestamp": "2015-09-21T00:01:00Z",
+		"Hits": 612,
+		"AbsoluteHits": 2417789
+	},
+	{
+		"Timestamp": "2015-09-20T00:01:00Z",
+		"Hits": 687,
+		"AbsoluteHits": 2415515
+	},
+	{
+		"Timestamp": "2015-09-19T00:01:00Z",
+		"Hits": 1926,
+		"AbsoluteHits": 2412939
+	},
+	{
+		"Timestamp": "2015-09-18T00:01:00Z",
+		"Hits": 1888,
+		"AbsoluteHits": 2404233
+	},
+	{
+		"Timestamp": "2015-09-17T00:01:00Z",
+		"Hits": 2100,
+		"AbsoluteHits": 2395896
+	},
+	{
+		"Timestamp": "2015-09-16T00:01:00Z",
+		"Hits": 2117,
+		"AbsoluteHits": 2386733
+	},
+	{
+		"Timestamp": "2015-09-15T00:01:00Z",
+		"Hits": 2003,
+		"AbsoluteHits": 2378419
+	},
+	{
+		"Timestamp": "2015-09-14T00:01:00Z",
+		"Hits": 640,
+		"AbsoluteHits": 2370082
+	},
+	{
+		"Timestamp": "2015-09-13T00:01:00Z",
+		"Hits": 654,
+		"AbsoluteHits": 2368031
+	},
+	{
+		"Timestamp": "2015-09-12T00:01:00Z",
+		"Hits": 1861,
+		"AbsoluteHits": 2365817
+	},
+	{
+		"Timestamp": "2015-09-11T00:01:00Z",
+		"Hits": 2006,
+		"AbsoluteHits": 2358854
+	},
+	{
+		"Timestamp": "2015-09-10T00:01:00Z",
+		"Hits": 2056,
+		"AbsoluteHits": 2350486
+	},
+	{
+		"Timestamp": "2015-09-09T00:01:00Z",
+		"Hits": 2073,
+		"AbsoluteHits": 2342093
+	},
+	{
+		"Timestamp": "2015-09-08T00:01:00Z",
+		"Hits": 1620,
+		"AbsoluteHits": 2333560
+	},
+	{
+		"Timestamp": "2015-09-07T00:01:00Z",
+		"Hits": 584,
+		"AbsoluteHits": 2327239
+	},
+	{
+		"Timestamp": "2015-09-06T00:01:00Z",
+		"Hits": 643,
+		"AbsoluteHits": 2325196
+	},
+	{
+		"Timestamp": "2015-09-05T00:01:00Z",
+		"Hits": 1771,
+		"AbsoluteHits": 2322916
+	},
+	{
+		"Timestamp": "2015-09-04T00:01:00Z",
+		"Hits": 2106,
+		"AbsoluteHits": 2315773
+	},
+	{
+		"Timestamp": "2015-09-03T00:01:00Z",
+		"Hits": 2073,
+		"AbsoluteHits": 2307237
+	},
+	{
+		"Timestamp": "2015-09-02T00:01:00Z",
+		"Hits": 2115,
+		"AbsoluteHits": 2298682
+	},
+	{
+		"Timestamp": "2015-09-01T00:01:00Z",
+		"Hits": 1921,
+		"AbsoluteHits": 2290200
+	},
+	{
+		"Timestamp": "2015-08-31T00:01:00Z",
+		"Hits": 621,
+		"AbsoluteHits": 2282228
+	},
+	{
+		"Timestamp": "2015-08-30T00:01:00Z",
+		"Hits": 633,
+		"AbsoluteHits": 2279909
+	},
+	{
+		"Timestamp": "2015-08-29T00:01:00Z",
+		"Hits": 1814,
+		"AbsoluteHits": 2277531
+	},
+	{
+		"Timestamp": "2015-08-28T00:01:00Z",
+		"Hits": 2064,
+		"AbsoluteHits": 2270260
+	},
+	{
+		"Timestamp": "2015-08-27T00:01:00Z",
+		"Hits": 2129,
+		"AbsoluteHits": 2261984
+	},
+	{
+		"Timestamp": "2015-08-26T00:01:00Z",
+		"Hits": 2113,
+		"AbsoluteHits": 2253645
+	},
+	{
+		"Timestamp": "2015-08-25T00:01:00Z",
+		"Hits": 1916,
+		"AbsoluteHits": 2245440
+	},
+	{
+		"Timestamp": "2015-08-24T00:01:00Z",
+		"Hits": 569,
+		"AbsoluteHits": 2237687
+	},
+	{
+		"Timestamp": "2015-08-23T00:01:00Z",
+		"Hits": 608,
+		"AbsoluteHits": 2235640
+	},
+	{
+		"Timestamp": "2015-08-22T00:01:00Z",
+		"Hits": 1862,
+		"AbsoluteHits": 2233446
+	},
+	{
+		"Timestamp": "2015-08-21T00:01:00Z",
+		"Hits": 2108,
+		"AbsoluteHits": 2226215
+	},
+	{
+		"Timestamp": "2015-08-20T00:01:00Z",
+		"Hits": 2276,
+		"AbsoluteHits": 2217954
+	},
+	{
+		"Timestamp": "2015-08-19T00:01:00Z",
+		"Hits": 2202,
+		"AbsoluteHits": 2209540
+	},
+	{
+		"Timestamp": "2015-08-18T00:01:00Z",
+		"Hits": 1939,
+		"AbsoluteHits": 2200779
+	},
+	{
+		"Timestamp": "2015-08-17T00:01:00Z",
+		"Hits": 602,
+		"AbsoluteHits": 2193046
+	},
+	{
+		"Timestamp": "2015-08-16T00:01:00Z",
+		"Hits": 576,
+		"AbsoluteHits": 2191044
+	},
+	{
+		"Timestamp": "2015-08-15T00:01:00Z",
+		"Hits": 1756,
+		"AbsoluteHits": 2189153
+	},
+	{
+		"Timestamp": "2015-08-14T00:01:00Z",
+		"Hits": 2087,
+		"AbsoluteHits": 2182043
+	},
+	{
+		"Timestamp": "2015-08-13T00:01:00Z",
+		"Hits": 2118,
+		"AbsoluteHits": 2173942
+	},
+	{
+		"Timestamp": "2015-08-12T00:01:00Z",
+		"Hits": 2151,
+		"AbsoluteHits": 2165310
+	},
+	{
+		"Timestamp": "2015-08-11T00:01:00Z",
+		"Hits": 1950,
+		"AbsoluteHits": 2156999
+	},
+	{
+		"Timestamp": "2015-08-10T00:01:00Z",
+		"Hits": 595,
+		"AbsoluteHits": 2148829
+	},
+	{
+		"Timestamp": "2015-08-09T00:01:00Z",
+		"Hits": 597,
+		"AbsoluteHits": 2146735
+	},
+	{
+		"Timestamp": "2015-08-08T00:01:00Z",
+		"Hits": 1821,
+		"AbsoluteHits": 2144545
+	},
+	{
+		"Timestamp": "2015-08-07T00:01:00Z",
+		"Hits": 2073,
+		"AbsoluteHits": 2137162
+	},
+	{
+		"Timestamp": "2015-08-06T00:01:00Z",
+		"Hits": 2049,
+		"AbsoluteHits": 2128574
+	},
+	{
+		"Timestamp": "2015-08-05T00:01:00Z",
+		"Hits": 2013,
+		"AbsoluteHits": 2120191
+	},
+	{
+		"Timestamp": "2015-08-04T00:01:00Z",
+		"Hits": 1979,
+		"AbsoluteHits": 2111599
+	},
+	{
+		"Timestamp": "2015-08-03T00:01:00Z",
+		"Hits": 603,
+		"AbsoluteHits": 2103574
+	},
+	{
+		"Timestamp": "2015-08-02T00:01:00Z",
+		"Hits": 624,
+		"AbsoluteHits": 2101561
+	},
+	{
+		"Timestamp": "2015-08-01T00:01:00Z",
+		"Hits": 1933,
+		"AbsoluteHits": 2099448
+	},
+	{
+		"Timestamp": "2015-07-31T00:01:00Z",
+		"Hits": 2076,
+		"AbsoluteHits": 2092116
+	},
+	{
+		"Timestamp": "2015-07-30T00:01:00Z",
+		"Hits": 2102,
+		"AbsoluteHits": 2083466
+	},
+	{
+		"Timestamp": "2015-07-29T00:01:00Z",
+		"Hits": 2938,
+		"AbsoluteHits": 2074965
+	},
+	{
+		"Timestamp": "2015-07-28T00:01:00Z",
+		"Hits": 2099,
+		"AbsoluteHits": 2065313
+	},
+	{
+		"Timestamp": "2015-07-27T00:01:00Z",
+		"Hits": 571,
+		"AbsoluteHits": 2057129
+	},
+	{
+		"Timestamp": "2015-07-26T00:01:00Z",
+		"Hits": 633,
+		"AbsoluteHits": 2055255
+	},
+	{
+		"Timestamp": "2015-07-25T00:01:00Z",
+		"Hits": 1817,
+		"AbsoluteHits": 2053279
+	},
+	{
+		"Timestamp": "2015-07-24T00:01:00Z",
+		"Hits": 2264,
+		"AbsoluteHits": 2046395
+	},
+	{
+		"Timestamp": "2015-07-23T00:01:00Z",
+		"Hits": 2251,
+		"AbsoluteHits": 2037912
+	},
+	{
+		"Timestamp": "2015-07-22T00:01:00Z",
+		"Hits": 2011,
+		"AbsoluteHits": 2029070
+	},
+	{
+		"Timestamp": "2015-07-21T00:01:00Z",
+		"Hits": 1836,
+		"AbsoluteHits": 2020702
+	},
+	{
+		"Timestamp": "2015-07-20T00:01:00Z",
+		"Hits": 443,
+		"AbsoluteHits": 2012933
+	},
+	{
+		"Timestamp": "2015-07-19T00:01:00Z",
+		"Hits": 545,
+		"AbsoluteHits": 2011106
+	},
+	{
+		"Timestamp": "2015-07-18T00:01:00Z",
+		"Hits": 1595,
+		"AbsoluteHits": 2009209
+	},
+	{
+		"Timestamp": "2015-07-17T00:01:00Z",
+		"Hits": 2064,
+		"AbsoluteHits": 2002568
+	},
+	{
+		"Timestamp": "2015-07-16T00:01:00Z",
+		"Hits": 1898,
+		"AbsoluteHits": 1994215
+	},
+	{
+		"Timestamp": "2015-07-15T00:01:00Z",
+		"Hits": 1972,
+		"AbsoluteHits": 1986020
+	},
+	{
+		"Timestamp": "2015-07-14T00:01:00Z",
+		"Hits": 1816,
+		"AbsoluteHits": 1977947
+	},
+	{
+		"Timestamp": "2015-07-13T00:01:00Z",
+		"Hits": 476,
+		"AbsoluteHits": 1970163
+	},
+	{
+		"Timestamp": "2015-07-12T00:01:00Z",
+		"Hits": 528,
+		"AbsoluteHits": 1968303
+	},
+	{
+		"Timestamp": "2015-07-11T00:01:00Z",
+		"Hits": 1755,
+		"AbsoluteHits": 1966337
+	},
+	{
+		"Timestamp": "2015-07-10T00:01:00Z",
+		"Hits": 2009,
+		"AbsoluteHits": 1959453
+	},
+	{
+		"Timestamp": "2015-07-09T00:01:00Z",
+		"Hits": 2015,
+		"AbsoluteHits": 1951204
+	},
+	{
+		"Timestamp": "2015-07-08T00:01:00Z",
+		"Hits": 2108,
+		"AbsoluteHits": 1942628
+	},
+	{
+		"Timestamp": "2015-07-07T00:01:00Z",
+		"Hits": 1937,
+		"AbsoluteHits": 1933712
+	},
+	{
+		"Timestamp": "2015-07-06T00:01:00Z",
+		"Hits": 496,
+		"AbsoluteHits": 1925693
+	},
+	{
+		"Timestamp": "2015-07-05T00:01:00Z",
+		"Hits": 558,
+		"AbsoluteHits": 1923910
+	},
+	{
+		"Timestamp": "2015-07-04T00:01:00Z",
+		"Hits": 1495,
+		"AbsoluteHits": 1921993
+	},
+	{
+		"Timestamp": "2015-07-03T00:01:00Z",
+		"Hits": 2063,
+		"AbsoluteHits": 1916202
+	},
+	{
+		"Timestamp": "2015-07-02T00:01:00Z",
+		"Hits": 2037,
+		"AbsoluteHits": 1907787
+	},
+	{
+		"Timestamp": "2015-07-01T00:01:00Z",
+		"Hits": 2157,
+		"AbsoluteHits": 1899293
+	},
+	{
+		"Timestamp": "2015-06-30T00:01:00Z",
+		"Hits": 2039,
+		"AbsoluteHits": 1889900
+	},
+	{
+		"Timestamp": "2015-06-29T00:01:00Z",
+		"Hits": 685,
+		"AbsoluteHits": 1880862
+	},
+	{
+		"Timestamp": "2015-06-28T00:01:00Z",
+		"Hits": 767,
+		"AbsoluteHits": 1878417
+	},
+	{
+		"Timestamp": "2015-06-27T00:01:00Z",
+		"Hits": 2081,
+		"AbsoluteHits": 1875662
+	},
+	{
+		"Timestamp": "2015-06-26T00:01:00Z",
+		"Hits": 3548,
+		"AbsoluteHits": 1866319
+	},
+	{
+		"Timestamp": "2015-06-25T00:01:00Z",
+		"Hits": 3054,
+		"AbsoluteHits": 1848896
+	},
+	{
+		"Timestamp": "2015-06-24T00:01:00Z",
+		"Hits": 2170,
+		"AbsoluteHits": 1834341
+	},
+	{
+		"Timestamp": "2015-06-23T00:01:00Z",
+		"Hits": 2112,
+		"AbsoluteHits": 1825386
+	},
+	{
+		"Timestamp": "2015-06-22T00:01:00Z",
+		"Hits": 532,
+		"AbsoluteHits": 1816775
+	},
+	{
+		"Timestamp": "2015-06-21T00:01:00Z",
+		"Hits": 620,
+		"AbsoluteHits": 1814730
+	},
+	{
+		"Timestamp": "2015-06-20T00:01:00Z",
+		"Hits": 1861,
+		"AbsoluteHits": 1812688
+	},
+	{
+		"Timestamp": "2015-06-19T00:01:00Z",
+		"Hits": 2139,
+		"AbsoluteHits": 1805496
+	},
+	{
+		"Timestamp": "2015-06-18T00:01:00Z",
+		"Hits": 2191,
+		"AbsoluteHits": 1797044
+	},
+	{
+		"Timestamp": "2015-06-17T00:01:00Z",
+		"Hits": 0,
+		"AbsoluteHits": 1788101
+	},
+	{
+		"Timestamp": "2015-06-16T00:01:00Z",
+		"Hits": 2111,
+		"AbsoluteHits": 1779402
+	},
+	{
+		"Timestamp": "2015-06-15T00:01:00Z",
+		"Hits": 550,
+		"AbsoluteHits": 1771125
+	},
+	{
+		"Timestamp": "2015-06-14T00:01:00Z",
+		"Hits": 636,
+		"AbsoluteHits": 1769054
+	},
+	{
+		"Timestamp": "2015-06-13T00:01:00Z",
+		"Hits": 1838,
+		"AbsoluteHits": 1766941
+	},
+	{
+		"Timestamp": "2015-06-12T00:01:00Z",
+		"Hits": 2075,
+		"AbsoluteHits": 1759625
+	},
+	{
+		"Timestamp": "2015-06-11T00:01:00Z",
+		"Hits": 2255,
+		"AbsoluteHits": 1751389
+	},
+	{
+		"Timestamp": "2015-06-10T00:01:00Z",
+		"Hits": 2142,
+		"AbsoluteHits": 1742179
+	},
+	{
+		"Timestamp": "2015-06-09T00:01:00Z",
+		"Hits": 2034,
+		"AbsoluteHits": 1733240
+	},
+	{
+		"Timestamp": "2015-06-08T00:01:00Z",
+		"Hits": 590,
+		"AbsoluteHits": 1724926
+	},
+	{
+		"Timestamp": "2015-06-07T00:01:00Z",
+		"Hits": 699,
+		"AbsoluteHits": 1722997
+	},
+	{
+		"Timestamp": "2015-06-06T00:01:00Z",
+		"Hits": 1907,
+		"AbsoluteHits": 1720592
+	},
+	{
+		"Timestamp": "2015-06-05T00:01:00Z",
+		"Hits": 2109,
+		"AbsoluteHits": 1712586
+	},
+	{
+		"Timestamp": "2015-06-04T00:01:00Z",
+		"Hits": 2282,
+		"AbsoluteHits": 1704390
+	},
+	{
+		"Timestamp": "2015-06-03T00:01:00Z",
+		"Hits": 2269,
+		"AbsoluteHits": 1695781
+	},
+	{
+		"Timestamp": "2015-06-02T00:01:00Z",
+		"Hits": 2001,
+		"AbsoluteHits": 1687303
+	},
+	{
+		"Timestamp": "2015-05-31T00:01:00Z",
+		"Hits": 713,
+		"AbsoluteHits": 1677060
+	},
+	{
+		"Timestamp": "2015-05-30T00:01:00Z",
+		"Hits": 1992,
+		"AbsoluteHits": 1674742
+	},
+	{
+		"Timestamp": "2015-05-29T00:01:00Z",
+		"Hits": 2188,
+		"AbsoluteHits": 1667582
+	},
+	{
+		"Timestamp": "2015-05-28T00:01:00Z",
+		"Hits": 2326,
+		"AbsoluteHits": 1658957
+	},
+	{
+		"Timestamp": "2015-05-27T00:01:00Z",
+		"Hits": 2221,
+		"AbsoluteHits": 1650105
+	},
+	{
+		"Timestamp": "2015-05-26T00:01:00Z",
+		"Hits": 1517,
+		"AbsoluteHits": 1641445
+	},
+	{
+		"Timestamp": "2015-05-25T00:01:00Z",
+		"Hits": 610,
+		"AbsoluteHits": 1636247
+	},
+	{
+		"Timestamp": "2015-05-24T00:01:00Z",
+		"Hits": 685,
+		"AbsoluteHits": 1634277
+	},
+	{
+		"Timestamp": "2015-05-23T00:01:00Z",
+		"Hits": 1954,
+		"AbsoluteHits": 1632005
+	},
+	{
+		"Timestamp": "2015-05-22T00:01:00Z",
+		"Hits": 2210,
+		"AbsoluteHits": 1624528
+	},
+	{
+		"Timestamp": "2015-05-21T00:01:00Z",
+		"Hits": 2240,
+		"AbsoluteHits": 1615964
+	},
+	{
+		"Timestamp": "2015-05-20T00:01:00Z",
+		"Hits": 2373,
+		"AbsoluteHits": 1606786
+	},
+	{
+		"Timestamp": "2015-05-19T00:01:00Z",
+		"Hits": 2081,
+		"AbsoluteHits": 1597718
+	},
+	{
+		"Timestamp": "2015-05-18T00:01:00Z",
+		"Hits": 627,
+		"AbsoluteHits": 1589729
+	},
+	{
+		"Timestamp": "2015-05-17T00:01:00Z",
+		"Hits": 751,
+		"AbsoluteHits": 1587698
+	},
+	{
+		"Timestamp": "2015-05-16T00:01:00Z",
+		"Hits": 1908,
+		"AbsoluteHits": 1585223
+	},
+	{
+		"Timestamp": "2015-05-15T00:01:00Z",
+		"Hits": 2185,
+		"AbsoluteHits": 1577604
+	},
+	{
+		"Timestamp": "2015-05-14T00:01:00Z",
+		"Hits": 2296,
+		"AbsoluteHits": 1569860
+	},
+	{
+		"Timestamp": "2015-05-13T00:01:00Z",
+		"Hits": 2368,
+		"AbsoluteHits": 1561016
+	},
+	{
+		"Timestamp": "2015-05-12T00:01:00Z",
+		"Hits": 2222,
+		"AbsoluteHits": 1551929
+	},
+	{
+		"Timestamp": "2015-05-11T00:01:00Z",
+		"Hits": 679,
+		"AbsoluteHits": 1543164
+	},
+	{
+		"Timestamp": "2015-05-10T00:01:00Z",
+		"Hits": 747,
+		"AbsoluteHits": 1541052
+	},
+	{
+		"Timestamp": "2015-05-09T00:01:00Z",
+		"Hits": 2048,
+		"AbsoluteHits": 1538701
+	},
+	{
+		"Timestamp": "2015-05-08T00:01:00Z",
+		"Hits": 2305,
+		"AbsoluteHits": 1530411
+	},
+	{
+		"Timestamp": "2015-05-07T00:01:00Z",
+		"Hits": 2297,
+		"AbsoluteHits": 1521751
+	},
+	{
+		"Timestamp": "2015-05-06T00:01:00Z",
+		"Hits": 2452,
+		"AbsoluteHits": 1512834
+	},
+	{
+		"Timestamp": "2015-05-05T00:01:00Z",
+		"Hits": 2160,
+		"AbsoluteHits": 1503232
+	},
+	{
+		"Timestamp": "2015-05-04T00:01:00Z",
+		"Hits": 640,
+		"AbsoluteHits": 1495037
+	},
+	{
+		"Timestamp": "2015-05-03T00:01:00Z",
+		"Hits": 652,
+		"AbsoluteHits": 1492944
+	},
+	{
+		"Timestamp": "2015-05-02T00:01:00Z",
+		"Hits": 1341,
+		"AbsoluteHits": 1490716
+	},
+	{
+		"Timestamp": "2015-05-01T00:01:00Z",
+		"Hits": 2156,
+		"AbsoluteHits": 1485712
+	},
+	{
+		"Timestamp": "2015-04-30T00:01:00Z",
+		"Hits": 2438,
+		"AbsoluteHits": 1477727
+	},
+	{
+		"Timestamp": "2015-04-29T00:01:00Z",
+		"Hits": 2375,
+		"AbsoluteHits": 1468930
+	},
+	{
+		"Timestamp": "2015-04-28T00:01:00Z",
+		"Hits": 2208,
+		"AbsoluteHits": 1460022
+	},
+	{
+		"Timestamp": "2015-04-27T00:01:00Z",
+		"Hits": 673,
+		"AbsoluteHits": 1451774
+	},
+	{
+		"Timestamp": "2015-04-26T00:01:00Z",
+		"Hits": 823,
+		"AbsoluteHits": 1449534
+	},
+	{
+		"Timestamp": "2015-04-25T00:01:00Z",
+		"Hits": 2110,
+		"AbsoluteHits": 1446834
+	},
+	{
+		"Timestamp": "2015-04-24T00:01:00Z",
+		"Hits": 2354,
+		"AbsoluteHits": 1438912
+	},
+	{
+		"Timestamp": "2015-04-23T00:01:00Z",
+		"Hits": 2378,
+		"AbsoluteHits": 1430253
+	},
+	{
+		"Timestamp": "2015-04-22T00:01:00Z",
+		"Hits": 2429,
+		"AbsoluteHits": 1420884
+	},
+	{
+		"Timestamp": "2015-04-21T00:01:00Z",
+		"Hits": 2252,
+		"AbsoluteHits": 1411736
+	},
+	{
+		"Timestamp": "2015-04-20T00:01:00Z",
+		"Hits": 738,
+		"AbsoluteHits": 1403602
+	},
+	{
+		"Timestamp": "2015-04-19T00:01:00Z",
+		"Hits": 753,
+		"AbsoluteHits": 1401099
+	},
+	{
+		"Timestamp": "2015-04-18T00:01:00Z",
+		"Hits": 2102,
+		"AbsoluteHits": 1398929
+	},
+	{
+		"Timestamp": "2015-04-17T00:01:00Z",
+		"Hits": 2325,
+		"AbsoluteHits": 1391116
+	},
+	{
+		"Timestamp": "2015-04-16T00:01:00Z",
+		"Hits": 2377,
+		"AbsoluteHits": 1382252
+	},
+	{
+		"Timestamp": "2015-04-15T00:01:00Z",
+		"Hits": 2343,
+		"AbsoluteHits": 1373273
+	},
+	{
+		"Timestamp": "2015-04-14T00:01:00Z",
+		"Hits": 2276,
+		"AbsoluteHits": 1364387
+	},
+	{
+		"Timestamp": "2015-04-13T00:01:00Z",
+		"Hits": 674,
+		"AbsoluteHits": 1355892
+	},
+	{
+		"Timestamp": "2015-04-12T00:01:00Z",
+		"Hits": 741,
+		"AbsoluteHits": 1353650
+	},
+	{
+		"Timestamp": "2015-04-11T00:01:00Z",
+		"Hits": 2213,
+		"AbsoluteHits": 1351244
+	},
+	{
+		"Timestamp": "2015-04-10T00:01:00Z",
+		"Hits": 2510,
+		"AbsoluteHits": 1342868
+	},
+	{
+		"Timestamp": "2015-04-09T00:01:00Z",
+		"Hits": 2417,
+		"AbsoluteHits": 1332937
+	},
+	{
+		"Timestamp": "2015-04-08T00:01:00Z",
+		"Hits": 2372,
+		"AbsoluteHits": 1323283
+	},
+	{
+		"Timestamp": "2015-04-07T00:01:00Z",
+		"Hits": 1731,
+		"AbsoluteHits": 1313726
+	},
+	{
+		"Timestamp": "2015-04-06T00:01:00Z",
+		"Hits": 603,
+		"AbsoluteHits": 1307573
+	},
+	{
+		"Timestamp": "2015-04-05T00:01:00Z",
+		"Hits": 688,
+		"AbsoluteHits": 1305292
+	},
+	{
+		"Timestamp": "2015-04-04T00:01:00Z",
+		"Hits": 1538,
+		"AbsoluteHits": 1302754
+	},
+	{
+		"Timestamp": "2015-04-03T00:01:00Z",
+		"Hits": 2213,
+		"AbsoluteHits": 1296948
+	},
+	{
+		"Timestamp": "2015-04-02T00:01:00Z",
+		"Hits": 2349,
+		"AbsoluteHits": 1288241
+	},
+	{
+		"Timestamp": "2015-04-01T00:01:00Z",
+		"Hits": 2422,
+		"AbsoluteHits": 1277752
+	},
+	{
+		"Timestamp": "2015-03-31T00:01:00Z",
+		"Hits": 2278,
+		"AbsoluteHits": 1268498
+	},
+	{
+		"Timestamp": "2015-03-30T00:01:00Z",
+		"Hits": 722,
+		"AbsoluteHits": 1260056
+	},
+	{
+		"Timestamp": "2015-03-28T00:01:00Z",
+		"Hits": 2139,
+		"AbsoluteHits": 1255232
+	},
+	{
+		"Timestamp": "2015-03-27T00:01:00Z",
+		"Hits": 2313,
+		"AbsoluteHits": 1246827
+	},
+	{
+		"Timestamp": "2015-03-26T00:01:00Z",
+		"Hits": 2610,
+		"AbsoluteHits": 1238082
+	},
+	{
+		"Timestamp": "2015-03-25T00:01:00Z",
+		"Hits": 2466,
+		"AbsoluteHits": 1228107
+	},
+	{
+		"Timestamp": "2015-03-24T00:01:00Z",
+		"Hits": 2361,
+		"AbsoluteHits": 1218783
+	},
+	{
+		"Timestamp": "2015-03-23T00:01:00Z",
+		"Hits": 756,
+		"AbsoluteHits": 1209966
+	},
+	{
+		"Timestamp": "2015-03-22T00:01:00Z",
+		"Hits": 779,
+		"AbsoluteHits": 1207300
+	},
+	{
+		"Timestamp": "2015-03-21T00:01:00Z",
+		"Hits": 2158,
+		"AbsoluteHits": 1204670
+	},
+	{
+		"Timestamp": "2015-03-20T00:01:00Z",
+		"Hits": 2575,
+		"AbsoluteHits": 1196184
+	},
+	{
+		"Timestamp": "2015-03-19T00:01:00Z",
+		"Hits": 2904,
+		"AbsoluteHits": 1186140
+	},
+	{
+		"Timestamp": "2015-03-18T00:01:00Z",
+		"Hits": 2423,
+		"AbsoluteHits": 1174771
+	},
+	{
+		"Timestamp": "2015-03-17T00:01:00Z",
+		"Hits": 2384,
+		"AbsoluteHits": 1165521
+	},
+	{
+		"Timestamp": "2015-03-16T00:01:00Z",
+		"Hits": 838,
+		"AbsoluteHits": 1156318
+	},
+	{
+		"Timestamp": "2015-03-15T00:01:00Z",
+		"Hits": 867,
+		"AbsoluteHits": 1153676
+	},
+	{
+		"Timestamp": "2015-03-14T00:01:00Z",
+		"Hits": 2304,
+		"AbsoluteHits": 1150724
+	},
+	{
+		"Timestamp": "2015-03-13T00:01:00Z",
+		"Hits": 2561,
+		"AbsoluteHits": 1142453
+	},
+	{
+		"Timestamp": "2015-03-12T00:01:00Z",
+		"Hits": 2631,
+		"AbsoluteHits": 1133044
+	},
+	{
+		"Timestamp": "2015-03-11T00:01:00Z",
+		"Hits": 2602,
+		"AbsoluteHits": 1123119
+	},
+	{
+		"Timestamp": "2015-03-10T00:01:00Z",
+		"Hits": 2420,
+		"AbsoluteHits": 1113705
+	},
+	{
+		"Timestamp": "2015-03-09T00:01:00Z",
+		"Hits": 778,
+		"AbsoluteHits": 1104549
+	},
+	{
+		"Timestamp": "2015-03-08T00:01:00Z",
+		"Hits": 908,
+		"AbsoluteHits": 1102150
+	},
+	{
+		"Timestamp": "2015-03-07T00:01:00Z",
+		"Hits": 2246,
+		"AbsoluteHits": 1099269
+	},
+	{
+		"Timestamp": "2015-03-06T00:01:00Z",
+		"Hits": 2506,
+		"AbsoluteHits": 1091131
+	},
+	{
+		"Timestamp": "2015-03-05T00:01:00Z",
+		"Hits": 2484,
+		"AbsoluteHits": 1081505
+	},
+	{
+		"Timestamp": "2015-03-04T00:01:00Z",
+		"Hits": 2587,
+		"AbsoluteHits": 1071760
+	},
+	{
+		"Timestamp": "2015-03-03T00:01:00Z",
+		"Hits": 2432,
+		"AbsoluteHits": 1061991
+	},
+	{
+		"Timestamp": "2015-03-02T00:01:00Z",
+		"Hits": 773,
+		"AbsoluteHits": 1052292
+	},
+	{
+		"Timestamp": "2015-03-01T00:01:00Z",
+		"Hits": 947,
+		"AbsoluteHits": 1049379
+	},
+	{
+		"Timestamp": "2015-02-28T00:01:00Z",
+		"Hits": 2367,
+		"AbsoluteHits": 1046296
+	},
+	{
+		"Timestamp": "2015-02-27T00:01:00Z",
+		"Hits": 2918,
+		"AbsoluteHits": 1036886
+	},
+	{
+		"Timestamp": "2015-02-26T00:01:00Z",
+		"Hits": 3908,
+		"AbsoluteHits": 1024912
+	},
+	{
+		"Timestamp": "2015-02-25T00:01:00Z",
+		"Hits": 2404,
+		"AbsoluteHits": 1008805
+	},
+	{
+		"Timestamp": "2015-02-24T00:01:00Z",
+		"Hits": 2268,
+		"AbsoluteHits": 999941
+	},
+	{
+		"Timestamp": "2015-02-23T00:01:00Z",
+		"Hits": 758,
+		"AbsoluteHits": 991306
+	},
+	{
+		"Timestamp": "2015-02-22T00:01:00Z",
+		"Hits": 831,
+		"AbsoluteHits": 988753
+	},
+	{
+		"Timestamp": "2015-02-21T00:01:00Z",
+		"Hits": 2122,
+		"AbsoluteHits": 986107
+	},
+	{
+		"Timestamp": "2015-02-20T00:01:00Z",
+		"Hits": 2297,
+		"AbsoluteHits": 978154
+	},
+	{
+		"Timestamp": "2015-02-19T00:01:00Z",
+		"Hits": 0,
+		"AbsoluteHits": 969428
+	},
+	{
+		"Timestamp": "2015-02-18T00:01:00Z",
+		"Hits": 2316,
+		"AbsoluteHits": 959677
+	},
+	{
+		"Timestamp": "2015-02-17T00:01:00Z",
+		"Hits": 2112,
+		"AbsoluteHits": 951085
+	},
+	{
+		"Timestamp": "2015-02-16T00:01:00Z",
+		"Hits": 748,
+		"AbsoluteHits": 943050
+	},
+	{
+		"Timestamp": "2015-02-15T00:01:00Z",
+		"Hits": 763,
+		"AbsoluteHits": 940534
+	},
+	{
+		"Timestamp": "2015-02-14T00:01:00Z",
+		"Hits": 2117,
+		"AbsoluteHits": 938170
+	},
+	{
+		"Timestamp": "2015-02-13T00:01:00Z",
+		"Hits": 2640,
+		"AbsoluteHits": 930473
+	},
+	{
+		"Timestamp": "2015-02-12T00:01:00Z",
+		"Hits": 2402,
+		"AbsoluteHits": 920931
+	},
+	{
+		"Timestamp": "2015-02-11T00:01:00Z",
+		"Hits": 2567,
+		"AbsoluteHits": 911799
+	},
+	{
+		"Timestamp": "2015-02-10T00:01:00Z",
+		"Hits": 2394,
+		"AbsoluteHits": 902842
+	},
+	{
+		"Timestamp": "2015-02-09T00:01:00Z",
+		"Hits": 760,
+		"AbsoluteHits": 893885
+	},
+	{
+		"Timestamp": "2015-02-08T00:01:00Z",
+		"Hits": 863,
+		"AbsoluteHits": 891459
+	},
+	{
+		"Timestamp": "2015-02-07T00:01:00Z",
+		"Hits": 2356,
+		"AbsoluteHits": 888815
+	},
+	{
+		"Timestamp": "2015-02-06T00:01:00Z",
+		"Hits": 2497,
+		"AbsoluteHits": 880434
+	},
+	{
+		"Timestamp": "2015-02-05T00:01:00Z",
+		"Hits": 2498,
+		"AbsoluteHits": 871288
+	},
+	{
+		"Timestamp": "2015-02-04T00:01:00Z",
+		"Hits": 2530,
+		"AbsoluteHits": 862396
+	},
+	{
+		"Timestamp": "2015-02-03T00:01:00Z",
+		"Hits": 2337,
+		"AbsoluteHits": 853434
+	},
+	{
+		"Timestamp": "2015-02-02T00:01:00Z",
+		"Hits": 737,
+		"AbsoluteHits": 844706
+	},
+	{
+		"Timestamp": "2015-02-01T00:01:00Z",
+		"Hits": 892,
+		"AbsoluteHits": 842319
+	},
+	{
+		"Timestamp": "2015-01-31T00:01:00Z",
+		"Hits": 2221,
+		"AbsoluteHits": 839520
+	},
+	{
+		"Timestamp": "2015-01-30T00:01:00Z",
+		"Hits": 2642,
+		"AbsoluteHits": 831653
+	},
+	{
+		"Timestamp": "2015-01-29T00:01:00Z",
+		"Hits": 2573,
+		"AbsoluteHits": 822598
+	},
+	{
+		"Timestamp": "2015-01-28T00:01:00Z",
+		"Hits": 2393,
+		"AbsoluteHits": 813630
+	},
+	{
+		"Timestamp": "2015-01-27T00:01:00Z",
+		"Hits": 2090,
+		"AbsoluteHits": 804589
+	},
+	{
+		"Timestamp": "2015-01-26T00:01:00Z",
+		"Hits": 835,
+		"AbsoluteHits": 796651
+	},
+	{
+		"Timestamp": "2015-01-25T00:01:00Z",
+		"Hits": 806,
+		"AbsoluteHits": 794212
+	},
+	{
+		"Timestamp": "2015-01-24T00:01:00Z",
+		"Hits": 2295,
+		"AbsoluteHits": 791663
+	},
+	{
+		"Timestamp": "2015-01-23T00:01:00Z",
+		"Hits": 2486,
+		"AbsoluteHits": 783637
+	},
+	{
+		"Timestamp": "2015-01-22T00:01:00Z",
+		"Hits": 2599,
+		"AbsoluteHits": 774633
+	},
+	{
+		"Timestamp": "2015-01-20T00:01:00Z",
+		"Hits": 2322,
+		"AbsoluteHits": 756101
+	},
+	{
+		"Timestamp": "2015-01-19T00:01:00Z",
+		"Hits": 762,
+		"AbsoluteHits": 747766
+	},
+	{
+		"Timestamp": "2015-01-18T00:01:00Z",
+		"Hits": 924,
+		"AbsoluteHits": 745255
+	},
+	{
+		"Timestamp": "2015-01-17T00:01:00Z",
+		"Hits": 2222,
+		"AbsoluteHits": 742507
+	},
+	{
+		"Timestamp": "2015-01-16T00:01:00Z",
+		"Hits": 2373,
+		"AbsoluteHits": 734797
+	},
+	{
+		"Timestamp": "2015-01-15T00:01:00Z",
+		"Hits": 2499,
+		"AbsoluteHits": 725895
+	},
+	{
+		"Timestamp": "2015-01-14T00:01:00Z",
+		"Hits": 2678,
+		"AbsoluteHits": 717075
+	},
+	{
+		"Timestamp": "2015-01-13T00:01:00Z",
+		"Hits": 2407,
+		"AbsoluteHits": 707774
+	},
+	{
+		"Timestamp": "2015-01-12T00:01:00Z",
+		"Hits": 762,
+		"AbsoluteHits": 699303
+	},
+	{
+		"Timestamp": "2015-01-11T00:01:00Z",
+		"Hits": 811,
+		"AbsoluteHits": 696870
+	},
+	{
+		"Timestamp": "2015-01-10T00:01:00Z",
+		"Hits": 2177,
+		"AbsoluteHits": 694402
+	},
+	{
+		"Timestamp": "2015-01-09T00:01:00Z",
+		"Hits": 2439,
+		"AbsoluteHits": 686934
+	},
+	{
+		"Timestamp": "2015-01-08T00:01:00Z",
+		"Hits": 2354,
+		"AbsoluteHits": 678517
+	},
+	{
+		"Timestamp": "2015-01-07T00:01:00Z",
+		"Hits": 2314,
+		"AbsoluteHits": 670611
+	},
+	{
+		"Timestamp": "2015-01-06T00:01:00Z",
+		"Hits": 2093,
+		"AbsoluteHits": 662529
+	},
+	{
+		"Timestamp": "2015-01-05T00:01:00Z",
+		"Hits": 719,
+		"AbsoluteHits": 655030
+	},
+	{
+		"Timestamp": "2015-01-04T00:01:00Z",
+		"Hits": 756,
+		"AbsoluteHits": 652739
+	},
+	{
+		"Timestamp": "2015-01-03T00:01:00Z",
+		"Hits": 1310,
+		"AbsoluteHits": 650268
+	},
+	{
+		"Timestamp": "2015-01-02T00:01:00Z",
+		"Hits": 611,
+		"AbsoluteHits": 646066
+	},
+	{
+		"Timestamp": "2015-01-01T00:01:00Z",
+		"Hits": 1224,
+		"AbsoluteHits": 644205
+	},
+	{
+		"Timestamp": "2014-12-31T00:01:00Z",
+		"Hits": 1825,
+		"AbsoluteHits": 640072
+	},
+	{
+		"Timestamp": "2014-12-30T00:01:00Z",
+		"Hits": 1806,
+		"AbsoluteHits": 633546
+	},
+	{
+		"Timestamp": "2014-12-29T00:01:00Z",
+		"Hits": 648,
+		"AbsoluteHits": 627378
+	},
+	{
+		"Timestamp": "2014-12-28T00:01:00Z",
+		"Hits": 684,
+		"AbsoluteHits": 625301
+	},
+	{
+		"Timestamp": "2014-12-27T00:01:00Z",
+		"Hits": 1061,
+		"AbsoluteHits": 623220
+	},
+	{
+		"Timestamp": "2014-12-26T00:01:00Z",
+		"Hits": 783,
+		"AbsoluteHits": 619954
+	},
+	{
+		"Timestamp": "2014-12-25T00:01:00Z",
+		"Hits": 1363,
+		"AbsoluteHits": 617628
+	},
+	{
+		"Timestamp": "2014-12-24T00:01:00Z",
+		"Hits": 1975,
+		"AbsoluteHits": 613173
+	},
+	{
+		"Timestamp": "2014-12-23T00:01:00Z",
+		"Hits": 1981,
+		"AbsoluteHits": 606466
+	},
+	{
+		"Timestamp": "2014-12-22T00:01:00Z",
+		"Hits": 686,
+		"AbsoluteHits": 599718
+	},
+	{
+		"Timestamp": "2014-12-21T00:01:00Z",
+		"Hits": 770,
+		"AbsoluteHits": 597579
+	},
+	{
+		"Timestamp": "2014-12-20T00:01:00Z",
+		"Hits": 2113,
+		"AbsoluteHits": 595211
+	},
+	{
+		"Timestamp": "2014-12-19T00:01:00Z",
+		"Hits": 2551,
+		"AbsoluteHits": 588119
+	},
+	{
+		"Timestamp": "2014-12-18T00:01:00Z",
+		"Hits": 2764,
+		"AbsoluteHits": 579486
+	},
+	{
+		"Timestamp": "2014-12-17T00:01:00Z",
+		"Hits": 2694,
+		"AbsoluteHits": 570645
+	},
+	{
+		"Timestamp": "2014-12-16T00:01:00Z",
+		"Hits": 2620,
+		"AbsoluteHits": 561601
+	},
+	{
+		"Timestamp": "2014-12-15T00:01:00Z",
+		"Hits": 810,
+		"AbsoluteHits": 552623
+	},
+	{
+		"Timestamp": "2014-12-14T00:01:00Z",
+		"Hits": 880,
+		"AbsoluteHits": 550023
+	},
+	{
+		"Timestamp": "2014-12-13T00:01:00Z",
+		"Hits": 2506,
+		"AbsoluteHits": 547626
+	},
+	{
+		"Timestamp": "2014-12-12T00:01:00Z",
+		"Hits": 2734,
+		"AbsoluteHits": 539533
+	},
+	{
+		"Timestamp": "2014-12-11T00:01:00Z",
+		"Hits": 2858,
+		"AbsoluteHits": 530243
+	},
+	{
+		"Timestamp": "2014-12-10T00:01:00Z",
+		"Hits": 2821,
+		"AbsoluteHits": 520712
+	},
+	{
+		"Timestamp": "2014-12-09T00:01:00Z",
+		"Hits": 2668,
+		"AbsoluteHits": 511188
+	},
+	{
+		"Timestamp": "2014-12-08T00:01:00Z",
+		"Hits": 857,
+		"AbsoluteHits": 502296
+	},
+	{
+		"Timestamp": "2014-12-07T00:01:00Z",
+		"Hits": 971,
+		"AbsoluteHits": 499803
+	},
+	{
+		"Timestamp": "2014-12-06T00:01:00Z",
+		"Hits": 2652,
+		"AbsoluteHits": 496817
+	},
+	{
+		"Timestamp": "2014-12-05T00:01:00Z",
+		"Hits": 3093,
+		"AbsoluteHits": 488597
+	},
+	{
+		"Timestamp": "2014-12-04T00:01:00Z",
+		"Hits": 3060,
+		"AbsoluteHits": 478945
+	},
+	{
+		"Timestamp": "2014-12-03T00:01:00Z",
+		"Hits": 3109,
+		"AbsoluteHits": 469178
+	},
+	{
+		"Timestamp": "2014-12-02T00:01:00Z",
+		"Hits": 2814,
+		"AbsoluteHits": 459639
+	},
+	{
+		"Timestamp": "2014-12-01T00:01:00Z",
+		"Hits": 891,
+		"AbsoluteHits": 451087
+	},
+	{
+		"Timestamp": "2014-11-30T00:01:00Z",
+		"Hits": 917,
+		"AbsoluteHits": 448374
+	},
+	{
+		"Timestamp": "2014-11-29T00:01:00Z",
+		"Hits": 2111,
+		"AbsoluteHits": 445689
+	},
+	{
+		"Timestamp": "2014-11-28T00:01:00Z",
+		"Hits": 2476,
+		"AbsoluteHits": 439457
+	},
+	{
+		"Timestamp": "2014-11-27T00:01:00Z",
+		"Hits": 2975,
+		"AbsoluteHits": 424901
+	},
+	{
+		"Timestamp": "2014-11-26T00:01:00Z",
+		"Hits": 3239,
+		"AbsoluteHits": 415978
+	},
+	{
+		"Timestamp": "2014-11-25T00:01:00Z",
+		"Hits": 3239,
+		"AbsoluteHits": 388493
+	},
+	{
+		"Timestamp": "2014-11-24T00:01:00Z",
+		"Hits": 1020,
+		"AbsoluteHits": 326849
+	},
+	{
+		"Timestamp": "2014-11-23T00:01:00Z",
+		"Hits": 1083,
+		"AbsoluteHits": 272019
+	},
+	{
+		"Timestamp": "2014-11-22T00:01:00Z",
+		"Hits": 2903,
+		"AbsoluteHits": 216849
+	},
+	{
+		"Timestamp": "2014-11-21T00:01:00Z",
+		"Hits": 3933,
+		"AbsoluteHits": 156456
+	},
+	{
+		"Timestamp": "2014-11-20T00:01:00Z",
+		"Hits": 4467,
+		"AbsoluteHits": 127444
+	},
+	{
+		"Timestamp": "2014-11-19T00:01:00Z",
+		"Hits": 3471,
+		"AbsoluteHits": 94513
+	},
+	{
+		"Timestamp": "2014-11-18T00:01:00Z",
+		"Hits": 3250,
+		"AbsoluteHits": 85079
+	},
+	{
+		"Timestamp": "2014-11-17T00:01:00Z",
+		"Hits": 1022,
+		"AbsoluteHits": 76484
+	},
+	{
+		"Timestamp": "2014-11-16T00:01:00Z",
+		"Hits": 1115,
+		"AbsoluteHits": 74011
+	},
+	{
+		"Timestamp": "2014-11-15T00:01:00Z",
+		"Hits": 3093,
+		"AbsoluteHits": 71102
+	},
+	{
+		"Timestamp": "2014-11-14T00:01:00Z",
+		"Hits": 3494,
+		"AbsoluteHits": 62841
+	},
+	{
+		"Timestamp": "2014-11-13T00:01:00Z",
+		"Hits": 3643,
+		"AbsoluteHits": 53706
+	},
+	{
+		"Timestamp": "2014-11-12T00:01:00Z",
+		"Hits": 3405,
+		"AbsoluteHits": 43956
+	},
+	{
+		"Timestamp": "2014-11-11T00:01:00Z",
+		"Hits": 3531,
+		"AbsoluteHits": 35350
+	},
+	{
+		"Timestamp": "2014-11-10T00:01:00Z",
+		"Hits": 1053,
+		"AbsoluteHits": 26686
+	},
+	{
+		"Timestamp": "2014-11-09T00:01:00Z",
+		"Hits": 1196,
+		"AbsoluteHits": 24146
+	},
+	{
+		"Timestamp": "2014-11-08T00:01:00Z",
+		"Hits": 3540,
+		"AbsoluteHits": 21338
+	},
+	{
+		"Timestamp": "2014-11-07T00:01:00Z",
+		"Hits": 4308,
+		"AbsoluteHits": 13087
+	},
+	{
+		"Timestamp": "2014-11-06T00:01:00Z",
+		"Hits": 2017,
+		"AbsoluteHits": 3847
+	},
+	{
+		"Timestamp": "2014-11-05T00:01:00Z",
+		"Hits": 0,
+		"AbsoluteHits": 0
+	}]
