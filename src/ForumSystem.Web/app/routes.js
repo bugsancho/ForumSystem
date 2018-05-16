@@ -35,7 +35,13 @@
             threadStatistics = {
                 name: 'threadStatistics',
                 url: '/thread/{threadId}/stats',
-                component: 'threadStatistics'
+                component: 'threadStatistics',
+                resolve: {
+                    threadId: function ($transition$) {
+                        "ngInject";
+                        return $transition$.params().threadId;
+                    }
+                }
             },
             editPost = {
                 name: 'editPost',

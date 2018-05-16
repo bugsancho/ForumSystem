@@ -1,18 +1,19 @@
-﻿<div id="threadStatisticsContainer" class="container"
+﻿<a class="btn btn-primary" ui-sref="thread({ threadId: $ctrl.threadId })">Back to thread</a>
+<div id="threadStatisticsContainer" class="container"
      style="width: 700px; height: 400px; margin-top: 50px;">
-    
+
     <canvas id="threadStatistics" class="chart chart-line"
             chart-data="$ctrl.data"
             chart-labels="$ctrl.labels"
             chart-series="$ctrl.series"
             chart-options="{legend:{display:true}}"></canvas>
-    
+
     <p ng-if="$ctrl.noDataAvailable">No data is available for this aggregation period. Please switch to a broader period</p>
 </div>
 
 <div class="form-group">
     <label for="threadStatisticsSlider">Select aggregation level: </label>
-    <input id="threadStatisticsSlider" type="range" min="0" max="{{$ctrl.intervalsCount - 1}}" ng-model="$ctrl.selectedIntervalIndex" ng-change="$ctrl.sliderChanged($event)"/>
+    <input id="threadStatisticsSlider" type="range" min="0" max="{{$ctrl.intervalsCount - 1}}" ng-model="$ctrl.selectedIntervalIndex" ng-change="$ctrl.sliderChanged($event)" />
     <span>{{$ctrl.selectedInterval.name}}</span>
 </div>
 <p class="text-info">*You can also use the scroll to switch between aggregation levels</p>

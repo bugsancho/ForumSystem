@@ -8,11 +8,12 @@
     angular.module('forumSystem.posts', ['forumSystem.shared', 'angularMoment']);
 
 // ReSharper disable once UndeclaredGlobalVariableUsing
-    angular.module('forumSystem', ['ui.bootstrap', 'ngTouch', 'ngAnimate', 'ui.router', 'forumSystem.auth', 'forumSystem.threads', 'forumSystem.posts', 'forumSystem.statistics'])
+    angular.module('forumSystem',
+        [
+            'ui.bootstrap', 'ngTouch', 'ngAnimate', 'ui.router', 'forumSystem.auth', 'forumSystem.threads',
+            'forumSystem.posts', 'forumSystem.statistics'
+        ]);
        
-        //.run(function (authService) {
-        //    authService.processRedirectInfo();
-        //});
 
     angular.module('forumSystem').config(function ($httpProvider) {
         $httpProvider.interceptors.push('authInterceptor');
