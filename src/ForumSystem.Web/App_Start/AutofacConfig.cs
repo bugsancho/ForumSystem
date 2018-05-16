@@ -13,6 +13,7 @@
 
     using ForumSystem.Core.Analytics;
     using ForumSystem.Core.Data;
+    using ForumSystem.Core.Shared;
     using ForumSystem.Core.Users;
     using ForumSystem.Identity.Managers;
     using ForumSystem.Identity.Providers;
@@ -20,9 +21,7 @@
     using ForumSystem.Infrastructure.Data;
 
     using Microsoft.AspNet.Identity.Owin;
-
-    using WebGrease;
-
+    
     public class AutofacConfig
     {
         public static void RegisterDependencies()
