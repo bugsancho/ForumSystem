@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8DB01C26
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Core.Tests", "test\ForumSystem.Core.Tests\ForumSystem.Core.Tests.csproj", "{C3921F5A-1E4C-414D-9E25-267762992EF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Infrastructure.IntegrationTests", "test\ForumSystem.Infrastructure.IntegrationTests\ForumSystem.Infrastructure.IntegrationTests.csproj", "{CD74A46A-0E5C-4C21-8A86-2744D5119F27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +43,17 @@ Global
 		{C3921F5A-1E4C-414D-9E25-267762992EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3921F5A-1E4C-414D-9E25-267762992EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3921F5A-1E4C-414D-9E25-267762992EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD74A46A-0E5C-4C21-8A86-2744D5119F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD74A46A-0E5C-4C21-8A86-2744D5119F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD74A46A-0E5C-4C21-8A86-2744D5119F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD74A46A-0E5C-4C21-8A86-2744D5119F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C3921F5A-1E4C-414D-9E25-267762992EF1} = {8DB01C26-18FE-414C-9737-0D144FE30F7D}
+		{CD74A46A-0E5C-4C21-8A86-2744D5119F27} = {8DB01C26-18FE-414C-9737-0D144FE30F7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD3E4C4C-9C8C-438E-BF8F-52C34FACBB0B}
