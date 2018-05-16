@@ -1,21 +1,27 @@
-﻿<h3>{{$ctrl.thread.title}}</h3>
-<div>
-<a  class="btn btn-primary" ui-sref="threads()">Back to threads list</a>
-    <a  class="btn btn-info float-right" ui-sref="threadStatistics({threadId: $ctrl.thread.id})">Stats</a>
+﻿<div class="row">
+    <div class="col-md-12">
+        <h3>{{$ctrl.thread.title}}</h3>
+        <div>
+            <a class="btn btn-primary" ui-sref="threads()">Back to threads list</a>
+            <a class="btn btn-info float-right" ui-sref="threadStatistics({threadId: $ctrl.thread.id})">Stats</a>
 
-</div>
-<div class="card" ng-repeat="post in $ctrl.thread.posts track by post.id">
-    <div class="card-body">
-        <p class="card-text">
-            {{post.content}}
-            <blockquote class="blockquote mb-0">
-        <p>{{post.createdOn}}</p>
-        <footer class="blockquote-footer">{{post.publisherUsername || 'anonymous'}} <cite title="Source Title" am-time-ago="post.publishedDate | amUtc"></cite></footer>
-        </blockquote>
-        <button ng-click="$ctrl.editPost(post)" class="btn btn-primary">Edit</button>
-        <button ng-disabled="!$ctrl.canDeletePost()" title="{{$ctrl.canDeletePost() ? 'Delete' : 'Cannot delete the last post for the thread'}}" ng-click="$ctrl.deletePost(post.id)" class="btn btn-warning">Delete</button>
-        </p>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="card" ng-repeat="post in $ctrl.thread.posts track by post.id">
+            <div class="card-body">
+                <p class="card-text">
+                    {{post.content}}
+                    <blockquote class="blockquote mb-0">
+                <p>{{post.createdOn}}</p>
+                <footer class="blockquote-footer">{{post.publisherUsername || 'anonymous'}} <cite title="Source Title" am-time-ago="post.publishedDate | amUtc"></cite></footer>
+                </blockquote>
+                <button ng-click="$ctrl.editPost(post)" class="btn btn-primary">Edit</button>
+                <button ng-disabled="!$ctrl.canDeletePost()" title="{{$ctrl.canDeletePost() ? 'Delete' : 'Cannot delete the only post for the thread'}}" ng-click="$ctrl.deletePost(post.id)" class="btn btn-warning">Delete</button>
+                </p>
+            </div>
+        </div>
+
+        <edit-post thread-id="{{$ctrl.thread.id}}" on-new-post="$ctrl.newPost(post)"></edit-post>
     </div>
 </div>
-
-<edit-post thread-id="{{$ctrl.thread.id}}" on-new-post="$ctrl.newPost(post)"></edit-post>
