@@ -6,20 +6,37 @@
     using System.Threading.Tasks;
 
     using ForumSystem.Core.Entities;
+    using ForumSystem.Core.Shared;
 
     public class ThreadStatisticsService : IThreadStatisticsService
     {
         private readonly IThreadStatisticsRepository _statisticsRepository;
+        private readonly ICacheManager _cacheManager;
 
+        private const string StatisticsCacheKeyTemplate = "ThreadStatistics_{0}_{1}";
         private const int NumberOfIntervalsToShow = 10;
 
-        public ThreadStatisticsService(IThreadStatisticsRepository statisticsRepository)
+        public ThreadStatisticsService(IThreadStatisticsRepository statisticsRepository, ICacheManager cacheManager)
         {
             _statisticsRepository = statisticsRepository;
+            _cacheManager = cacheManager;
         }
 
         public async Task<IReadOnlyCollection<ThreadStatisticsResult>> Get(ThreadStatisticsRequest statisticsRequest)
         {
+            string cacheKey = string.Format(
+                StatisticsCacheKeyTemplate,
+                statisticsRequest.ThreadId,
+                statisticsRequest.AggregationInterval);
+
+            IReadOnlyCollection<ThreadStatisticsResult> cachedStats = _cacheManager.Get<IReadOnlyCollection<ThreadStatisticsResult>>(cacheKey);
+
+            if (cachedStats != null)
+            {
+                return cachedStats;
+            }
+
+
             DateTime startDate = GetStartDate(statisticsRequest.AggregationInterval);
             DateTime endDate = DateTime.UtcNow;
             IReadOnlyCollection<ThreadStatistics> statistics = await _statisticsRepository.Get(statisticsRequest.ThreadId, startDate, endDate);
@@ -50,6 +67,7 @@
                 results.Add(currentResult);
             }
 
+            _cacheManager.Add(cacheKey, results, DateTime.UtcNow.AddDays(1));
             return await Task.FromResult(results);
         }
 
