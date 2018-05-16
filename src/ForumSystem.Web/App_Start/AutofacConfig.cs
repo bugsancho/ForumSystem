@@ -16,9 +16,12 @@
     using ForumSystem.Core.Users;
     using ForumSystem.Identity.Managers;
     using ForumSystem.Identity.Providers;
+    using ForumSystem.Infrastructure.Cache;
     using ForumSystem.Infrastructure.Data;
 
     using Microsoft.AspNet.Identity.Owin;
+
+    using WebGrease;
 
     public class AutofacConfig
     {
@@ -40,6 +43,8 @@
             builder.RegisterType<ForumSystemDbContext>().WithParameter(new TypedParameter(typeof(string), "ForumSystemDbConnection")).InstancePerLifetimeScope();
 
             builder.RegisterType<PermissionsService>().As<IPermissionsService>();
+            // For the cache to be useful, we need to have a single instance, shared accross requests
+            builder.RegisterType<InMemoryCacheManager>().As<ICacheManager>().SingleInstance();
 
             builder.RegisterType<FileThreadStatisticsRepository>().As<IThreadStatisticsRepository>().WithParameter(
                 (param, context) => param.Name == "filePath",

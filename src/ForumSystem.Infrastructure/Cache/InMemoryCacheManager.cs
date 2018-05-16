@@ -5,7 +5,7 @@
 
     using ForumSystem.Core.Shared;
 
-    class InMemoryCacheManager : ICacheManager
+    public class InMemoryCacheManager : ICacheManager
     {
         private readonly MemoryCache _memoryCache;
 
