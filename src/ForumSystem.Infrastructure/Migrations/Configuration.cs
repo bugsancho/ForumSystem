@@ -3,6 +3,7 @@ namespace ForumSystem.Infrastructure.Migrations
     using System;
     using System.Collections.Generic;
     using System.Data.Entity.Migrations;
+    using System.Linq;
 
     using ForumSystem.Core.Entities;
 
@@ -15,15 +16,19 @@ namespace ForumSystem.Infrastructure.Migrations
 
         protected override void Seed(ForumSystem.Infrastructure.Data.ForumSystemDbContext context)
         {
-            User admin = new User { Username = "admin@admin.com", CreatedOn = DateTime.UtcNow };
-            context.Users.Add(admin);
-
-            List<ForumThread> threads = GetThreads(admin);
-
-            foreach (ForumThread forumThread in threads)
+            if (!context.Users.Any())
             {
-                context.Threads.Add(forumThread);
+                User admin = new User { Username = "admin@admin.com", CreatedOn = DateTime.UtcNow };
+                context.Users.Add(admin);
+
+                List<ForumThread> threads = GetThreads(admin);
+
+                foreach (ForumThread forumThread in threads)
+                {
+                    context.Threads.Add(forumThread);
+                }
             }
+
 
         }
 
@@ -35,6 +40,7 @@ namespace ForumSystem.Infrastructure.Migrations
                                                     {
                                                         User = user,
                                                         Title = "Very clever question",
+                                                        CreatedOn = DateTime.UtcNow,
                                                         ForumPosts =
                                                             new List<ForumPost>()
                                                                 {
@@ -43,22 +49,25 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                             {
                                                                                 Content
                                                                                     = "Post post post",
-                                                                                User
-                                                                                    = user
+                                                                                User= user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost()
                                                                             {
                                                                                 Content
-                                                                                    = "Excelent post"
+                                                                                    = "Excelent post",
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
+
                                                                     new
                                                                         ForumPost()
                                                                             {
                                                                                 Content
                                                                                     = "Thank you!",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             }
                                                                 }
                                                     },
@@ -66,6 +75,7 @@ namespace ForumSystem.Infrastructure.Migrations
                                                     {
                                                         User = user,
                                                         Title = "Very clever question2",
+                                                        CreatedOn = DateTime.UtcNow,
                                                         ForumPosts =
                                                             new List<ForumPost>()
                                                                 {
@@ -75,13 +85,15 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                                 Content
                                                                                     = "Post post post 2",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost()
                                                                             {
                                                                                 Content
-                                                                                    = "Excelent post 2"
+                                                                                    = "Excelent post 2",
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost()
@@ -89,7 +101,8 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                                 Content
                                                                                     = "Thank you! 2",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             }
                                                                 }
                                                     },
@@ -97,6 +110,7 @@ namespace ForumSystem.Infrastructure.Migrations
                                                     {
                                                         User = user,
                                                         Title = "Not so clever question",
+                                                        CreatedOn = DateTime.UtcNow,
                                                         ForumPosts =
                                                             new List<ForumPost>
                                                                 {
@@ -106,19 +120,22 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                                 Content
                                                                                     = "Pica pica",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost
                                                                             {
                                                                                 Content
-                                                                                    = "Choo Choo"
+                                                                                    = "Choo Choo",
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             }
                                                                 }
                                                     },
                                                 new ForumThread
                                                     {
                                                         Title = "Anonymous post",
+                                                        CreatedOn = DateTime.UtcNow,
                                                         ForumPosts =
                                                             new List<ForumPost>
                                                                 {
@@ -127,6 +144,7 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                             {
                                                                                 Content
                                                                                     = "anon anon",
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost
@@ -134,13 +152,15 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                                 Content
                                                                                     = "non anon response",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             }
                                                                 }
                                                     },
                                                 new ForumThread
                                                     {
                                                         Title = "Getting short on ideas",
+                                                        CreatedOn = DateTime.UtcNow,
                                                         ForumPosts =
                                                             new List<ForumPost>
                                                                 {
@@ -149,6 +169,7 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                             {
                                                                                 Content
                                                                                     = "idea idea",
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost
@@ -156,13 +177,15 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                                 Content
                                                                                     = "non anon response",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             }
                                                                 }
                                                     },
                                                 new ForumThread
                                                     {
                                                         Title = "Sixt thread!",
+                                                        CreatedOn = DateTime.UtcNow,
                                                         ForumPosts =
                                                             new List<ForumPost>
                                                                 {
@@ -171,6 +194,7 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                             {
                                                                                 Content
                                                                                     = "66",
+                                                        CreatedOn = DateTime.UtcNow
                                                                             },
                                                                     new
                                                                         ForumPost
@@ -178,7 +202,8 @@ namespace ForumSystem.Infrastructure.Migrations
                                                                                 Content
                                                                                     = "one 6 short of the devil",
                                                                                 User
-                                                                                    = user
+                                                                                    = user,
+                                                                                CreatedOn = DateTime.UtcNow
                                                                             }
                                                                 }
                                                     },
