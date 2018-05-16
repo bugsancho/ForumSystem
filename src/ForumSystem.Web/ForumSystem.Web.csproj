@@ -257,6 +257,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="chart-data.json" />
+    <Content Include="NLog.config" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_EmptyLayout.cshtml" />
   </ItemGroup>
